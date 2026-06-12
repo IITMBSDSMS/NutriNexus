@@ -1,0 +1,18 @@
+{
+  "short_name": "Nutri Nexus",
+  "name": "Nutri Nexus Nutritional Intake Calculator",
+  "description": "Indian Nutritional Intake Calculator based on NIN 2024 and IFCT 2017",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/HREdLU9.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

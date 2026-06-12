@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutri Nexus - Nutritional Intake Calculator</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0284c7">
+    <!-- Google Fonts (Optional online enhancement) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Register Service Worker for offline-first support
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('ServiceWorker registered:', reg.scope))
+                    .catch(err => console.log('ServiceWorker registration failed:', err));
+            });
+        }
+    </script>
+</head>
+<body class="light-theme">
+    <div class="app-wrapper">
+        <!-- Top Navigation / Branding -->
+        <header class="app-header">
+            <div class="brand-section">
+                <!-- Inline SVG Leaf Icon -->
+                <svg class="brand-logo" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 1 9.8a7 7 0 0 1-9 8.2z"></path>
+                    <path d="M9 22v-4H5"></path>
+                </svg>
+                <div class="brand-text">
+                    <h1>Nutri Nexus</h1>
+                    <span class="sub-brand">Powered by <strong>biolabs Os Healix</strong></span>
+                </div>
+            </div>
+            <div class="header-controls">
+                <button id="theme-toggle" class="btn btn-secondary btn-icon" title="Toggle Theme">
+                    <!-- Icon will be injected by app.js -->
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Workspace Grid -->
+        <div class="workspace-grid">
+            
+            <!-- Left Workspace: Profile and Food Log Input -->
+            <aside class="workspace-sidebar">
+                
+                <!-- Section 1: User Profile Configuration -->
+                <section class="card profile-card">
+                    <div class="card-header">
+                        <h2>
+                            <!-- Inline SVG User Gear Icon -->
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;">
+                                <circle cx="12" cy="12" r="3"></circle>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                            </svg>
+                            Demographic Profile
+                        </h2>
+                        <span class="card-tag">NIN 2024</span>
+                    </div>
+                    <div class="card-body">
+                        <form id="profile-form" class="form-grid">
+                            <div class="form-group">
+                                <label for="profile-age">Age (Years)</label>
+                                <input type="number" id="profile-age" min="1" max="100" value="25" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="profile-gender">Gender</label>
+                                <select id="profile-gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="profile-weight">Weight (kg) <span class="optional">(Optional)</span></label>
+                                <input type="number" id="profile-weight" min="5" max="150" placeholder="e.g. 65">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="profile-activity">Physical Activity</label>
+                                <select id="profile-activity">
+                                    <option value="sedentary">Sedentary (Desk job / light)</option>
+                                    <option value="moderate">Moderate (Active / standing)</option>
+                                    <option value="heavy">Heavy (Manual labor / athletic)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group span-2" id="status-group" style="display: none;">
+                                <label for="profile-status">Physiological Status</label>
+                                <select id="profile-status">
+                                    <option value="none">Standard (None)</option>
+                                    <option value="pregnant">Pregnant</option>
+                                    <option value="lactation_0_6">Lactating (0-6 months)</option>
+                                    <option value="lactation_6_12">Lactating (6-12 months)</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
+                <!-- Section 2: Log Food Entry -->
+                <section class="card log-card">
+                    <div class="card-header">
+                        <h2>
+                            <!-- Inline SVG Plus Minus Icon -->
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            Add Food Entry
+                        </h2>
+                        <span class="card-tag">IFCT 2017</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="search-container">
+                            <label for="food-search">Search Indian Food Item</label>
+                            <div class="search-input-wrapper">
+                                <!-- Inline SVG Search Icon -->
+                                <svg class="search-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                                <input type="text" id="food-search" placeholder="Type Rice, Roti, Dal, Paneer..." autocomplete="off">
+                                <button id="btn-clear-search" class="clear-search-btn" style="display: none;">
+                                    <!-- Inline SVG Close Icon -->
+                                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                            <!-- Autocomplete Dropdown -->
+                            <div id="autocomplete-list" class="autocomplete-dropdown" style="display: none;"></div>
+                        </div>
+
+                        <div class="log-inputs-row">
+                            <div class="form-group flex-1">
+                                <label for="food-quantity">Edible Portion Size</label>
+                                <div class="quantity-input-wrapper">
+                                    <input type="number" id="food-quantity" min="1" value="100">
+                                    <span class="input-unit-label" id="food-unit">g</span>
+                                </div>
+                            </div>
+                            <button id="btn-add-food" class="btn btn-primary btn-add" disabled>
+                                <!-- Inline SVG Add Icon -->
+                                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                </svg>
+                                Add Log
+                            </button>
+                        </div>
+                        
+                        <!-- Selected Food Item Info Card -->
+                        <div id="selected-food-details" class="selected-food-details" style="display: none;">
+                            <span class="food-details-title" id="det-food-name">Food Name</span>
+                            <div class="food-details-grid">
+                                <div><small>Energy:</small> <span id="det-energy">0</span> kcal</div>
+                                <div><small>Protein:</small> <span id="det-protein">0</span>g</div>
+                                <div><small>Carbs:</small> <span id="det-carbs">0</span>g</div>
+                                <div><small>Fat:</small> <span id="det-fat">0</span>g</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Right Workspace: Intake Dashboard & Data Telemetry -->
+            <main class="workspace-main">
+                
+                <!-- Section 3: Primary Telemetry Ratios -->
+                <section class="card dashboard-card">
+                    <div class="card-header">
+                        <h2>
+                            <!-- Inline SVG Chart Bar Icon -->
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                            Daily Nutritional Telemetry
+                        </h2>
+                        <div class="dashboard-meta">
+                            <span class="meta-label">Guidelines:</span>
+                            <span class="meta-value">ICMR-NIN (India)</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <!-- Progress Cards Grid -->
+                        <div class="progress-cards-grid">
+                            
+                            <!-- Energy (kcal) -->
+                            <div class="progress-card">
+                                <div class="p-meta">
+                                    <span class="p-title">Energy</span>
+                                    <span class="p-numbers" id="num-energy">0 / 2000 kcal</span>
+                                </div>
+                                <div class="p-track">
+                                    <div class="p-fill" id="fill-energy" style="width: 0%;"></div>
+                                </div>
+                                <div class="p-footer">
+                                    <span class="p-percent" id="pct-energy">0%</span>
+                                    <span class="p-status" id="stat-energy">Under Limit</span>
+                                </div>
+                            </div>
+
+                            <!-- Protein (g) -->
+                            <div class="progress-card">
+                                <div class="p-meta">
+                                    <span class="p-title">Protein</span>
+                                    <span class="p-numbers" id="num-protein">0 / 50 g</span>
+                                </div>
+                                <div class="p-track">
+                                    <div class="p-fill" id="fill-protein" style="width: 0%;"></div>
+                                </div>
+                                <div class="p-footer">
+                                    <span class="p-percent" id="pct-protein">0%</span>
+                                    <span class="p-status" id="stat-protein">Under Limit</span>
+                                </div>
+                            </div>
+
+                            <!-- Total Fat (g) -->
+                            <div class="progress-card">
+                                <div class="p-meta">
+                                    <span class="p-title">Total Fat</span>
+                                    <span class="p-numbers" id="num-fat">0 / 60 g</span>
+                                </div>
+                                <div class="p-track">
+                                    <div class="p-fill" id="fill-fat" style="width: 0%;"></div>
+                                </div>
+                                <div class="p-footer">
+                                    <span class="p-percent" id="pct-fat">0%</span>
+                                    <span class="p-status" id="stat-fat">Under Limit</span>
+                                </div>
+                            </div>
+
+                            <!-- Dietary Fiber (g) -->
+                            <div class="progress-card">
+                                <div class="p-meta">
+                                    <span class="p-title">Dietary Fiber</span>
+                                    <span class="p-numbers" id="num-fiber">0 / 30 g</span>
+                                </div>
+                                <div class="p-track">
+                                    <div class="p-fill" id="fill-fiber" style="width: 0%;"></div>
+                                </div>
+                                <div class="p-footer">
+                                    <span class="p-percent" id="pct-fiber">0%</span>
+                                    <span class="p-status" id="stat-fiber">Under Limit</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Micronutrients Subgrid -->
+                        <div class="micro-nutrients-section">
+                            <h3>Micronutrients & Telemetry</h3>
+                            <div class="micros-row">
+                                <!-- Calcium -->
+                                <div class="micro-gauge">
+                                    <div class="g-info">
+                                        <span>Calcium</span>
+                                        <strong id="num-calcium">0 / 1000 mg</strong>
+                                    </div>
+                                    <div class="g-line"><div class="g-fill" id="fill-calcium" style="width: 0%;"></div></div>
+                                </div>
+                                <!-- Iron -->
+                                <div class="micro-gauge">
+                                    <div class="g-info">
+                                        <span>Iron</span>
+                                        <strong id="num-iron">0 / 19 mg</strong>
+                                    </div>
+                                    <div class="g-line"><div class="g-fill" id="fill-iron" style="width: 0%;"></div></div>
+                                </div>
+                                <!-- Vitamin C -->
+                                <div class="micro-gauge">
+                                    <div class="g-info">
+                                        <span>Vitamin C</span>
+                                        <strong id="num-vitc">0 / 80 mg</strong>
+                                    </div>
+                                    <div class="g-line"><div class="g-fill" id="fill-vitc" style="width: 0%;"></div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Notes / Health Alerts -->
+                        <div class="alerts-container" id="alerts-container">
+                            <!-- Inline SVG Info Icon -->
+                            <svg class="alert-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                            <div class="alert-content" id="rda-notes">
+                                Fill in details to view nutritional guidelines and safety suggestions.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 4: Daily Log Details Table -->
+                <section class="card table-card">
+                    <div class="card-header">
+                        <h2>
+                            <!-- Inline SVG List Icon -->
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;">
+                                <line x1="8" y1="6" x2="21" y2="6"></line>
+                                <line x1="8" y1="12" x2="21" y2="12"></line>
+                                <line x1="8" y1="18" x2="21" y2="18"></line>
+                                <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                                <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                                <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                            </svg>
+                            Intake Ledger
+                        </h2>
+                        <div style="display: flex; gap: 8px;">
+                            <button id="btn-download-pdf" class="btn btn-primary btn-sm" disabled>
+                                <!-- Inline SVG PDF Icon -->
+                                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                </svg>
+                                Download PDF
+                            </button>
+                            <button id="btn-clear-log" class="btn btn-secondary btn-sm" disabled>
+                                <!-- Inline SVG Trash Icon -->
+                                <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;">
+                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                </svg>
+                                Clear Ledger
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body padding-0">
+                        <div class="table-scroll-wrapper">
+                            <table class="ledger-table" id="ledger-table">
+                                <thead>
+                                    <tr>
+                                        <th>Food Item</th>
+                                        <th class="text-right">Qty (g)</th>
+                                        <th class="text-right">Energy</th>
+                                        <th class="text-right">Protein</th>
+                                        <th class="text-right">Carbs</th>
+                                        <th class="text-right">Fat</th>
+                                        <th class="text-right">Fiber</th>
+                                        <th class="text-center">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ledger-body">
+                                    <tr class="empty-row">
+                                        <td colspan="8">No food items logged for today.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+
+        <!-- App Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Nutri Nexus. Powered by <strong>biolabs Os Healix</strong>. Compiled values derived from Indian Food Composition Tables (IFCT 2017) and ICMR-NIN Dietary Guidelines (2024).</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="foodData.js"></script>
+    <script src="rdaData.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

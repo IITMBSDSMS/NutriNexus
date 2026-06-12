@@ -1,0 +1,16 @@
+{
+  "name": "nutri-nexus",
+  "version": "1.0.0",
+  "description": "Indian Nutritional Intake Calculator based on NIN 2024 and IFCT 2017 data",
+  "main": "app.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "serve": "http-server -p 3000"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "ifct2017": "^2.0.15"
+  }
+}
