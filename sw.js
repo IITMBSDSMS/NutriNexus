@@ -1,12 +1,12 @@
 const CACHE_NAME = 'nutri-nexus-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/foodData.js',
-  '/rdaData.js',
-  '/manifest.json'
+  './',
+  'index.html',
+  'styles.css',
+  'app.js',
+  'foodData.js',
+  'rdaData.js',
+  'manifest.json'
 ];
 
 // Install Event - cache assets
