@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nutri-nexus-v5';
+const CACHE_NAME = 'nutri-nexus-v6';
 const ASSETS = [
   './',
   'index.html',
