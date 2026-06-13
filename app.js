@@ -248,8 +248,11 @@ function selectFoodItem(name) {
     document.getElementById("autocomplete-list").style.display = "none";
     
     // Set default serving quantity if available
-    document.getElementById("food-quantity").value = food.servingSize;
-    document.getElementById("food-unit").textContent = food.servingUnit.includes("g") ? "g" : "g"; // default unit label
+    const servingSize = food.servingSize !== undefined ? food.servingSize : 100;
+    const servingUnit = food.servingUnit || "g";
+    
+    document.getElementById("food-quantity").value = servingSize;
+    document.getElementById("food-unit").textContent = servingUnit.includes("g") ? "g" : "g"; // default unit label
 
     // Render Preview Box
     document.getElementById("det-food-name").textContent = food.name;
