@@ -13,7 +13,8 @@ const FOOD_DATA = [
     "iron": 3.0,
     "vitc": 0,
     "servingSize": 35,
-    "servingUnit": "g (1 Piece)"
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["roti", "rotis", "phulka", "chapati", "chapathi", "flatbread", "tiffin"]
   },
   {
     "name": "Chapati (with Ghee/Oil, Cooked)",
@@ -27,7 +28,8 @@ const FOOD_DATA = [
     "iron": 2.8,
     "vitc": 0,
     "servingSize": 40,
-    "servingUnit": "g (1 Piece)"
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["chapati", "chapathi", "chapatis", "chappati", "roti", "flatbread", "tiffin"]
   },
   {
     "name": "Rice, cooked (White, Boiled)",
@@ -41,7 +43,8 @@ const FOOD_DATA = [
     "iron": 0.2,
     "vitc": 0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["rice", "white rice", "chawal", "sadha bhaat", "boiled rice", "cooked rice"]
   },
   {
     "name": "Rice, cooked (Brown, Boiled)",
@@ -55,7 +58,8 @@ const FOOD_DATA = [
     "iron": 0.5,
     "vitc": 0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["brown rice", "cooked brown rice", "rice", "boiled brown rice"]
   },
   {
     "name": "Dal Tadka (Cooked Yellow Lentils)",
@@ -69,7 +73,8 @@ const FOOD_DATA = [
     "iron": 1.2,
     "vitc": 1.5,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["dal", "dhal", "daal", "toor dal", "yellow dal", "dal tadka", "lentils"]
   },
   {
     "name": "Sambar (Cooked Lentil & Veg Curry)",
@@ -83,7 +88,8 @@ const FOOD_DATA = [
     "iron": 1.0,
     "vitc": 4.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["sambar", "sambhar", "south indian", "dal", "tiffin"]
   },
   {
     "name": "Paneer Butter Masala (Cooked)",
@@ -97,7 +103,8 @@ const FOOD_DATA = [
     "iron": 0.8,
     "vitc": 2.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["paneer", "panir", "paneer butter masala", "paneer curry", "cottage cheese"]
   },
   {
     "name": "Idli (Cooked Rice & Lentil Cake)",
@@ -111,7 +118,8 @@ const FOOD_DATA = [
     "iron": 0.5,
     "vitc": 0,
     "servingSize": 40,
-    "servingUnit": "g (1 Piece)"
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["idli", "idly", "idlies", "south indian", "tiffin", "steamed cake"]
   },
   {
     "name": "Dosa (Plain, Rice Crepe, Cooked)",
@@ -125,7 +133,8 @@ const FOOD_DATA = [
     "iron": 0.7,
     "vitc": 0,
     "servingSize": 50,
-    "servingUnit": "g (1 Piece)"
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["dosa", "dosai", "plain dosa", "south indian", "tiffin", "crepe"]
   },
   {
     "name": "Aloo Gobhi (Cooked Potato & Cauliflower)",
@@ -139,7 +148,8 @@ const FOOD_DATA = [
     "iron": 1.1,
     "vitc": 18.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["aloo gobhi", "aloo gobi", "potato cauliflower", "dry sabji", "curry"]
   },
   {
     "name": "Vegetable Biryani (Cooked)",
@@ -153,7 +163,8 @@ const FOOD_DATA = [
     "iron": 1.3,
     "vitc": 3.5,
     "servingSize": 300,
-    "servingUnit": "g (1 Plate)"
+    "servingUnit": "g (1 Plate)",
+    "aliases": ["biryani", "veg biryani", "biriyani", "pulao", "pulav", "fried rice"]
   },
   {
     "name": "Upma (Cooked Semolina)",
@@ -167,7 +178,8 @@ const FOOD_DATA = [
     "iron": 1.0,
     "vitc": 2.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["upma", "uppuma", "ravva upma", "south indian", "tiffin", "breakfast"]
   },
   {
     "name": "Poha (Cooked Flattened Rice)",
@@ -181,7 +193,8 @@ const FOOD_DATA = [
     "iron": 1.8,
     "vitc": 4.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["poha", "pohe", "flattened rice", "aval", "avalakki", "breakfast"]
   },
   {
     "name": "Samosa (Fried Potato Pastry)",
@@ -195,7 +208,8 @@ const FOOD_DATA = [
     "iron": 1.2,
     "vitc": 1.5,
     "servingSize": 75,
-    "servingUnit": "g (1 Piece)"
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["samosa", "singara", "snack", "fried snack", "potato samosa"]
   },
   {
     "name": "Chicken Tikka Masala (Cooked)",
@@ -209,7 +223,158 @@ const FOOD_DATA = [
     "iron": 1.5,
     "vitc": 1.2,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)"
+    "servingUnit": "g (1 Katori)",
+    "aliases": ["chicken", "chicken tikka", "chicken tikka masala", "chicken curry", "non-veg"]
+  },
+  {
+    "name": "Curd / Dahi (Whole Milk, Cow)",
+    "category": "Cooked Indian Recipes",
+    "energy": 60,
+    "protein": 3.2,
+    "carb": 4.5,
+    "fat": 3.3,
+    "fiber": 0.0,
+    "calcium": 120,
+    "iron": 0.1,
+    "vitc": 1.0,
+    "servingSize": 150,
+    "servingUnit": "g (1 Cup)",
+    "aliases": ["curd", "dahi", "yogurt", "yoghurt", "perugu", "thayir", "mosaru"]
+  },
+  {
+    "name": "Medu Vada (Cooked, Fried)",
+    "category": "Cooked Indian Recipes",
+    "energy": 290,
+    "protein": 6.5,
+    "carb": 24.0,
+    "fat": 18.0,
+    "fiber": 3.5,
+    "calcium": 35,
+    "iron": 1.8,
+    "vitc": 0,
+    "servingSize": 50,
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["vada", "vadai", "medu vada", "wada", "south indian", "tiffin"]
+  },
+  {
+    "name": "Masala Dosa (with Potato Curry, Cooked)",
+    "category": "Cooked Indian Recipes",
+    "energy": 200,
+    "protein": 3.8,
+    "carb": 32.0,
+    "fat": 6.2,
+    "fiber": 2.0,
+    "calcium": 22,
+    "iron": 0.9,
+    "vitc": 3.5,
+    "servingSize": 150,
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["dosa", "dosai", "masala dosa", "masala dosai", "south indian", "tiffin"]
+  },
+  {
+    "name": "Uttapam (with Onion/Tomato, Cooked)",
+    "category": "Cooked Indian Recipes",
+    "energy": 180,
+    "protein": 4.0,
+    "carb": 30.0,
+    "fat": 4.5,
+    "fiber": 2.2,
+    "calcium": 25,
+    "iron": 0.8,
+    "vitc": 4.0,
+    "servingSize": 100,
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["uttapam", "utappa", "uthappam", "oothappam", "south indian", "tiffin"]
+  },
+  {
+    "name": "Paratha (Plain/Aloo, Pan-fried)",
+    "category": "Cooked Indian Recipes",
+    "energy": 280,
+    "protein": 5.5,
+    "carb": 42.0,
+    "fat": 10.0,
+    "fiber": 4.5,
+    "calcium": 30,
+    "iron": 1.8,
+    "vitc": 2.0,
+    "servingSize": 80,
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["paratha", "parantha", "aloo paratha", "aloo parantha", "flatbread"]
+  },
+  {
+    "name": "Puri / Poori (Deep-fried flatbread)",
+    "category": "Cooked Indian Recipes",
+    "energy": 340,
+    "protein": 6.5,
+    "carb": 45.0,
+    "fat": 15.0,
+    "fiber": 4.5,
+    "calcium": 32,
+    "iron": 1.6,
+    "vitc": 0,
+    "servingSize": 25,
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["puri", "poori", "tiffin", "fried bread"]
+  },
+  {
+    "name": "Chole Bhature (Spiced Chickpeas with Fried Bread)",
+    "category": "Cooked Indian Recipes",
+    "energy": 220,
+    "protein": 6.0,
+    "carb": 28.0,
+    "fat": 9.5,
+    "fiber": 4.0,
+    "calcium": 45,
+    "iron": 2.1,
+    "vitc": 1.8,
+    "servingSize": 300,
+    "servingUnit": "g (1 Plate)",
+    "aliases": ["chole", "bhature", "chola", "chole bhature", "chanamasala"]
+  },
+  {
+    "name": "Papad (Roasted)",
+    "category": "Cooked Indian Recipes",
+    "energy": 320,
+    "protein": 20.0,
+    "carb": 50.0,
+    "fat": 4.0,
+    "fiber": 12.0,
+    "calcium": 150,
+    "iron": 4.5,
+    "vitc": 0,
+    "servingSize": 15,
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["papad", "papadum", "appalam", "cracker"]
+  },
+  {
+    "name": "Dhokla (Steamed Gram Flour Cake)",
+    "category": "Cooked Indian Recipes",
+    "energy": 160,
+    "protein": 6.0,
+    "carb": 22.0,
+    "fat": 5.0,
+    "fiber": 2.5,
+    "calcium": 40,
+    "iron": 1.4,
+    "vitc": 1.0,
+    "servingSize": 40,
+    "servingUnit": "g (1 Piece)",
+    "aliases": ["dhokla", "khaman", "gujarati", "tiffin", "snack"]
+  },
+  {
+    "name": "Chutney (Coconut/Tomato, South Indian)",
+    "category": "Cooked Indian Recipes",
+    "energy": 120,
+    "protein": 2.0,
+    "carb": 8.0,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "calcium": 20,
+    "iron": 0.8,
+    "vitc": 5.0,
+    "servingSize": 15,
+    "servingUnit": "g (1 tbsp)",
+    "aliases": ["chutney", "chatni", "coconut chutney", "tomato chutney", "south indian", "tiffin"]
   },
   {
     "name": "Cardamom, green (Elettaria cardamomum)",

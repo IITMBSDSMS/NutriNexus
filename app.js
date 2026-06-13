@@ -135,10 +135,15 @@ function setupFoodSearch() {
 
         clearBtn.style.display = "block";
         
-        // Filter food data (primary matches starting with text, secondary matches substring)
+        // Filter food data (primary matches starting with text, secondary matches substring, tertiary matches aliases)
         const startsWithMatches = FOOD_DATA.filter(f => f.name.toLowerCase().startsWith(value));
         const containsMatches = FOOD_DATA.filter(f => !f.name.toLowerCase().startsWith(value) && f.name.toLowerCase().includes(value));
-        const filtered = [...startsWithMatches, ...containsMatches].slice(0, 8); // Max 8 suggestions
+        const aliasMatches = FOOD_DATA.filter(f => 
+            !f.name.toLowerCase().includes(value) && 
+            f.aliases && 
+            f.aliases.some(alias => alias.toLowerCase().includes(value))
+        );
+        const filtered = [...startsWithMatches, ...containsMatches, ...aliasMatches].slice(0, 8); // Max 8 suggestions
 
         if (filtered.length === 0) {
             dropdown.innerHTML = `<div class="autocomplete-item text-muted">No matching Indian food items found</div>`;
