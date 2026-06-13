@@ -7,6 +7,7 @@ let appState = {
         age: 25,
         gender: "male",
         weight: "",
+        height: "",
         activity: "sedentary",
         status: "none"
     },
@@ -58,6 +59,7 @@ function restoreProfileFormValues() {
     document.getElementById("profile-age").value = appState.profile.age;
     document.getElementById("profile-gender").value = appState.profile.gender;
     document.getElementById("profile-weight").value = appState.profile.weight || "";
+    document.getElementById("profile-height").value = appState.profile.height || "";
     document.getElementById("profile-activity").value = appState.profile.activity;
     
     // Toggle gender-based pregnancy option
@@ -106,6 +108,7 @@ function updateProfileState() {
     appState.profile.age = parseInt(document.getElementById("profile-age").value) || 25;
     appState.profile.gender = document.getElementById("profile-gender").value;
     appState.profile.weight = document.getElementById("profile-weight").value ? parseFloat(document.getElementById("profile-weight").value) : "";
+    appState.profile.height = document.getElementById("profile-height").value ? parseFloat(document.getElementById("profile-height").value) : "";
     appState.profile.activity = document.getElementById("profile-activity").value;
     appState.profile.status = document.getElementById("profile-status").value;
 
@@ -422,6 +425,39 @@ function renderTelemetryAlerts(totals, rda) {
 
     let alerts = [];
 
+    // Calculate BMI and Indian consensus parameters
+    const height = parseFloat(appState.profile.height);
+    const weight = parseFloat(appState.profile.weight) || RDA_DATA.getDefaultWeight(appState.profile.age, appState.profile.gender);
+    
+    if (height > 0) {
+        const heightM = height / 100;
+        const bmi = weight / (heightM * heightM);
+        let classification = "";
+        let bmiColor = "var(--color-success)";
+        let noteText = "";
+        
+        if (bmi < 18.5) {
+            classification = "Underweight";
+            bmiColor = "var(--color-warning)";
+            noteText = "Increase calorie intake (+300 kcal/day) with nutrient-dense foods for weight gain.";
+        } else if (bmi >= 18.5 && bmi < 23.0) {
+            classification = "Normal";
+            bmiColor = "var(--color-success)";
+            noteText = "Healthy range. Maintain baseline RDA requirements.";
+        } else if (bmi >= 23.0 && bmi < 25.0) {
+            classification = "Overweight (Asian Indian standards)";
+            bmiColor = "var(--color-warning)";
+            noteText = "Consider moderate calorie deficit (-300 kcal/day) and physical activity.";
+        } else {
+            classification = "Obese (Asian Indian standards)";
+            bmiColor = "var(--color-danger)";
+            noteText = "Target calorie deficit (-500 kcal/day) and consult with a medical professional.";
+        }
+        
+        const idealWeight = (21 * heightM * heightM).toFixed(1);
+        alerts.push(`<strong>Anthropometrics:</strong> BMI: <span style="color:${bmiColor}; font-weight:700;">${bmi.toFixed(1)}</span> (${classification}). Ideal Body Weight (Target BMI 21): <strong>${idealWeight} kg</strong>. <em>Guideline: ${noteText}</em>`);
+    }
+
     // Demographic baseline warnings
     if (rda.notes && rda.notes.length > 0) {
         alerts.push(...rda.notes);
@@ -452,7 +488,7 @@ function renderTelemetryAlerts(totals, rda) {
         return;
     }
 
-    container.style.borderLeftColor = alerts.some(a => a.includes("Surplus") || a.includes("High Fat")) ? "var(--color-danger)" : "var(--color-warning)";
+    container.style.borderLeftColor = alerts.some(a => a.includes("Surplus") || a.includes("High Fat") || a.includes("Obese")) ? "var(--color-danger)" : "var(--color-warning)";
     notesEl.innerHTML = `<ul style="list-style:none; display:flex; flex-direction:column; gap:6px;">
         ${alerts.map(a => `<li><span style="color: var(--color-primary); margin-right: 6px; font-weight: bold;">▸</span>${a}</li>`).join('')}
     </ul>`;
@@ -522,6 +558,22 @@ function downloadPDF() {
         day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
     });
 
+    const height = parseFloat(appState.profile.height);
+    let bmiDisplay = "N/A";
+    let heightDisplay = "Not entered";
+    
+    if (height > 0) {
+        heightDisplay = `${height} cm`;
+        const weight = parseFloat(appState.profile.weight) || RDA_DATA.getDefaultWeight(appState.profile.age, appState.profile.gender);
+        const bmi = weight / ((height / 100) * (height / 100));
+        let classification = "Normal";
+        if (bmi < 18.5) classification = "Underweight";
+        else if (bmi >= 18.5 && bmi < 23.0) classification = "Normal";
+        else if (bmi >= 23.0 && bmi < 25.0) classification = "Overweight";
+        else if (bmi >= 25.0) classification = "Obese";
+        bmiDisplay = `${bmi.toFixed(1)} (${classification})`;
+    }
+
     const weightDisplay = appState.profile.weight ? `${appState.profile.weight} kg` : `Reference default (${RDA_DATA.getDefaultWeight(appState.profile.age, appState.profile.gender)} kg)`;
 
     // Construct print template HTML
@@ -587,7 +639,9 @@ function downloadPDF() {
         <div class="meta-grid">
             <div class="meta-item"><span class="meta-label">Age</span><span class="meta-val">${appState.profile.age} Years</span></div>
             <div class="meta-item"><span class="meta-label">Gender</span><span class="meta-val" style="text-transform: capitalize;">${appState.profile.gender}</span></div>
+            <div class="meta-item"><span class="meta-label">Height</span><span class="meta-val">${heightDisplay}</span></div>
             <div class="meta-item"><span class="meta-label">Weight</span><span class="meta-val">${weightDisplay}</span></div>
+            <div class="meta-item"><span class="meta-label">BMI (Indian Consensus)</span><span class="meta-val">${bmiDisplay}</span></div>
             <div class="meta-item"><span class="meta-label">Activity Level</span><span class="meta-val" style="text-transform: capitalize;">${appState.profile.activity}</span></div>
         </div>
 
