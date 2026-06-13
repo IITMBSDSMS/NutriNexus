@@ -314,9 +314,9 @@ function renderLedger() {
             <td class="text-right">${item.qty}g</td>
             <td class="text-right">${Math.round(item.energy)} kcal</td>
             <td class="text-right">${item.protein.toFixed(1)}g</td>
-            <td class="text-right">${item.carb.toFixed(1)}g</td>
-            <td class="text-right">${item.fat.toFixed(1)}g</td>
-            <td class="text-right">${item.fiber.toFixed(1)}g</td>
+            <td class="text-right hide-mobile">${item.carb.toFixed(1)}g</td>
+            <td class="text-right hide-mobile">${item.fat.toFixed(1)}g</td>
+            <td class="text-right hide-mobile">${item.fiber.toFixed(1)}g</td>
             <td class="text-center">
                 <button class="btn-delete-row" data-id="${item.id}" title="Remove Entry">
                     <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;">
