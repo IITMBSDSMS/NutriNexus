@@ -21,6 +21,7 @@ function init() {
     setupProfileForm();
     setupFoodSearch();
     setupTheme();
+    setupMethodologyModal();
     
     // Bind print report button
     document.getElementById("btn-download-pdf").addEventListener("click", downloadPDF);
@@ -849,6 +850,41 @@ function escapeHtml(str) {
               .replace(/>/g, "&gt;")
               .replace(/"/g, "&quot;")
               .replace(/'/g, "&#039;");
+}
+
+// Methodology Modal Toggle Logic
+function setupMethodologyModal() {
+    const btnMethodology = document.getElementById("btn-methodology");
+    const modal = document.getElementById("methodology-modal");
+    const btnCloseModal = document.getElementById("btn-close-modal");
+
+    if (btnMethodology && modal && btnCloseModal) {
+        btnMethodology.addEventListener("click", () => {
+            modal.style.display = "flex";
+            document.body.style.overflow = "hidden"; // Disable background scrolling
+        });
+
+        const closeModal = () => {
+            modal.style.display = "none";
+            document.body.style.overflow = ""; // Re-enable background scrolling
+        };
+
+        btnCloseModal.addEventListener("click", closeModal);
+
+        // Close when clicking outside container
+        modal.addEventListener("click", (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Close on escape key
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && modal.style.display === "flex") {
+                closeModal();
+            }
+        });
+    }
 }
 
 // Run bootstrap
