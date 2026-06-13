@@ -45,7 +45,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -77,7 +77,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -151,7 +151,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -2072,7 +2072,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -2239,7 +2239,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -3326,7 +3326,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -3355,7 +3355,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -3417,7 +3417,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -3446,7 +3446,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -3577,7 +3577,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -5697,7 +5697,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -5742,7 +5742,7 @@ const FOOD_DATA = [
     "iron": 5.37,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -5764,7 +5764,7 @@ const FOOD_DATA = [
     "iron": 5.37,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -6362,7 +6362,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -6422,7 +6422,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -6492,7 +6492,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -6581,7 +6581,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -6639,7 +6639,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -6866,7 +6866,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -6890,7 +6890,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -6947,7 +6947,7 @@ const FOOD_DATA = [
     "iron": 1.56,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baarli arisi",
       "barli",
@@ -7348,7 +7348,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -7585,7 +7585,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -7609,7 +7609,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -7633,7 +7633,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -7735,7 +7735,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -8520,7 +8520,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -8554,7 +8554,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -8588,7 +8588,7 @@ const FOOD_DATA = [
     "iron": 1.56,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baarli arisi",
       "barli",
@@ -8759,7 +8759,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -8965,7 +8965,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -8998,7 +8998,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -9106,7 +9106,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -9617,7 +9617,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -9652,7 +9652,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -9766,7 +9766,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -9798,7 +9798,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -10339,7 +10339,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -10396,7 +10396,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -10622,7 +10622,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -10705,7 +10705,7 @@ const FOOD_DATA = [
     "iron": 2.09,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -10737,7 +10737,7 @@ const FOOD_DATA = [
     "iron": 6.3,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -10888,7 +10888,7 @@ const FOOD_DATA = [
     "iron": 1.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -11006,7 +11006,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -11318,7 +11318,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -11497,7 +11497,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -11519,7 +11519,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -11583,7 +11583,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -11616,7 +11616,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -11663,7 +11663,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -11940,7 +11940,7 @@ const FOOD_DATA = [
     "iron": 6.78,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram dal",
       "bengal gram whole",
@@ -11973,7 +11973,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -12825,7 +12825,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -12857,7 +12857,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -12889,7 +12889,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -12921,7 +12921,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -13278,7 +13278,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -13977,7 +13977,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -14220,7 +14220,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -14264,7 +14264,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -14539,7 +14539,7 @@ const FOOD_DATA = [
     "iron": 6.78,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram dal",
       "bengal gram whole",
@@ -14572,7 +14572,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -14604,7 +14604,7 @@ const FOOD_DATA = [
     "iron": 6.78,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram dal",
       "bengal gram whole",
@@ -14637,7 +14637,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -14669,7 +14669,7 @@ const FOOD_DATA = [
     "iron": 6.78,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram dal",
       "bengal gram whole",
@@ -14735,7 +14735,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -14767,7 +14767,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -14799,7 +14799,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -14855,7 +14855,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -14936,7 +14936,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -15013,7 +15013,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -15047,7 +15047,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -15151,7 +15151,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -15204,7 +15204,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -15340,7 +15340,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -15577,7 +15577,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -15674,7 +15674,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -15703,7 +15703,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -15768,7 +15768,7 @@ const FOOD_DATA = [
     "iron": 7.51,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)"
+    "servingUnit": "g"
   },
   {
     "name": "Custard apple (Annona squamosa)",
@@ -15966,7 +15966,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -15999,7 +15999,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -16059,7 +16059,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -16094,7 +16094,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -16205,7 +16205,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -16420,7 +16420,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -16913,7 +16913,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -17144,7 +17144,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -17282,7 +17282,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -17685,7 +17685,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -17859,7 +17859,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -18753,7 +18753,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -18786,7 +18786,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -19720,7 +19720,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -19753,7 +19753,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -19775,7 +19775,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -19924,7 +19924,7 @@ const FOOD_DATA = [
     "iron": 1.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -20010,7 +20010,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -20636,7 +20636,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -20698,7 +20698,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -20996,7 +20996,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -22309,7 +22309,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -23026,7 +23026,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -23060,7 +23060,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -23094,7 +23094,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -23128,7 +23128,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -23162,7 +23162,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -23498,7 +23498,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -23530,7 +23530,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -23562,7 +23562,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -23897,7 +23897,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -23932,7 +23932,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -23967,7 +23967,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -24002,7 +24002,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -24166,7 +24166,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -24485,7 +24485,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -24517,7 +24517,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -24705,7 +24705,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -24737,7 +24737,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -24850,7 +24850,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -24912,7 +24912,7 @@ const FOOD_DATA = [
     "iron": 2.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -24945,7 +24945,7 @@ const FOOD_DATA = [
     "iron": 2.09,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -24977,7 +24977,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25319,7 +25319,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -25493,7 +25493,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -25528,7 +25528,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25560,7 +25560,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25613,7 +25613,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25645,7 +25645,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25677,7 +25677,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25709,7 +25709,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25741,7 +25741,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -25797,7 +25797,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -26115,7 +26115,7 @@ const FOOD_DATA = [
     "iron": 2.09,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -26281,7 +26281,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -26471,7 +26471,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -26506,7 +26506,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -26539,7 +26539,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -26572,7 +26572,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -26601,7 +26601,7 @@ const FOOD_DATA = [
     "iron": 5.37,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -26907,7 +26907,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -26940,7 +26940,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -27173,7 +27173,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -27410,7 +27410,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -27939,7 +27939,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -27972,7 +27972,7 @@ const FOOD_DATA = [
     "iron": 6.78,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram dal",
       "bengal gram whole",
@@ -28278,7 +28278,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -28355,7 +28355,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -29852,7 +29852,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -30085,7 +30085,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -30424,7 +30424,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -30564,7 +30564,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -30751,7 +30751,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -30850,7 +30850,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -31360,7 +31360,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -32011,7 +32011,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -32037,7 +32037,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -32072,7 +32072,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -32673,7 +32673,7 @@ const FOOD_DATA = [
     "iron": 1.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -32936,7 +32936,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -33304,7 +33304,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -33333,7 +33333,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -34285,7 +34285,7 @@ const FOOD_DATA = [
     "iron": 3.86,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -35252,7 +35252,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -35286,7 +35286,7 @@ const FOOD_DATA = [
     "iron": 1.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -35401,7 +35401,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -35426,7 +35426,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -35708,7 +35708,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -36724,7 +36724,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -37083,7 +37083,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -37332,7 +37332,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -37540,7 +37540,7 @@ const FOOD_DATA = [
     "iron": 8.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "cavali biya",
@@ -37568,7 +37568,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -38156,7 +38156,7 @@ const FOOD_DATA = [
     "iron": 3.95,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "cholam",
       "cho\u1e37am",
@@ -38410,7 +38410,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -38439,7 +38439,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -38489,7 +38489,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -38909,7 +38909,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -38972,7 +38972,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -39001,7 +39001,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -39180,7 +39180,7 @@ const FOOD_DATA = [
     "iron": 1.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -39730,7 +39730,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -40130,7 +40130,7 @@ const FOOD_DATA = [
     "iron": 6.13,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -40264,7 +40264,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -40932,7 +40932,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -40967,7 +40967,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -41002,7 +41002,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -41037,7 +41037,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -41176,7 +41176,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -41574,7 +41574,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -41845,7 +41845,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -42164,7 +42164,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -42245,7 +42245,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -42277,7 +42277,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -42452,7 +42452,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -42559,7 +42559,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -42591,7 +42591,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -42623,7 +42623,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -42655,7 +42655,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -42811,7 +42811,7 @@ const FOOD_DATA = [
     "iron": 5.37,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -42833,7 +42833,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -42856,7 +42856,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -42879,7 +42879,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -42902,7 +42902,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -42925,7 +42925,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -42948,7 +42948,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -43054,7 +43054,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -43077,7 +43077,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -43100,7 +43100,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -43123,7 +43123,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -43432,7 +43432,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -43479,7 +43479,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -43529,7 +43529,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -43555,7 +43555,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -44388,7 +44388,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -44670,7 +44670,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -44723,7 +44723,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -44758,7 +44758,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -44793,7 +44793,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -44828,7 +44828,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -44863,7 +44863,7 @@ const FOOD_DATA = [
     "iron": 7.91,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -44899,7 +44899,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -44921,7 +44921,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -44956,7 +44956,7 @@ const FOOD_DATA = [
     "iron": 7.91,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -44992,7 +44992,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -45027,7 +45027,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -45062,7 +45062,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -45097,7 +45097,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -45132,7 +45132,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -45359,7 +45359,7 @@ const FOOD_DATA = [
     "iron": 1.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -45449,7 +45449,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -45481,7 +45481,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -45506,7 +45506,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -45759,7 +45759,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -45977,7 +45977,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -46000,7 +46000,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -46314,7 +46314,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -46450,7 +46450,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -46620,7 +46620,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -46682,7 +46682,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -46916,7 +46916,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -46948,7 +46948,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -47241,7 +47241,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -47274,7 +47274,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -47307,7 +47307,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -47436,7 +47436,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -47695,7 +47695,7 @@ const FOOD_DATA = [
     "iron": 7.91,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -47731,7 +47731,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -47766,7 +47766,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -47791,7 +47791,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -47816,7 +47816,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -47997,7 +47997,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -48162,7 +48162,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -48195,7 +48195,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -48228,7 +48228,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -48261,7 +48261,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -48294,7 +48294,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -48358,7 +48358,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -49129,7 +49129,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -49265,7 +49265,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -49298,7 +49298,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -49331,7 +49331,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -49364,7 +49364,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -49411,7 +49411,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -49458,7 +49458,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -49491,7 +49491,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -49579,7 +49579,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -49951,7 +49951,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -50113,7 +50113,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -52167,7 +52167,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -52341,7 +52341,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -52373,7 +52373,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -53034,7 +53034,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -54814,7 +54814,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -54869,7 +54869,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -56184,7 +56184,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -56264,7 +56264,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -56293,7 +56293,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -56457,7 +56457,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -56803,7 +56803,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -57325,7 +57325,7 @@ const FOOD_DATA = [
     "iron": 6.3,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -57359,7 +57359,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -57393,7 +57393,7 @@ const FOOD_DATA = [
     "iron": 6.13,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -57498,7 +57498,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -57531,7 +57531,7 @@ const FOOD_DATA = [
     "iron": 4.5,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -58434,7 +58434,7 @@ const FOOD_DATA = [
     "iron": 3.95,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "cholam",
       "cho\u1e37am",
@@ -58732,7 +58732,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -59802,7 +59802,7 @@ const FOOD_DATA = [
     "iron": 4.55,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -60348,7 +60348,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -61223,7 +61223,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -61256,7 +61256,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -61451,7 +61451,7 @@ const FOOD_DATA = [
     "iron": 7.51,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)"
+    "servingUnit": "g"
   },
   {
     "name": "Raai fish (Lobotes surinamensis)",
@@ -61493,7 +61493,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -61752,7 +61752,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -61778,7 +61778,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -61933,7 +61933,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -61967,7 +61967,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62001,7 +62001,7 @@ const FOOD_DATA = [
     "iron": 6.3,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62035,7 +62035,7 @@ const FOOD_DATA = [
     "iron": 6.13,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62069,7 +62069,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62103,7 +62103,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62137,7 +62137,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62171,7 +62171,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62237,7 +62237,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -62263,7 +62263,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -62779,7 +62779,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -62813,7 +62813,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -62835,7 +62835,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -62857,7 +62857,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -63044,7 +63044,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -63078,7 +63078,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -63111,7 +63111,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -63144,7 +63144,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -63177,7 +63177,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -63210,7 +63210,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -63309,7 +63309,7 @@ const FOOD_DATA = [
     "iron": 0.54,
     "vitc": 5.72,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -63356,7 +63356,7 @@ const FOOD_DATA = [
     "iron": 0.71,
     "vitc": 4.26,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -63409,7 +63409,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -63718,7 +63718,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -63741,7 +63741,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -63764,7 +63764,7 @@ const FOOD_DATA = [
     "iron": 5.04,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -64000,7 +64000,7 @@ const FOOD_DATA = [
     "iron": 7.57,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -64035,7 +64035,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -64068,7 +64068,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -64101,7 +64101,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -64295,7 +64295,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -64573,7 +64573,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -64597,7 +64597,7 @@ const FOOD_DATA = [
     "iron": 6.42,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baajra",
       "bajara",
@@ -65096,7 +65096,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -65166,7 +65166,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -65198,7 +65198,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -65222,7 +65222,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -65254,7 +65254,7 @@ const FOOD_DATA = [
     "iron": 4.1,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -65318,7 +65318,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -65350,7 +65350,7 @@ const FOOD_DATA = [
     "iron": 6.78,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram dal",
       "bengal gram whole",
@@ -66095,7 +66095,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -66548,7 +66548,7 @@ const FOOD_DATA = [
     "iron": 4.5,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -66903,7 +66903,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -67038,7 +67038,7 @@ const FOOD_DATA = [
     "iron": 2.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -67071,7 +67071,7 @@ const FOOD_DATA = [
     "iron": 2.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -67104,7 +67104,7 @@ const FOOD_DATA = [
     "iron": 2.09,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -67136,7 +67136,7 @@ const FOOD_DATA = [
     "iron": 2.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -67281,7 +67281,7 @@ const FOOD_DATA = [
     "iron": 6.78,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram dal",
       "bengal gram whole",
@@ -67314,7 +67314,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -67441,7 +67441,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -67525,7 +67525,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -67670,7 +67670,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -67953,7 +67953,7 @@ const FOOD_DATA = [
     "iron": 4.46,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -68007,7 +68007,7 @@ const FOOD_DATA = [
     "iron": 6.08,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bengal gram whole",
       "boot",
@@ -68345,7 +68345,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -68832,7 +68832,7 @@ const FOOD_DATA = [
     "iron": 2.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -68865,7 +68865,7 @@ const FOOD_DATA = [
     "iron": 2.02,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -69543,7 +69543,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -70365,7 +70365,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -71287,7 +71287,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -71391,7 +71391,7 @@ const FOOD_DATA = [
     "iron": 3.95,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "cholam",
       "cho\u1e37am",
@@ -71732,7 +71732,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -71757,7 +71757,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -71782,7 +71782,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -71807,7 +71807,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -71832,7 +71832,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -72224,7 +72224,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -72353,7 +72353,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -72419,7 +72419,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -72635,7 +72635,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -72688,7 +72688,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -72717,7 +72717,7 @@ const FOOD_DATA = [
     "iron": 5.09,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "batani",
       "hare matar",
@@ -73200,7 +73200,7 @@ const FOOD_DATA = [
     "iron": 1.26,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chama",
       "ganuhaar",
@@ -73284,7 +73284,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -73427,7 +73427,7 @@ const FOOD_DATA = [
     "iron": 4.5,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -73461,7 +73461,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -73495,7 +73495,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -75448,7 +75448,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -75474,7 +75474,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -75713,7 +75713,7 @@ const FOOD_DATA = [
     "iron": 9.33,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "amaranth seed black",
       "amaranth seed pale brown",
@@ -75742,7 +75742,7 @@ const FOOD_DATA = [
     "iron": 6.17,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -76277,7 +76277,7 @@ const FOOD_DATA = [
     "iron": 8.29,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bhatmas",
       "garikalai",
@@ -76430,7 +76430,7 @@ const FOOD_DATA = [
     "iron": 0.65,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -76779,7 +76779,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -76814,7 +76814,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -77152,7 +77152,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -77222,7 +77222,7 @@ const FOOD_DATA = [
     "iron": 5.37,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -77274,7 +77274,7 @@ const FOOD_DATA = [
     "iron": 3.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arhar ki fali",
       "hara tuvar",
@@ -77459,7 +77459,7 @@ const FOOD_DATA = [
     "iron": 4.89,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -77492,7 +77492,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -77527,7 +77527,7 @@ const FOOD_DATA = [
     "iron": 3.93,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "boot dail",
       "chan-ki-dal",
@@ -77809,7 +77809,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -77841,7 +77841,7 @@ const FOOD_DATA = [
     "iron": 5.97,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -77905,7 +77905,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -77938,7 +77938,7 @@ const FOOD_DATA = [
     "iron": 3.97,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -77970,7 +77970,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -78003,7 +78003,7 @@ const FOOD_DATA = [
     "iron": 4.62,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakri",
       "bavato",
@@ -78063,7 +78063,7 @@ const FOOD_DATA = [
     "iron": 8.76,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakulla",
       "horse gram whole",
@@ -78289,7 +78289,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -78483,7 +78483,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -78572,7 +78572,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -78607,7 +78607,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -78641,7 +78641,7 @@ const FOOD_DATA = [
     "iron": 4.99,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "bakla",
       "beans",
@@ -78743,7 +78743,7 @@ const FOOD_DATA = [
     "iron": 1.12,
     "vitc": 6.73,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -78837,7 +78837,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -78870,7 +78870,7 @@ const FOOD_DATA = [
     "iron": 0.72,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "akki",
       "arisi",
@@ -78931,7 +78931,7 @@ const FOOD_DATA = [
     "iron": 4.67,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "adad",
       "birri",
@@ -79252,7 +79252,7 @@ const FOOD_DATA = [
     "iron": 2.34,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "arikelu",
       "harka",
@@ -79355,7 +79355,7 @@ const FOOD_DATA = [
     "iron": 7.06,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "gota masur mah",
       "hawai masuri",
@@ -79676,7 +79676,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -79709,7 +79709,7 @@ const FOOD_DATA = [
     "iron": 4.63,
     "vitc": 0,
     "servingSize": 5,
-    "servingUnit": "g (1 tsp)",
+    "servingUnit": "tsp",
     "aliases": [
       "aakhu dorua",
       "akher rosh",
@@ -80194,7 +80194,7 @@ const FOOD_DATA = [
     "iron": 7.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "kheri",
       "math",
@@ -80219,7 +80219,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -80252,7 +80252,7 @@ const FOOD_DATA = [
     "iron": 5.9,
     "vitc": 0,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "alasande",
       "barbati",
@@ -80285,7 +80285,7 @@ const FOOD_DATA = [
     "iron": 4.76,
     "vitc": 1.11,
     "servingSize": 30,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chakwai",
       "galmoong",
@@ -80658,7 +80658,7 @@ const FOOD_DATA = [
     "iron": 1.77,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -80690,7 +80690,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -80722,7 +80722,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -80754,7 +80754,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -80786,7 +80786,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -80818,7 +80818,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -80850,7 +80850,7 @@ const FOOD_DATA = [
     "iron": 2.98,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "ghaun ni sev",
       "semai",
@@ -80912,7 +80912,7 @@ const FOOD_DATA = [
     "iron": 1.56,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baarli arisi",
       "barli",
@@ -81000,7 +81000,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -81158,7 +81158,7 @@ const FOOD_DATA = [
     "iron": 1.56,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "baarli arisi",
       "barli",
@@ -81371,7 +81371,7 @@ const FOOD_DATA = [
     "iron": 2.49,
     "vitc": 0,
     "servingSize": 80,
-    "servingUnit": "g (Raw)",
+    "servingUnit": "g",
     "aliases": [
       "chujaak",
       "corn baby",
@@ -81665,7 +81665,7 @@ const FOOD_DATA = [
     "iron": 3.0,
     "vitc": 0,
     "servingSize": 35,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "chapathi",
       "chapati",
@@ -81687,7 +81687,7 @@ const FOOD_DATA = [
     "iron": 2.8,
     "vitc": 0,
     "servingSize": 40,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "chapathi",
       "chapatis",
@@ -81709,7 +81709,7 @@ const FOOD_DATA = [
     "iron": 0.2,
     "vitc": 0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "boiled rice",
       "chawal",
@@ -81730,7 +81730,7 @@ const FOOD_DATA = [
     "iron": 0.5,
     "vitc": 0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "boiled brown rice",
       "brown rice",
@@ -81749,7 +81749,7 @@ const FOOD_DATA = [
     "iron": 1.2,
     "vitc": 1.5,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "daal",
       "dal tadka",
@@ -81770,7 +81770,7 @@ const FOOD_DATA = [
     "iron": 1.0,
     "vitc": 4.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "dal",
       "sambhar",
@@ -81790,7 +81790,7 @@ const FOOD_DATA = [
     "iron": 0.8,
     "vitc": 2.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "cottage cheese",
       "paneer butter masala",
@@ -81810,7 +81810,7 @@ const FOOD_DATA = [
     "iron": 0.5,
     "vitc": 0,
     "servingSize": 40,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "idlies",
       "idly",
@@ -81831,7 +81831,7 @@ const FOOD_DATA = [
     "iron": 0.7,
     "vitc": 0,
     "servingSize": 50,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "dosai",
       "plain dosa",
@@ -81851,7 +81851,7 @@ const FOOD_DATA = [
     "iron": 1.1,
     "vitc": 18.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "aloo gobhi",
       "aloo gobi",
@@ -81872,7 +81872,7 @@ const FOOD_DATA = [
     "iron": 1.3,
     "vitc": 3.5,
     "servingSize": 300,
-    "servingUnit": "g (1 Plate)",
+    "servingUnit": "Plate",
     "aliases": [
       "biriyani",
       "fried rice",
@@ -81893,7 +81893,7 @@ const FOOD_DATA = [
     "iron": 1.0,
     "vitc": 2.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "breakfast",
       "ravva upma",
@@ -81914,7 +81914,7 @@ const FOOD_DATA = [
     "iron": 1.8,
     "vitc": 4.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "aval",
       "avalakki",
@@ -81935,7 +81935,7 @@ const FOOD_DATA = [
     "iron": 1.2,
     "vitc": 1.5,
     "servingSize": 75,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "fried snack",
       "potato samosa",
@@ -81955,7 +81955,7 @@ const FOOD_DATA = [
     "iron": 1.5,
     "vitc": 1.2,
     "servingSize": 150,
-    "servingUnit": "g (1 Katori)",
+    "servingUnit": "Katori",
     "aliases": [
       "chicken curry",
       "chicken tikka",
@@ -81975,7 +81975,7 @@ const FOOD_DATA = [
     "iron": 0.1,
     "vitc": 1.0,
     "servingSize": 150,
-    "servingUnit": "g (1 Cup)",
+    "servingUnit": "Cup",
     "aliases": [
       "mosaru",
       "perugu",
@@ -81996,7 +81996,7 @@ const FOOD_DATA = [
     "iron": 1.8,
     "vitc": 0,
     "servingSize": 50,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "medu vada",
       "south indian",
@@ -82017,7 +82017,7 @@ const FOOD_DATA = [
     "iron": 0.9,
     "vitc": 3.5,
     "servingSize": 150,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "dosai",
       "masala dosa",
@@ -82038,7 +82038,7 @@ const FOOD_DATA = [
     "iron": 0.8,
     "vitc": 4.0,
     "servingSize": 100,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "oothappam",
       "south indian",
@@ -82059,7 +82059,7 @@ const FOOD_DATA = [
     "iron": 1.8,
     "vitc": 2.0,
     "servingSize": 80,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "aloo parantha",
       "aloo paratha",
@@ -82079,7 +82079,7 @@ const FOOD_DATA = [
     "iron": 1.6,
     "vitc": 0,
     "servingSize": 25,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "fried bread",
       "tiffin"
@@ -82097,7 +82097,7 @@ const FOOD_DATA = [
     "iron": 2.1,
     "vitc": 1.8,
     "servingSize": 300,
-    "servingUnit": "g (1 Plate)",
+    "servingUnit": "Plate",
     "aliases": [
       "chanamasala",
       "chola",
@@ -82116,7 +82116,7 @@ const FOOD_DATA = [
     "iron": 4.5,
     "vitc": 0,
     "servingSize": 15,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "appalam",
       "cracker",
@@ -82135,7 +82135,7 @@ const FOOD_DATA = [
     "iron": 1.4,
     "vitc": 1.0,
     "servingSize": 40,
-    "servingUnit": "g (1 Piece)",
+    "servingUnit": "Piece",
     "aliases": [
       "gujarati",
       "khaman",
@@ -82155,7 +82155,7 @@ const FOOD_DATA = [
     "iron": 0.8,
     "vitc": 5.0,
     "servingSize": 15,
-    "servingUnit": "g (1 tbsp)",
+    "servingUnit": "tbsp",
     "aliases": [
       "chatni",
       "coconut chutney",
@@ -82185,7 +82185,7 @@ const FOOD_DATA = [
       "tea"
     ],
     "servingSize": 211,
-    "servingUnit": "g (1 tea cup)"
+    "servingUnit": "tea cup"
   },
   {
     "name": "Instant coffee",
@@ -82204,7 +82204,7 @@ const FOOD_DATA = [
       "instant coffee"
     ],
     "servingSize": 450,
-    "servingUnit": "g (1 tea cup)"
+    "servingUnit": "tea cup"
   },
   {
     "name": "Espreso coffee",
@@ -82223,7 +82223,7 @@ const FOOD_DATA = [
       "espreso coffee"
     ],
     "servingSize": 159,
-    "servingUnit": "g (1 tea cup)"
+    "servingUnit": "tea cup"
   },
   {
     "name": "Iced tea",
@@ -82242,7 +82242,7 @@ const FOOD_DATA = [
       "tea"
     ],
     "servingSize": 320,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Raw mango drink (Aam panna)",
@@ -82266,7 +82266,7 @@ const FOOD_DATA = [
       "raw mango drink (aam panna)"
     ],
     "servingSize": 268,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Fruit Punch (with fresh juices)",
@@ -82290,7 +82290,7 @@ const FOOD_DATA = [
       "with fresh juices"
     ],
     "servingSize": 544,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Fruit Punch (with squashes)",
@@ -82313,7 +82313,7 @@ const FOOD_DATA = [
       "with squashes"
     ],
     "servingSize": 503,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Lemonade",
@@ -82330,7 +82330,7 @@ const FOOD_DATA = [
       "lemonade"
     ],
     "servingSize": 349,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Lem-o-gin",
@@ -82349,7 +82349,7 @@ const FOOD_DATA = [
       "lem-o-gin"
     ],
     "servingSize": 357,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Cumin infused water (Jeere/Zeere ka pani)",
@@ -82373,7 +82373,7 @@ const FOOD_DATA = [
       "water"
     ],
     "servingSize": 339,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Coco pine cooler",
@@ -82393,7 +82393,7 @@ const FOOD_DATA = [
       "pine"
     ],
     "servingSize": 432,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Summer cooler",
@@ -82412,7 +82412,7 @@ const FOOD_DATA = [
       "summer cooler"
     ],
     "servingSize": 495,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Hot cocoa",
@@ -82431,7 +82431,7 @@ const FOOD_DATA = [
       "hot cocoa"
     ],
     "servingSize": 191,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Cold coffee with ice cream",
@@ -82453,7 +82453,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 301,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Banana milkshake (Kele milkshake)",
@@ -82475,7 +82475,7 @@ const FOOD_DATA = [
       "milkshake"
     ],
     "servingSize": 345,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Mango milkshake (Aam milkshake)",
@@ -82497,7 +82497,7 @@ const FOOD_DATA = [
       "milkshake"
     ],
     "servingSize": 356,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Pineapple milkshake (Ananas milkshake)",
@@ -82519,7 +82519,7 @@ const FOOD_DATA = [
       "pineapple milkshake (ananas milkshake)"
     ],
     "servingSize": 364,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Orange milkshake (Narangi milkshake)",
@@ -82541,7 +82541,7 @@ const FOOD_DATA = [
       "orange milkshake (narangi milkshake)"
     ],
     "servingSize": 319,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Egg nog",
@@ -82560,7 +82560,7 @@ const FOOD_DATA = [
       "nog"
     ],
     "servingSize": 304,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Sweet Lassi (Meethi lassi)",
@@ -82582,7 +82582,7 @@ const FOOD_DATA = [
       "sweet lassi (meethi lassi)"
     ],
     "servingSize": 443,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Lassi (salted)",
@@ -82601,7 +82601,7 @@ const FOOD_DATA = [
       "salted"
     ],
     "servingSize": 423,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Cheese and chilli sandwich",
@@ -82622,7 +82622,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 56,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Egg sandwich (Ande ka sandwich)",
@@ -82644,7 +82644,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 51,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Cucumber sandwich (Kheere ka sandwich)",
@@ -82666,7 +82666,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 61,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Cheese and pineapple sandwich (Cheese aur ananas ka sandwich)",
@@ -82691,7 +82691,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 56,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Cheese and tomato sandwich (Cheese aur tamatar ke sandwich)",
@@ -82716,7 +82716,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 58,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Chicken sandwich",
@@ -82735,7 +82735,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 58,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Peanut and tomato sandwich (Moongfali aur tamatar ka sandwich)",
@@ -82761,7 +82761,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 61,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Rainbow sandwich",
@@ -82780,7 +82780,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 48,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Club sandwich",
@@ -82799,7 +82799,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 88,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Vegetarian club sandwich",
@@ -82819,7 +82819,7 @@ const FOOD_DATA = [
       "vegetarian club sandwich"
     ],
     "servingSize": 83,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Pin wheel sandwich",
@@ -82839,7 +82839,7 @@ const FOOD_DATA = [
       "wheel"
     ],
     "servingSize": 28,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Carrot apple sandwich (Gajar aur seb ka sandwich)",
@@ -82864,7 +82864,7 @@ const FOOD_DATA = [
       "seb"
     ],
     "servingSize": 97,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Salami sandwich",
@@ -82883,7 +82883,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 74,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Vegetable and mayonnaise sandwich",
@@ -82904,7 +82904,7 @@ const FOOD_DATA = [
       "vegetable and mayonnaise sandwich"
     ],
     "servingSize": 68,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Egg and tomato sandwich (Ande aur tamatar ka sandwich)",
@@ -82930,7 +82930,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 59,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Sweet open sandwich",
@@ -82950,7 +82950,7 @@ const FOOD_DATA = [
       "sweet open sandwich"
     ],
     "servingSize": 59,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Mushroom and cheese sandwich (toasted)",
@@ -82973,7 +82973,7 @@ const FOOD_DATA = [
       "toasted"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Cheese and tomato sandwich (toasted) (Cheese aur tamatar ke sandwich (toasted))",
@@ -82998,7 +82998,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Pea potato sandwich (toasted) (Matar aloo ka sandwich)",
@@ -83022,7 +83022,7 @@ const FOOD_DATA = [
       "toasted"
     ],
     "servingSize": 89,
-    "servingUnit": "g (1 toasted triangle)"
+    "servingUnit": "toasted triangle"
   },
   {
     "name": "Paneer pea sandwich (toasted) (Paneer matar ka sandwich)",
@@ -83045,7 +83045,7 @@ const FOOD_DATA = [
       "toasted"
     ],
     "servingSize": 89,
-    "servingUnit": "g (1 toasted triangle)"
+    "servingUnit": "toasted triangle"
   },
   {
     "name": "Chicken sandwich (toasted)",
@@ -83066,7 +83066,7 @@ const FOOD_DATA = [
       "toasted"
     ],
     "servingSize": 85,
-    "servingUnit": "g (1 toasted triangle)"
+    "servingUnit": "toasted triangle"
   },
   {
     "name": "Pea keema sandwich (toasted) (Matar aur keema ka sandwich)",
@@ -83090,7 +83090,7 @@ const FOOD_DATA = [
       "toasted"
     ],
     "servingSize": 85,
-    "servingUnit": "g (1 toasted triangle)"
+    "servingUnit": "toasted triangle"
   },
   {
     "name": "Classic club sandwich",
@@ -83110,7 +83110,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 224,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Sesame toast",
@@ -83129,7 +83129,7 @@ const FOOD_DATA = [
       "toast"
     ],
     "servingSize": 62,
-    "servingUnit": "g (1 toasted triangle)"
+    "servingUnit": "toasted triangle"
   },
   {
     "name": "Cracked wheat porridge (Meetha daliya)",
@@ -83153,7 +83153,7 @@ const FOOD_DATA = [
       "wheat"
     ],
     "servingSize": 403,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Semolina porridge (Suji/Rava daliya)",
@@ -83176,7 +83176,7 @@ const FOOD_DATA = [
       "suji/rava daliya"
     ],
     "servingSize": 278,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Oatmeal Porridge",
@@ -83195,7 +83195,7 @@ const FOOD_DATA = [
       "porridge"
     ],
     "servingSize": 398,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cornflakes with milk",
@@ -83215,7 +83215,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 278,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Rice flakes (Chiwda/Aval)",
@@ -83236,7 +83236,7 @@ const FOOD_DATA = [
       "rice flakes (chiwda/aval)"
     ],
     "servingSize": 278,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Wheat flakes",
@@ -83255,7 +83255,7 @@ const FOOD_DATA = [
       "wheat flakes"
     ],
     "servingSize": 278,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Murmura (Puffed rice)",
@@ -83276,7 +83276,7 @@ const FOOD_DATA = [
       "rice"
     ],
     "servingSize": 278,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Puffed wheat (Murmure/Moori)",
@@ -83297,7 +83297,7 @@ const FOOD_DATA = [
       "wheat"
     ],
     "servingSize": 278,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Boiled egg (Ubla anda)",
@@ -83320,7 +83320,7 @@ const FOOD_DATA = [
       "ubla anda"
     ],
     "servingSize": 151,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Fried Egg",
@@ -83339,7 +83339,7 @@ const FOOD_DATA = [
       "fried egg "
     ],
     "servingSize": 58,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Poached egg",
@@ -83358,7 +83358,7 @@ const FOOD_DATA = [
       "poached egg"
     ],
     "servingSize": 56,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Scrambled egg (Ande ki bhurji)",
@@ -83381,7 +83381,7 @@ const FOOD_DATA = [
       "scrambled egg (ande ki bhurji)"
     ],
     "servingSize": 70,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Baked egg",
@@ -83400,7 +83400,7 @@ const FOOD_DATA = [
       "egg"
     ],
     "servingSize": 101,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Plain omelette/omlet",
@@ -83419,7 +83419,7 @@ const FOOD_DATA = [
       "plain omelette/omlet"
     ],
     "servingSize": 143,
-    "servingUnit": "g (1 omelette)"
+    "servingUnit": "omelette"
   },
   {
     "name": "Stuffed egg omelette/omlet",
@@ -83439,7 +83439,7 @@ const FOOD_DATA = [
       "stuffed egg omelette/omlet"
     ],
     "servingSize": 262,
-    "servingUnit": "g (1 omelette)"
+    "servingUnit": "omelette"
   },
   {
     "name": "Pancake",
@@ -83456,7 +83456,7 @@ const FOOD_DATA = [
       "pancake"
     ],
     "servingSize": 42,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Keema pancake",
@@ -83475,7 +83475,7 @@ const FOOD_DATA = [
       "pancake"
     ],
     "servingSize": 110,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Vegetable pancake",
@@ -83494,7 +83494,7 @@ const FOOD_DATA = [
       "vegetable pancake"
     ],
     "servingSize": 117,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Jam and fruit pancake",
@@ -83515,7 +83515,7 @@ const FOOD_DATA = [
       "pancake"
     ],
     "servingSize": 66,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Khoa and coconut pancake",
@@ -83536,7 +83536,7 @@ const FOOD_DATA = [
       "pancake"
     ],
     "servingSize": 71,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Brown stock",
@@ -83555,7 +83555,7 @@ const FOOD_DATA = [
       "stock"
     ],
     "servingSize": 486,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Vegetable stock",
@@ -83574,7 +83574,7 @@ const FOOD_DATA = [
       "vegetable stock"
     ],
     "servingSize": 416,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Chicken stock",
@@ -83593,7 +83593,7 @@ const FOOD_DATA = [
       "stock"
     ],
     "servingSize": 376,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Clear tomato soup (Tamatar ka soup)",
@@ -83616,7 +83616,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 398,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Lentil soup",
@@ -83635,7 +83635,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 389,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Chicken consomme (Clear chicken soup)",
@@ -83658,7 +83658,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 226,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Cream of tomato soup",
@@ -83678,7 +83678,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 462,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Cream of green peas soup",
@@ -83699,7 +83699,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 409,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Cream of spinach soup",
@@ -83719,7 +83719,7 @@ const FOOD_DATA = [
       "spinach"
     ],
     "servingSize": 463,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Cream of mixed vegetable soup",
@@ -83740,7 +83740,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 362,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Cream of mushroom soup",
@@ -83760,7 +83760,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 375,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Chicken sweet corn soup",
@@ -83781,7 +83781,7 @@ const FOOD_DATA = [
       "sweet"
     ],
     "servingSize": 242,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Minestrone soup",
@@ -83800,7 +83800,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 230,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Egg drop soup",
@@ -83820,7 +83820,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 318,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Chinese cabbage and meat ball soup",
@@ -83843,7 +83843,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 465,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "French onion soup",
@@ -83863,7 +83863,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 352,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Hot and sour soup",
@@ -83884,7 +83884,7 @@ const FOOD_DATA = [
       "sour"
     ],
     "servingSize": 393,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Talaumein soup",
@@ -83903,7 +83903,7 @@ const FOOD_DATA = [
       "talaumein soup"
     ],
     "servingSize": 369,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Cold cucumber soup (Thanda kheere ka soup)",
@@ -83927,7 +83927,7 @@ const FOOD_DATA = [
       "thanda kheere ka soup"
     ],
     "servingSize": 188,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Cold summer garden soup",
@@ -83948,7 +83948,7 @@ const FOOD_DATA = [
       "summer"
     ],
     "servingSize": 307,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "Chapati/Roti",
@@ -83965,7 +83965,7 @@ const FOOD_DATA = [
       "chapati/roti"
     ],
     "servingSize": 36,
-    "servingUnit": "g (1 chapati)"
+    "servingUnit": "chapati"
   },
   {
     "name": "Plain parantha/paratha",
@@ -83984,7 +83984,7 @@ const FOOD_DATA = [
       "plain parantha/paratha"
     ],
     "servingSize": 56,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Potato parantha/paratha (Aloo ka parantha/paratha)",
@@ -84006,7 +84006,7 @@ const FOOD_DATA = [
       "potato parantha/paratha (aloo ka parantha/paratha)"
     ],
     "servingSize": 93,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Radish parantha/paratha (Mooli ka parantha/paratha)",
@@ -84028,7 +84028,7 @@ const FOOD_DATA = [
       "radish parantha/paratha (mooli ka parantha/paratha)"
     ],
     "servingSize": 100,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Cauliflower parantha/paratha (Phoolgobhi ka parantha/paratha)",
@@ -84050,7 +84050,7 @@ const FOOD_DATA = [
       "phoolgobhi ka parantha/paratha"
     ],
     "servingSize": 102,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Dal parantha/paratha",
@@ -84069,7 +84069,7 @@ const FOOD_DATA = [
       "parantha/paratha"
     ],
     "servingSize": 77,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Sprouted moong parantha/paratha",
@@ -84089,7 +84089,7 @@ const FOOD_DATA = [
       "sprouted moong parantha/paratha"
     ],
     "servingSize": 77,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Pea parantha/paratha (Matar ka parantha/paratha)",
@@ -84111,7 +84111,7 @@ const FOOD_DATA = [
       "pea parantha/paratha (matar ka parantha/paratha)"
     ],
     "servingSize": 108,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Keema parantha/paratha",
@@ -84130,7 +84130,7 @@ const FOOD_DATA = [
       "parantha/paratha"
     ],
     "servingSize": 100,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Paneer parantha/paratha",
@@ -84149,7 +84149,7 @@ const FOOD_DATA = [
       "parantha/paratha"
     ],
     "servingSize": 85,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Besan and spinach parantha/paratha (Besan aur palak ka parantha/paratha)",
@@ -84174,7 +84174,7 @@ const FOOD_DATA = [
       "spinach"
     ],
     "servingSize": 82,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Poori",
@@ -84191,7 +84191,7 @@ const FOOD_DATA = [
       "poori"
     ],
     "servingSize": 125,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Spinach poori (Palak poori)",
@@ -84213,7 +84213,7 @@ const FOOD_DATA = [
       "spinach poori (palak poori)"
     ],
     "servingSize": 135,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Methi poori",
@@ -84232,7 +84232,7 @@ const FOOD_DATA = [
       "poori"
     ],
     "servingSize": 130,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Dal stuffed poori",
@@ -84252,7 +84252,7 @@ const FOOD_DATA = [
       "stuffed"
     ],
     "servingSize": 119,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Potato stuffed poori (Aloo ki poori)",
@@ -84275,7 +84275,7 @@ const FOOD_DATA = [
       "stuffed"
     ],
     "servingSize": 119,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Tandoori parantha/paratha",
@@ -84294,7 +84294,7 @@ const FOOD_DATA = [
       "tandoori parantha/paratha"
     ],
     "servingSize": 56,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Boiled rice (Uble chawal)",
@@ -84317,7 +84317,7 @@ const FOOD_DATA = [
       "uble chawal"
     ],
     "servingSize": 300,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Plain pulao",
@@ -84336,7 +84336,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 308,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Mixed vegetable pulao",
@@ -84356,7 +84356,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 438,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Mushroom pulao",
@@ -84375,7 +84375,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 358,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Sprouted moong pulao",
@@ -84395,7 +84395,7 @@ const FOOD_DATA = [
       "sprouted moong pulao"
     ],
     "servingSize": 408,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Paneer pulao",
@@ -84414,7 +84414,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 838,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Peanut pulao",
@@ -84433,7 +84433,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 358,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Navratan pulao",
@@ -84452,7 +84452,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 183,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Green chickpeas pulao (Choliya pulao/Hare chane ka pulao)",
@@ -84477,7 +84477,7 @@ const FOOD_DATA = [
       "pulao/hare"
     ],
     "servingSize": 358,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Mutton biryani/biriyani",
@@ -84496,7 +84496,7 @@ const FOOD_DATA = [
       "mutton biryani/biriyani"
     ],
     "servingSize": 208,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Vegetable biryani/biriyani",
@@ -84515,7 +84515,7 @@ const FOOD_DATA = [
       "vegetable biryani/biriyani"
     ],
     "servingSize": 302,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Lemon rice (Pulihora, Elumichai sadam, Chitranna)",
@@ -84540,7 +84540,7 @@ const FOOD_DATA = [
       "sadam"
     ],
     "servingSize": 319,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Sweet rice (Meethe chawal)",
@@ -84563,7 +84563,7 @@ const FOOD_DATA = [
       "sweet rice (meethe chawal)"
     ],
     "servingSize": 348,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Curd rice (Dahi bhaat/Dahi chawal/ Perugu annam/Daddojanam/Thayir saadam)",
@@ -84590,7 +84590,7 @@ const FOOD_DATA = [
       "saadam"
     ],
     "servingSize": 216,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Tamarind rice (Chintapandu pulihora/Puliyodharai/Puli sadam/Huli anna)",
@@ -84615,7 +84615,7 @@ const FOOD_DATA = [
       "tamarind rice (chintapandu pulihora/puliyodharai/puli sadam/huli anna)"
     ],
     "servingSize": 128,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Spanish rice",
@@ -84634,7 +84634,7 @@ const FOOD_DATA = [
       "spanish rice"
     ],
     "servingSize": 217,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Chinese fried rice",
@@ -84654,7 +84654,7 @@ const FOOD_DATA = [
       "rice"
     ],
     "servingSize": 351,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Macroni cheese pie",
@@ -84674,7 +84674,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 239,
-    "servingUnit": "g (1 casserole dish)"
+    "servingUnit": "casserole dish"
   },
   {
     "name": "Vegetable chowmein",
@@ -84693,7 +84693,7 @@ const FOOD_DATA = [
       "vegetable chowmein"
     ],
     "servingSize": 300,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Chicken chowmein",
@@ -84712,7 +84712,7 @@ const FOOD_DATA = [
       "chowmein"
     ],
     "servingSize": 344,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Cheese noodle ring",
@@ -84732,7 +84732,7 @@ const FOOD_DATA = [
       "ring"
     ],
     "servingSize": 398,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Spaghetti and cheese balls in tomato sauce",
@@ -84755,7 +84755,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 966,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Penne platter",
@@ -84774,7 +84774,7 @@ const FOOD_DATA = [
       "platter"
     ],
     "servingSize": 261,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Pasta hot pot",
@@ -84794,7 +84794,7 @@ const FOOD_DATA = [
       "pot"
     ],
     "servingSize": 831,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Chicken lasagne",
@@ -84813,7 +84813,7 @@ const FOOD_DATA = [
       "lasagne"
     ],
     "servingSize": 515,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Fettuccine with spinach sauce",
@@ -84834,7 +84834,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 355,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Naan",
@@ -84851,7 +84851,7 @@ const FOOD_DATA = [
       "naan"
     ],
     "servingSize": 53,
-    "servingUnit": "g (1 naan)"
+    "servingUnit": "naan"
   },
   {
     "name": "Bhatura",
@@ -84868,7 +84868,7 @@ const FOOD_DATA = [
       "bhatura"
     ],
     "servingSize": 146,
-    "servingUnit": "g (1 bhatura)"
+    "servingUnit": "bhatura"
   },
   {
     "name": "Idli",
@@ -84885,7 +84885,7 @@ const FOOD_DATA = [
       "idli"
     ],
     "servingSize": 25,
-    "servingUnit": "g (1 idli)"
+    "servingUnit": "idli"
   },
   {
     "name": "Masala dosa",
@@ -84904,7 +84904,7 @@ const FOOD_DATA = [
       "masala dosa"
     ],
     "servingSize": 210,
-    "servingUnit": "g (1 dosa)"
+    "servingUnit": "dosa"
   },
   {
     "name": "Semolina dosa (Suji/Rava dosa)",
@@ -84926,7 +84926,7 @@ const FOOD_DATA = [
       "suji/rava dosa"
     ],
     "servingSize": 73,
-    "servingUnit": "g (1 dosa)"
+    "servingUnit": "dosa"
   },
   {
     "name": "Onion tomato uttapam",
@@ -84946,7 +84946,7 @@ const FOOD_DATA = [
       "uttapam"
     ],
     "servingSize": 139,
-    "servingUnit": "g (1 uttapam)"
+    "servingUnit": "uttapam"
   },
   {
     "name": "Paneer kaathi roll",
@@ -84966,7 +84966,7 @@ const FOOD_DATA = [
       "roll"
     ],
     "servingSize": 148,
-    "servingUnit": "g (1 kaathi roll)"
+    "servingUnit": "kaathi roll"
   },
   {
     "name": "Makki ki roti",
@@ -84985,7 +84985,7 @@ const FOOD_DATA = [
       "roti"
     ],
     "servingSize": 85,
-    "servingUnit": "g (1 roti)"
+    "servingUnit": "roti"
   },
   {
     "name": "Washed moong dal (Dhuli moong ki dal)",
@@ -85008,7 +85008,7 @@ const FOOD_DATA = [
       "washed moong dal (dhuli moong ki dal)"
     ],
     "servingSize": 277,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Washed urad dal (Dhuli urad ki dal)",
@@ -85031,7 +85031,7 @@ const FOOD_DATA = [
       "washed urad dal (dhuli urad ki dal)"
     ],
     "servingSize": 296,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Split bengal gram with bottle gourd (Channa dal with ghiya/lauki)",
@@ -85059,7 +85059,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 279,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dry washed urad",
@@ -85079,7 +85079,7 @@ const FOOD_DATA = [
       "washed"
     ],
     "servingSize": 143,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mixed dal",
@@ -85098,7 +85098,7 @@ const FOOD_DATA = [
       "mixed dal"
     ],
     "servingSize": 298,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Whole moong (Moong ki dal)",
@@ -85120,7 +85120,7 @@ const FOOD_DATA = [
       "whole moong (moong ki dal)"
     ],
     "servingSize": 342,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Whole masoor (Masoor ki dal)",
@@ -85142,7 +85142,7 @@ const FOOD_DATA = [
       "whole masoor (masoor ki dal)"
     ],
     "servingSize": 342,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Whole moth (Moth ki dal)",
@@ -85164,7 +85164,7 @@ const FOOD_DATA = [
       "whole moth (moth ki dal)"
     ],
     "servingSize": 342,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Whole urad (Urad ki dal)",
@@ -85186,7 +85186,7 @@ const FOOD_DATA = [
       "whole urad (urad ki dal)"
     ],
     "servingSize": 339,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Moti mahal dal (Urad rajmah mix dal)",
@@ -85211,7 +85211,7 @@ const FOOD_DATA = [
       "urad rajmah mix dal"
     ],
     "servingSize": 287,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Black channa curry/Bengal gram curry (Kale chane ki curry)",
@@ -85237,7 +85237,7 @@ const FOOD_DATA = [
       "kale chane ki curry"
     ],
     "servingSize": 120,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Chickpeas curry (Safed channa curry)",
@@ -85260,7 +85260,7 @@ const FOOD_DATA = [
       "safed channa curry"
     ],
     "servingSize": 120,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Lobia curry",
@@ -85279,7 +85279,7 @@ const FOOD_DATA = [
       "lobia curry"
     ],
     "servingSize": 120,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Soyabean curry",
@@ -85298,7 +85298,7 @@ const FOOD_DATA = [
       "soyabean curry"
     ],
     "servingSize": 120,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Kidney bean curry (Rajmah curry)",
@@ -85321,7 +85321,7 @@ const FOOD_DATA = [
       "rajmah curry"
     ],
     "servingSize": 120,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sambar",
@@ -85338,7 +85338,7 @@ const FOOD_DATA = [
       "sambar"
     ],
     "servingSize": 257,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Besan kadhi with pakodies",
@@ -85359,7 +85359,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 587,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Khatta channa",
@@ -85378,7 +85378,7 @@ const FOOD_DATA = [
       "khatta channa"
     ],
     "servingSize": 157,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sprouted moong dal chat",
@@ -85399,7 +85399,7 @@ const FOOD_DATA = [
       "sprouted moong dal chat"
     ],
     "servingSize": 257,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Potato cauliflower (Aloo gobhi)",
@@ -85422,7 +85422,7 @@ const FOOD_DATA = [
       "potato cauliflower (aloo gobhi)"
     ],
     "servingSize": 176,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Potato capsicum (Shimla mirch aloo)",
@@ -85446,7 +85446,7 @@ const FOOD_DATA = [
       "shimla mirch aloo"
     ],
     "servingSize": 151,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cabbage and peas (Pattagobhi aur matar)",
@@ -85471,7 +85471,7 @@ const FOOD_DATA = [
       "peas"
     ],
     "servingSize": 166,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Carrot and fenugreek leaves (Gajar methi)",
@@ -85496,7 +85496,7 @@ const FOOD_DATA = [
       "methi"
     ],
     "servingSize": 191,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Potato fenugreek (Aloo methi)",
@@ -85519,7 +85519,7 @@ const FOOD_DATA = [
       "potato fenugreek (aloo methi)"
     ],
     "servingSize": 204,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Brinjal bhartha (Baingan ka bhartha)",
@@ -85541,7 +85541,7 @@ const FOOD_DATA = [
       "brinjal bhartha (baingan ka bhartha)"
     ],
     "servingSize": 326,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dry potato (Sookhe aloo)",
@@ -85564,7 +85564,7 @@ const FOOD_DATA = [
       "sookhe aloo"
     ],
     "servingSize": 106,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Beans with coconut (Nariyal aur sem/phali; Beans thoran)",
@@ -85590,7 +85590,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 150,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cauliflower with coconut (Nariyal ke saath phoolgobhi)",
@@ -85615,7 +85615,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 150,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Carrot and cabbage with coconut (Nariyal ke saath pattagobhi aur gajar)",
@@ -85644,7 +85644,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 200,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Raw turnip with coconut",
@@ -85665,7 +85665,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 150,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Raw papaya with coconut (Papaya thoran)",
@@ -85689,7 +85689,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 150,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Stuffed okra (Bharwa bhindi)",
@@ -85712,7 +85712,7 @@ const FOOD_DATA = [
       "stuffed okra (bharwa bhindi)"
     ],
     "servingSize": 111,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Stuffed round gourd (Bharwa tinde)",
@@ -85736,7 +85736,7 @@ const FOOD_DATA = [
       "tinde"
     ],
     "servingSize": 248,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Stuffed capsicum (Bharwa shimla mirch)",
@@ -85760,7 +85760,7 @@ const FOOD_DATA = [
       "stuffed capsicum (bharwa shimla mirch)"
     ],
     "servingSize": 126,
-    "servingUnit": "g (1 capsicum)"
+    "servingUnit": "capsicum"
   },
   {
     "name": "Stuffed brinjal (Bharwa baingan)",
@@ -85783,7 +85783,7 @@ const FOOD_DATA = [
       "stuffed brinjal (bharwa baingan)"
     ],
     "servingSize": 55,
-    "servingUnit": "g (1 brinjal)"
+    "servingUnit": "brinjal"
   },
   {
     "name": "Stuffed tomatoes (Bharwa tamatar)",
@@ -85806,7 +85806,7 @@ const FOOD_DATA = [
       "tomatoes"
     ],
     "servingSize": 136,
-    "servingUnit": "g (1 tomato)"
+    "servingUnit": "tomato"
   },
   {
     "name": "Pea potato curry (Aloo matar)",
@@ -85830,7 +85830,7 @@ const FOOD_DATA = [
       "potato"
     ],
     "servingSize": 277,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pea paneer curry (Matar paneer)",
@@ -85853,7 +85853,7 @@ const FOOD_DATA = [
       "pea paneer curry (matar paneer)"
     ],
     "servingSize": 277,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pea mushroom curry (Matar mushroom)",
@@ -85876,7 +85876,7 @@ const FOOD_DATA = [
       "pea mushroom curry (matar mushroom)"
     ],
     "servingSize": 277,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pea curry (Matar ki sabzi)",
@@ -85899,7 +85899,7 @@ const FOOD_DATA = [
       "sabzi"
     ],
     "servingSize": 277,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pea vadi curry",
@@ -85919,7 +85919,7 @@ const FOOD_DATA = [
       "vadi"
     ],
     "servingSize": 287,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Paneer curry",
@@ -85938,7 +85938,7 @@ const FOOD_DATA = [
       "paneer curry"
     ],
     "servingSize": 202,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Lotus stem curry (Kamal kakdi curry)",
@@ -85962,7 +85962,7 @@ const FOOD_DATA = [
       "stem"
     ],
     "servingSize": 202,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Gravy for kofta",
@@ -85982,7 +85982,7 @@ const FOOD_DATA = [
       "kofta"
     ],
     "servingSize": 139,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pea kofta curry (Matar kofta curry)",
@@ -86005,7 +86005,7 @@ const FOOD_DATA = [
       "pea kofta curry (matar kofta curry)"
     ],
     "servingSize": 781,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach kofta curry (Palak kofta curry)",
@@ -86028,7 +86028,7 @@ const FOOD_DATA = [
       "spinach kofta curry (palak kofta curry)"
     ],
     "servingSize": 806,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Paneer kofta curry",
@@ -86048,7 +86048,7 @@ const FOOD_DATA = [
       "paneer kofta curry"
     ],
     "servingSize": 701,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Lotus stem kofta curry (Kamal kakdi kofta curry)",
@@ -86073,7 +86073,7 @@ const FOOD_DATA = [
       "stem"
     ],
     "servingSize": 731,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Raw banana kofta curry (Kela kofta curry)",
@@ -86097,7 +86097,7 @@ const FOOD_DATA = [
       "raw banana kofta curry (kela kofta curry)"
     ],
     "servingSize": 727,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cauliflower kofta curry (Phoolgobhi kofta curry)",
@@ -86120,7 +86120,7 @@ const FOOD_DATA = [
       "phoolgobhi kofta curry"
     ],
     "servingSize": 711,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cabbage kofta curry (Pattagobhi kofta curry)",
@@ -86143,7 +86143,7 @@ const FOOD_DATA = [
       "pattagobhi kofta curry"
     ],
     "servingSize": 713,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Ghiya/Lauki Kofta Curry",
@@ -86163,7 +86163,7 @@ const FOOD_DATA = [
       "kofta"
     ],
     "servingSize": 713,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach paneer kofta curry (Palak paneer kofta curry)",
@@ -86187,7 +86187,7 @@ const FOOD_DATA = [
       "spinach paneer kofta curry (palak paneer kofta curry)"
     ],
     "servingSize": 762,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetarian egg kofta curry",
@@ -86208,7 +86208,7 @@ const FOOD_DATA = [
       "vegetarian egg kofta curry"
     ],
     "servingSize": 741,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked vegetables",
@@ -86227,7 +86227,7 @@ const FOOD_DATA = [
       "vegetables"
     ],
     "servingSize": 302,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cauliflower musallam (Phoolgobhi musallam)",
@@ -86249,7 +86249,7 @@ const FOOD_DATA = [
       "phoolgobhi musallam"
     ],
     "servingSize": 216,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked vegetables with spinach",
@@ -86270,7 +86270,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 424,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked potato with skin",
@@ -86291,7 +86291,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 78,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Shepherd's pie (vegetarian)",
@@ -86312,7 +86312,7 @@ const FOOD_DATA = [
       "vegetarian"
     ],
     "servingSize": 271,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked brinjal in tomato sauce",
@@ -86333,7 +86333,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 431,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dum aloo",
@@ -86352,7 +86352,7 @@ const FOOD_DATA = [
       "dum aloo"
     ],
     "servingSize": 671,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach paneer (Palak paneer)",
@@ -86374,7 +86374,7 @@ const FOOD_DATA = [
       "spinach paneer (palak paneer)"
     ],
     "servingSize": 296,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Methi chaman",
@@ -86393,7 +86393,7 @@ const FOOD_DATA = [
       "methi chaman"
     ],
     "servingSize": 1002,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sarson ka saag",
@@ -86412,7 +86412,7 @@ const FOOD_DATA = [
       "sarson ka saag"
     ],
     "servingSize": 141,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Jackfruit sabzi (Kathal ki sabzi)",
@@ -86434,7 +86434,7 @@ const FOOD_DATA = [
       "sabzi"
     ],
     "servingSize": 361,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Avial",
@@ -86451,7 +86451,7 @@ const FOOD_DATA = [
       "avial"
     ],
     "servingSize": 335,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Al yakhani",
@@ -86469,7 +86469,7 @@ const FOOD_DATA = [
       "yakhani"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Shahi paneer",
@@ -86488,7 +86488,7 @@ const FOOD_DATA = [
       "shahi paneer"
     ],
     "servingSize": 259,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Paneer in butter sauce",
@@ -86508,7 +86508,7 @@ const FOOD_DATA = [
       "sauce"
     ],
     "servingSize": 157,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Methi malai paneer",
@@ -86528,7 +86528,7 @@ const FOOD_DATA = [
       "paneer"
     ],
     "servingSize": 193,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Chilli paneer",
@@ -86547,7 +86547,7 @@ const FOOD_DATA = [
       "paneer"
     ],
     "servingSize": 297,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Paneer makhana korma",
@@ -86567,7 +86567,7 @@ const FOOD_DATA = [
       "paneer makhana korma"
     ],
     "servingSize": 607,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Kadhai Paneer",
@@ -86586,7 +86586,7 @@ const FOOD_DATA = [
       "paneer"
     ],
     "servingSize": 318,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Roghan josh",
@@ -86605,7 +86605,7 @@ const FOOD_DATA = [
       "roghan josh"
     ],
     "servingSize": 236,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach mutton (Palak mutton)",
@@ -86627,7 +86627,7 @@ const FOOD_DATA = [
       "spinach mutton (palak mutton)"
     ],
     "servingSize": 486,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pea keema curry (Matar keema ki sabzi)",
@@ -86651,7 +86651,7 @@ const FOOD_DATA = [
       "sabzi"
     ],
     "servingSize": 344,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Keema kofta curry",
@@ -86671,7 +86671,7 @@ const FOOD_DATA = [
       "kofta"
     ],
     "servingSize": 41,
-    "servingUnit": "g (1 kofta)"
+    "servingUnit": "kofta"
   },
   {
     "name": "Kashmiri mutton koftas (Gushtaba)",
@@ -86693,7 +86693,7 @@ const FOOD_DATA = [
       "mutton"
     ],
     "servingSize": 304,
-    "servingUnit": "g (1 gushtaba)"
+    "servingUnit": "gushtaba"
   },
   {
     "name": "Mutton yakhni",
@@ -86712,7 +86712,7 @@ const FOOD_DATA = [
       "yakhni"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Chicken yakhni",
@@ -86731,7 +86731,7 @@ const FOOD_DATA = [
       "yakhni"
     ],
     "servingSize": 252,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mutton do piaza",
@@ -86750,7 +86750,7 @@ const FOOD_DATA = [
       "piaza"
     ],
     "servingSize": 329,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mutton chops",
@@ -86769,7 +86769,7 @@ const FOOD_DATA = [
       "mutton chops"
     ],
     "servingSize": 350,
-    "servingUnit": "g (1 chop)"
+    "servingUnit": "chop"
   },
   {
     "name": "Shammi kebab",
@@ -86788,7 +86788,7 @@ const FOOD_DATA = [
       "shammi kebab"
     ],
     "servingSize": 171,
-    "servingUnit": "g (1 kabab)"
+    "servingUnit": "kabab"
   },
   {
     "name": "Scotch egg",
@@ -86807,7 +86807,7 @@ const FOOD_DATA = [
       "scotch egg"
     ],
     "servingSize": 342,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Shepherd's pie (with minced meat)",
@@ -86831,7 +86831,7 @@ const FOOD_DATA = [
       "with minced meat"
     ],
     "servingSize": 188,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Chicken curry",
@@ -86850,7 +86850,7 @@ const FOOD_DATA = [
       "curry"
     ],
     "servingSize": 248,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Tandoori chicken",
@@ -86869,7 +86869,7 @@ const FOOD_DATA = [
       "tandoori chicken"
     ],
     "servingSize": 1441,
-    "servingUnit": "g (1 chicken)"
+    "servingUnit": "chicken"
   },
   {
     "name": "Butter chicken",
@@ -86888,7 +86888,7 @@ const FOOD_DATA = [
       "chicken"
     ],
     "servingSize": 275,
-    "servingUnit": "g (1 large piece)"
+    "servingUnit": "large piece"
   },
   {
     "name": "Chicken kebab",
@@ -86907,7 +86907,7 @@ const FOOD_DATA = [
       "kebab"
     ],
     "servingSize": 124,
-    "servingUnit": "g (1 kabab)"
+    "servingUnit": "kabab"
   },
   {
     "name": "Chilli chicken",
@@ -86926,7 +86926,7 @@ const FOOD_DATA = [
       "chilli chicken"
     ],
     "servingSize": 387,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Fried chicken with tomato sauce (Fried chicken tamatar ki chutney kay saath)",
@@ -86954,7 +86954,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 124,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Fish curry (Machli curry)",
@@ -86976,7 +86976,7 @@ const FOOD_DATA = [
       "machli curry"
     ],
     "servingSize": 254,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Fried fish (Indian style) (Tali hui machli)",
@@ -87002,7 +87002,7 @@ const FOOD_DATA = [
       "tali"
     ],
     "servingSize": 354,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Fried fish and Chips (English Style) (Tali hui machli aur chips)",
@@ -87031,7 +87031,7 @@ const FOOD_DATA = [
       "tali"
     ],
     "servingSize": 698,
-    "servingUnit": "g (1 fillet)"
+    "servingUnit": "fillet"
   },
   {
     "name": "Tomato fish",
@@ -87050,7 +87050,7 @@ const FOOD_DATA = [
       "tomato fish"
     ],
     "servingSize": 968,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked fish with cheese sauce",
@@ -87072,7 +87072,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 354,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Fish tikka",
@@ -87091,7 +87091,7 @@ const FOOD_DATA = [
       "tikka"
     ],
     "servingSize": 35,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Tandoori fish",
@@ -87110,7 +87110,7 @@ const FOOD_DATA = [
       "tandoori fish"
     ],
     "servingSize": 234,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Paneer, apple and pineapple salad",
@@ -87132,7 +87132,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 258,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Russian salad",
@@ -87151,7 +87151,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 316,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pasta salad",
@@ -87170,7 +87170,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 216,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Deviled egg",
@@ -87189,7 +87189,7 @@ const FOOD_DATA = [
       "egg"
     ],
     "servingSize": 160,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Hawain salad",
@@ -87208,7 +87208,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 390,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mixed pulse and vegetable salad",
@@ -87230,7 +87230,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 170,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sprouted moong salad",
@@ -87250,7 +87250,7 @@ const FOOD_DATA = [
       "sprouted moong salad "
     ],
     "servingSize": 204,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Tossed salad",
@@ -87269,7 +87269,7 @@ const FOOD_DATA = [
       "tossed salad"
     ],
     "servingSize": 341,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mixed vegetable salad with curd sauce",
@@ -87292,7 +87292,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 215,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Potato salad (Aloo ka salaad)",
@@ -87315,7 +87315,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 236,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Waldroff salad",
@@ -87334,7 +87334,7 @@ const FOOD_DATA = [
       "waldroff salad"
     ],
     "servingSize": 247,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Coleslaw",
@@ -87351,7 +87351,7 @@ const FOOD_DATA = [
       "coleslaw"
     ],
     "servingSize": 153,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Fruit salad (Phalon ka salaad)",
@@ -87374,7 +87374,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 304,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Tomato onion raita (Tamatar aur pyaaz ka raita)",
@@ -87399,7 +87399,7 @@ const FOOD_DATA = [
       "tomato onion raita (tamatar aur pyaaz ka raita)"
     ],
     "servingSize": 178,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Peanut raita (Mungfali ka raita)",
@@ -87421,7 +87421,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 123,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sprouted moong raita",
@@ -87441,7 +87441,7 @@ const FOOD_DATA = [
       "sprouted moong raita "
     ],
     "servingSize": 153,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Bottle gourd raita (Ghiya/Lauki ka raita)",
@@ -87464,7 +87464,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 153,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cucumber raita (Kheere ka raita)",
@@ -87486,7 +87486,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 153,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Carrot and spinach raita (Gajar aur palak ka raita)",
@@ -87512,7 +87512,7 @@ const FOOD_DATA = [
       "spinach"
     ],
     "servingSize": 178,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mint raita (Pudinay ka raita)",
@@ -87534,7 +87534,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 105,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Potato raita (Aloo ka raita)",
@@ -87556,7 +87556,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 158,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Boondi raita",
@@ -87575,7 +87575,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 329,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sweet raita (Meetha raita)",
@@ -87597,7 +87597,7 @@ const FOOD_DATA = [
       "sweet raita (meetha raita)"
     ],
     "servingSize": 192,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dahi vadas/Dahi bhalla",
@@ -87617,7 +87617,7 @@ const FOOD_DATA = [
       "vadas/dahi"
     ],
     "servingSize": 172,
-    "servingUnit": "g (1 vada)"
+    "servingUnit": "vada"
   },
   {
     "name": "Gunjia",
@@ -87634,7 +87634,7 @@ const FOOD_DATA = [
       "gunjia"
     ],
     "servingSize": 175,
-    "servingUnit": "g (1 gunjia)"
+    "servingUnit": "gunjia"
   },
   {
     "name": "Saunth/Sonth chutney with tamarind/imli",
@@ -87655,7 +87655,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 18,
-    "servingUnit": "g (1 teaspoon)"
+    "servingUnit": "teaspoon"
   },
   {
     "name": "Rice kheer (Chawal ki kheer)",
@@ -87677,7 +87677,7 @@ const FOOD_DATA = [
       "rice kheer (chawal ki kheer)"
     ],
     "servingSize": 401,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Makhana kheer",
@@ -87696,7 +87696,7 @@ const FOOD_DATA = [
       "makhana kheer"
     ],
     "servingSize": 278,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vermicelli kheer (Semiya/Seviyan ki kheer)",
@@ -87718,7 +87718,7 @@ const FOOD_DATA = [
       "vermicelli kheer (semiya/seviyan ki kheer)"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Semolina kheer (Suji/Rava kheer)",
@@ -87740,7 +87740,7 @@ const FOOD_DATA = [
       "suji/rava kheer"
     ],
     "servingSize": 230,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Paneer kheer",
@@ -87759,7 +87759,7 @@ const FOOD_DATA = [
       "paneer kheer"
     ],
     "servingSize": 289,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cabbage kheer (Pattagobhi ki kheer)",
@@ -87781,7 +87781,7 @@ const FOOD_DATA = [
       "pattagobhi ki kheer"
     ],
     "servingSize": 254,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Carrot kheer (Gajar ki kheer)",
@@ -87803,7 +87803,7 @@ const FOOD_DATA = [
       "kheer"
     ],
     "servingSize": 254,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cauliflower kheer (Phoolgobhi ki kheer)",
@@ -87825,7 +87825,7 @@ const FOOD_DATA = [
       "phoolgobhi ki kheer"
     ],
     "servingSize": 304,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Moong dal kheer",
@@ -87845,7 +87845,7 @@ const FOOD_DATA = [
       "moong dal kheer"
     ],
     "servingSize": 405,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Phirni",
@@ -87862,7 +87862,7 @@ const FOOD_DATA = [
       "phirni"
     ],
     "servingSize": 290,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Semolina halwa (Suji ka halwa)",
@@ -87884,7 +87884,7 @@ const FOOD_DATA = [
       "suji ka halwa"
     ],
     "servingSize": 160,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Shahi suji halwa",
@@ -87904,7 +87904,7 @@ const FOOD_DATA = [
       "suji"
     ],
     "servingSize": 98,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Carrot halwa (Gajar ka halwa)",
@@ -87926,7 +87926,7 @@ const FOOD_DATA = [
       "halwa"
     ],
     "servingSize": 168,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Egg halwa (Ande ka halwa)",
@@ -87948,7 +87948,7 @@ const FOOD_DATA = [
       "halwa"
     ],
     "servingSize": 97,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Potato halwa (Aloo ka halwa)",
@@ -87970,7 +87970,7 @@ const FOOD_DATA = [
       "potato halwa (aloo ka halwa)"
     ],
     "servingSize": 158,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pumpkin halwa (Kaddu ka halwa)",
@@ -87992,7 +87992,7 @@ const FOOD_DATA = [
       "pumpkin halwa (kaddu ka halwa)"
     ],
     "servingSize": 155,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Moong dal halwa",
@@ -88012,7 +88012,7 @@ const FOOD_DATA = [
       "moong dal halwa"
     ],
     "servingSize": 95,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Caramel custard (steamed)",
@@ -88033,7 +88033,7 @@ const FOOD_DATA = [
       "steamed"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked custard",
@@ -88052,7 +88052,7 @@ const FOOD_DATA = [
       "custard"
     ],
     "servingSize": 213,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Soft Custard (stirred)",
@@ -88073,7 +88073,7 @@ const FOOD_DATA = [
       "stirred"
     ],
     "servingSize": 250,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Chocolate ice cream",
@@ -88093,7 +88093,7 @@ const FOOD_DATA = [
       "ice"
     ],
     "servingSize": 371,
-    "servingUnit": "g (1 ice-cream cup)"
+    "servingUnit": "ice-cream cup"
   },
   {
     "name": "Mango ice cream",
@@ -88113,7 +88113,7 @@ const FOOD_DATA = [
       "mango ice cream"
     ],
     "servingSize": 456,
-    "servingUnit": "g (1 ice-cream cup)"
+    "servingUnit": "ice-cream cup"
   },
   {
     "name": "Fruit Ice cream (Phalon ka Ice cream)",
@@ -88136,7 +88136,7 @@ const FOOD_DATA = [
       "phalon ka ice cream"
     ],
     "servingSize": 321,
-    "servingUnit": "g (1 ice-cream cup)"
+    "servingUnit": "ice-cream cup"
   },
   {
     "name": "Caramel ice cream",
@@ -88156,7 +88156,7 @@ const FOOD_DATA = [
       "ice"
     ],
     "servingSize": 271,
-    "servingUnit": "g (1 ice-cream cup)"
+    "servingUnit": "ice-cream cup"
   },
   {
     "name": "Lemon souffle",
@@ -88175,7 +88175,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 237,
-    "servingUnit": "g (1 souffle cup)"
+    "servingUnit": "souffle cup"
   },
   {
     "name": "Orange souffle",
@@ -88194,7 +88194,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 244,
-    "servingUnit": "g (1 souffle cup)"
+    "servingUnit": "souffle cup"
   },
   {
     "name": "Vanilla souffle",
@@ -88213,7 +88213,7 @@ const FOOD_DATA = [
       "vanilla souffle"
     ],
     "servingSize": 218,
-    "servingUnit": "g (1 souffle cup)"
+    "servingUnit": "souffle cup"
   },
   {
     "name": "Chocolate souffle",
@@ -88232,7 +88232,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 220,
-    "servingUnit": "g (1 souffle cup)"
+    "servingUnit": "souffle cup"
   },
   {
     "name": "Pineapple souffle",
@@ -88251,7 +88251,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 202,
-    "servingUnit": "g (1 souffle cup)"
+    "servingUnit": "souffle cup"
   },
   {
     "name": "Apple mousse",
@@ -88270,7 +88270,7 @@ const FOOD_DATA = [
       "mousse"
     ],
     "servingSize": 365,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Rich chocolate mousse",
@@ -88290,7 +88290,7 @@ const FOOD_DATA = [
       "rich chocolate mousse"
     ],
     "servingSize": 211,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Mango mousse",
@@ -88309,7 +88309,7 @@ const FOOD_DATA = [
       "mousse"
     ],
     "servingSize": 279,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Orange and pineapple cream",
@@ -88330,7 +88330,7 @@ const FOOD_DATA = [
       "pineapple"
     ],
     "servingSize": 89,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Charlotte rousse",
@@ -88349,7 +88349,7 @@ const FOOD_DATA = [
       "rousse"
     ],
     "servingSize": 253,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Triffle pudding",
@@ -88368,7 +88368,7 @@ const FOOD_DATA = [
       "triffle pudding"
     ],
     "servingSize": 292,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Snow flakes pudding",
@@ -88388,7 +88388,7 @@ const FOOD_DATA = [
       "snow flakes pudding"
     ],
     "servingSize": 318,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Kulfi",
@@ -88405,7 +88405,7 @@ const FOOD_DATA = [
       "kulfi"
     ],
     "servingSize": 270,
-    "servingUnit": "g (1 kulfi)"
+    "servingUnit": "kulfi"
   },
   {
     "name": "Steamed orange pudding",
@@ -88425,7 +88425,7 @@ const FOOD_DATA = [
       "steamed orange pudding"
     ],
     "servingSize": 107,
-    "servingUnit": "g (1 large slice)"
+    "servingUnit": "large slice"
   },
   {
     "name": "Meringue and rice pudding",
@@ -88446,7 +88446,7 @@ const FOOD_DATA = [
       "rice"
     ],
     "servingSize": 224,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cheese pudding",
@@ -88465,7 +88465,7 @@ const FOOD_DATA = [
       "pudding"
     ],
     "servingSize": 121,
-    "servingUnit": "g (1 large slice)"
+    "servingUnit": "large slice"
   },
   {
     "name": "Chocolate pudding",
@@ -88484,7 +88484,7 @@ const FOOD_DATA = [
       "pudding"
     ],
     "servingSize": 166,
-    "servingUnit": "g (1 large slice)"
+    "servingUnit": "large slice"
   },
   {
     "name": "Bread and butter pudding",
@@ -88505,7 +88505,7 @@ const FOOD_DATA = [
       "pudding"
     ],
     "servingSize": 123,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Queen of pudding",
@@ -88524,7 +88524,7 @@ const FOOD_DATA = [
       "queen of pudding"
     ],
     "servingSize": 326,
-    "servingUnit": "g (1 large slice)"
+    "servingUnit": "large slice"
   },
   {
     "name": "Pineapple upside down pudding",
@@ -88545,7 +88545,7 @@ const FOOD_DATA = [
       "upside"
     ],
     "servingSize": 134,
-    "servingUnit": "g (1 large slice)"
+    "servingUnit": "large slice"
   },
   {
     "name": "Date and nut pie",
@@ -88566,7 +88566,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 226,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Stewed apple with custard",
@@ -88587,7 +88587,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 284,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Apple snowballs",
@@ -88606,7 +88606,7 @@ const FOOD_DATA = [
       "snowballs"
     ],
     "servingSize": 260,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Hot orange souffle",
@@ -88626,7 +88626,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 122,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Hot chocolate souffle",
@@ -88646,7 +88646,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 142,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Hot vanilla souffle",
@@ -88666,7 +88666,7 @@ const FOOD_DATA = [
       "vanilla"
     ],
     "servingSize": 128,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Plain burfi (Burfi)",
@@ -88686,7 +88686,7 @@ const FOOD_DATA = [
       "plain burfi (burfi)"
     ],
     "servingSize": 44,
-    "servingUnit": "g (1 burfi)"
+    "servingUnit": "burfi"
   },
   {
     "name": "Coconut burfi (Nariyal ki burfi)",
@@ -88708,7 +88708,7 @@ const FOOD_DATA = [
       "nariyal ki burfi"
     ],
     "servingSize": 57,
-    "servingUnit": "g (1 burfi)"
+    "servingUnit": "burfi"
   },
   {
     "name": "Bottle gourd burfi (Ghiya/Lauki burfi)",
@@ -88731,7 +88731,7 @@ const FOOD_DATA = [
       "gourd"
     ],
     "servingSize": 72,
-    "servingUnit": "g (1 burfi)"
+    "servingUnit": "burfi"
   },
   {
     "name": "Chocolate burfi",
@@ -88750,7 +88750,7 @@ const FOOD_DATA = [
       "chocolate burfi"
     ],
     "servingSize": 32,
-    "servingUnit": "g (1 burfi)"
+    "servingUnit": "burfi"
   },
   {
     "name": "Cashewnut burfi (Kaju burfi/Kaju katli)",
@@ -88774,7 +88774,7 @@ const FOOD_DATA = [
       "katli"
     ],
     "servingSize": 29,
-    "servingUnit": "g (1 burfi)"
+    "servingUnit": "burfi"
   },
   {
     "name": "Gram flour burfi (Besan burfi)",
@@ -88797,7 +88797,7 @@ const FOOD_DATA = [
       "gram flour burfi (besan burfi)"
     ],
     "servingSize": 38,
-    "servingUnit": "g (1 burfi)"
+    "servingUnit": "burfi"
   },
   {
     "name": "Semolina ladoo with khoya (Suji/Rava aur khoye ke ladoo )",
@@ -88823,7 +88823,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 29,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Semolina ladoo with coconut (Suji/Rava aur nariyal ke ladoo )",
@@ -88849,7 +88849,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 36,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Gram flour ladoo (Besan ladoo)",
@@ -88872,7 +88872,7 @@ const FOOD_DATA = [
       "ladoo"
     ],
     "servingSize": 35,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Sesame ladoo (Til ke ladoo)",
@@ -88894,7 +88894,7 @@ const FOOD_DATA = [
       "til ke ladoo"
     ],
     "servingSize": 27,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Chenna murki",
@@ -88913,7 +88913,7 @@ const FOOD_DATA = [
       "murki"
     ],
     "servingSize": 90,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Milk cake",
@@ -88932,7 +88932,7 @@ const FOOD_DATA = [
       "milk cake"
     ],
     "servingSize": 287,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Ghujia/Lavang latika",
@@ -88951,7 +88951,7 @@ const FOOD_DATA = [
       "latika"
     ],
     "servingSize": 106,
-    "servingUnit": "g (1 gunjia)"
+    "servingUnit": "gunjia"
   },
   {
     "name": "Gulab Jamun with khoya",
@@ -88972,7 +88972,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 157,
-    "servingUnit": "g (1 gulab jamun)"
+    "servingUnit": "gulab jamun"
   },
   {
     "name": "Mal pua",
@@ -88991,7 +88991,7 @@ const FOOD_DATA = [
       "pua"
     ],
     "servingSize": 150,
-    "servingUnit": "g (1 malqura)"
+    "servingUnit": "malqura"
   },
   {
     "name": "Shahi tukre",
@@ -89010,7 +89010,7 @@ const FOOD_DATA = [
       "tukre"
     ],
     "servingSize": 102,
-    "servingUnit": "g (1 tukra)"
+    "servingUnit": "tukra"
   },
   {
     "name": "Potato pakora/pakoda (Aloo pakoda)",
@@ -89033,7 +89033,7 @@ const FOOD_DATA = [
       "potato pakora/pakoda (aloo pakoda)"
     ],
     "servingSize": 675,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Onion pakora/pakoda (Pyaaz ke pakode)",
@@ -89056,7 +89056,7 @@ const FOOD_DATA = [
       "pyaaz ke pakode"
     ],
     "servingSize": 675,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Cauliflower pakora/pakoda (Phoolgobhi ke pakode)",
@@ -89079,7 +89079,7 @@ const FOOD_DATA = [
       "phoolgobhi ke pakode"
     ],
     "servingSize": 675,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Mixed vegetable pakora/pakoda",
@@ -89099,7 +89099,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 675,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Spinach pakora/pakoda (Palak pakoda)",
@@ -89122,7 +89122,7 @@ const FOOD_DATA = [
       "spinach pakora/pakoda (palak pakoda)"
     ],
     "servingSize": 634,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Methi pakora/pakoda (Methi ke pakode)",
@@ -89144,7 +89144,7 @@ const FOOD_DATA = [
       "pakora/pakoda"
     ],
     "servingSize": 635,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Egg pakora/pakoda (Ande ke pakode)",
@@ -89167,7 +89167,7 @@ const FOOD_DATA = [
       "pakora/pakoda"
     ],
     "servingSize": 644,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Bread pakora/pakoda",
@@ -89186,7 +89186,7 @@ const FOOD_DATA = [
       "pakora/pakoda"
     ],
     "servingSize": 654,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Paneer pakora/pakoda",
@@ -89205,7 +89205,7 @@ const FOOD_DATA = [
       "paneer pakora/pakoda"
     ],
     "servingSize": 647,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Potato bonda (Aloo bonda)",
@@ -89227,7 +89227,7 @@ const FOOD_DATA = [
       "potato bonda (aloo bonda)"
     ],
     "servingSize": 179,
-    "servingUnit": "g (1 bonda)"
+    "servingUnit": "bonda"
   },
   {
     "name": "Potato samosa (Aloo ka samosa)",
@@ -89249,7 +89249,7 @@ const FOOD_DATA = [
       "samosa"
     ],
     "servingSize": 141,
-    "servingUnit": "g (1 samosa)"
+    "servingUnit": "samosa"
   },
   {
     "name": "Minced meat samosa (Keema ka samosa)",
@@ -89272,7 +89272,7 @@ const FOOD_DATA = [
       "samosa"
     ],
     "servingSize": 135,
-    "servingUnit": "g (1 samosa)"
+    "servingUnit": "samosa"
   },
   {
     "name": "Paneer and pea samosa (Paneer matar ka samosa)",
@@ -89296,7 +89296,7 @@ const FOOD_DATA = [
       "samosa"
     ],
     "servingSize": 135,
-    "servingUnit": "g (1 samosa)"
+    "servingUnit": "samosa"
   },
   {
     "name": "Mathri",
@@ -89313,7 +89313,7 @@ const FOOD_DATA = [
       "mathri"
     ],
     "servingSize": 87,
-    "servingUnit": "g (1 kachori)"
+    "servingUnit": "kachori"
   },
   {
     "name": "Khasta kachori",
@@ -89332,7 +89332,7 @@ const FOOD_DATA = [
       "khasta kachori"
     ],
     "servingSize": 101,
-    "servingUnit": "g (1 kachori)"
+    "servingUnit": "kachori"
   },
   {
     "name": "Vegetable cutlet",
@@ -89351,7 +89351,7 @@ const FOOD_DATA = [
       "vegetable cutlet"
     ],
     "servingSize": 338,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Flattened rice cutlet (Chirwa cutlet/Chivda cutlet/Poha cutlet)",
@@ -89376,7 +89376,7 @@ const FOOD_DATA = [
       "rice"
     ],
     "servingSize": 331,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Peanut cutlet (Mungfali ke cutlet)",
@@ -89398,7 +89398,7 @@ const FOOD_DATA = [
       "peanut cutlet (mungfali ke cutlet)"
     ],
     "servingSize": 339,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Fish cutlet (Machli ka cutlet)",
@@ -89420,7 +89420,7 @@ const FOOD_DATA = [
       "machli ka cutlet"
     ],
     "servingSize": 349,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Paneer potato cutlet (Paneer aloo cutlet)",
@@ -89443,7 +89443,7 @@ const FOOD_DATA = [
       "potato"
     ],
     "servingSize": 343,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Spinach chickpeas cutlet (Palak channa dal cutlet)",
@@ -89468,7 +89468,7 @@ const FOOD_DATA = [
       "spinach chickpeas cutlet (palak channa dal cutlet)"
     ],
     "servingSize": 328,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Cheese toast",
@@ -89487,7 +89487,7 @@ const FOOD_DATA = [
       "toast"
     ],
     "servingSize": 145,
-    "servingUnit": "g (1 toast)"
+    "servingUnit": "toast"
   },
   {
     "name": "Vegetable burger",
@@ -89506,7 +89506,7 @@ const FOOD_DATA = [
       "vegetable burger"
     ],
     "servingSize": 515,
-    "servingUnit": "g (1 burger)"
+    "servingUnit": "burger"
   },
   {
     "name": "Cheese pizza",
@@ -89525,7 +89525,7 @@ const FOOD_DATA = [
       "pizza"
     ],
     "servingSize": 131,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Vegetable seekh kebab",
@@ -89545,7 +89545,7 @@ const FOOD_DATA = [
       "vegetable seekh kebab"
     ],
     "servingSize": 165,
-    "servingUnit": "g (1 kabab)"
+    "servingUnit": "kabab"
   },
   {
     "name": "Masala vada",
@@ -89564,7 +89564,7 @@ const FOOD_DATA = [
       "vada"
     ],
     "servingSize": 270,
-    "servingUnit": "g (1 vada)"
+    "servingUnit": "vada"
   },
   {
     "name": "Peanut sago vada (Sabudana mungfali vada)",
@@ -89588,7 +89588,7 @@ const FOOD_DATA = [
       "vada"
     ],
     "servingSize": 306,
-    "servingUnit": "g (1 vada)"
+    "servingUnit": "vada"
   },
   {
     "name": "Vegeterian scotch egg",
@@ -89608,7 +89608,7 @@ const FOOD_DATA = [
       "vegeterian scotch egg"
     ],
     "servingSize": 334,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Paneer shaslik/tikka",
@@ -89627,7 +89627,7 @@ const FOOD_DATA = [
       "shaslik/tikka"
     ],
     "servingSize": 439,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Peanut brittle (Moongfali ki chikki)",
@@ -89650,7 +89650,7 @@ const FOOD_DATA = [
       "peanut brittle (moongfali ki chikki)"
     ],
     "servingSize": 25,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Spring roll",
@@ -89669,7 +89669,7 @@ const FOOD_DATA = [
       "spring roll"
     ],
     "servingSize": 94,
-    "servingUnit": "g (1 spring roll)"
+    "servingUnit": "spring roll"
   },
   {
     "name": "Dry mango chutney (Sookhe aam ki chutney)",
@@ -89693,7 +89693,7 @@ const FOOD_DATA = [
       "sookhe aam ki chutney"
     ],
     "servingSize": 28,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Peanut chutney (Mungfali ki chutney)",
@@ -89715,7 +89715,7 @@ const FOOD_DATA = [
       "peanut chutney (mungfali ki chutney)"
     ],
     "servingSize": 21,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Coconut chutney (Nariyal ki chutney)",
@@ -89737,7 +89737,7 @@ const FOOD_DATA = [
       "nariyal ki chutney"
     ],
     "servingSize": 25,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Mint and coriander chutney (Pudinay aur dhaniye ki chutney)",
@@ -89763,7 +89763,7 @@ const FOOD_DATA = [
       "pudinay aur dhaniye ki chutney"
     ],
     "servingSize": 26,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Custard tart",
@@ -89782,7 +89782,7 @@ const FOOD_DATA = [
       "tart"
     ],
     "servingSize": 72,
-    "servingUnit": "g (1 tart)"
+    "servingUnit": "tart"
   },
   {
     "name": "Lemon tart",
@@ -89801,7 +89801,7 @@ const FOOD_DATA = [
       "tart"
     ],
     "servingSize": 54,
-    "servingUnit": "g (1 tart)"
+    "servingUnit": "tart"
   },
   {
     "name": "Jam tart",
@@ -89820,7 +89820,7 @@ const FOOD_DATA = [
       "tart"
     ],
     "servingSize": 36,
-    "servingUnit": "g (1 tart)"
+    "servingUnit": "tart"
   },
   {
     "name": "Orange cream tart",
@@ -89840,7 +89840,7 @@ const FOOD_DATA = [
       "tart"
     ],
     "servingSize": 72,
-    "servingUnit": "g (1 tart)"
+    "servingUnit": "tart"
   },
   {
     "name": "Pineapple tart",
@@ -89859,7 +89859,7 @@ const FOOD_DATA = [
       "tart"
     ],
     "servingSize": 77,
-    "servingUnit": "g (1 tart)"
+    "servingUnit": "tart"
   },
   {
     "name": "Cheese and mushroom tart",
@@ -89880,7 +89880,7 @@ const FOOD_DATA = [
       "tart"
     ],
     "servingSize": 67,
-    "servingUnit": "g (1 tart)"
+    "servingUnit": "tart"
   },
   {
     "name": "Cottage cheese pie",
@@ -89900,7 +89900,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 340,
-    "servingUnit": "g (1 pie)"
+    "servingUnit": "pie"
   },
   {
     "name": "Minced meat pie",
@@ -89920,7 +89920,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 354,
-    "servingUnit": "g (1 pie)"
+    "servingUnit": "pie"
   },
   {
     "name": "Apple cinnamon pie",
@@ -89940,7 +89940,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 177,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Lemon meringue pie",
@@ -89960,7 +89960,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 157,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Chocolate meringue pie",
@@ -89980,7 +89980,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 184,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Cream puffs",
@@ -89999,7 +89999,7 @@ const FOOD_DATA = [
       "puffs"
     ],
     "servingSize": 72,
-    "servingUnit": "g (1 puff)"
+    "servingUnit": "puff"
   },
   {
     "name": "Chocolate eclairs",
@@ -90018,7 +90018,7 @@ const FOOD_DATA = [
       "eclairs"
     ],
     "servingSize": 169,
-    "servingUnit": "g (1 \u00e9clair)"
+    "servingUnit": "\u00e9clair"
   },
   {
     "name": "Cheese balls",
@@ -90037,7 +90037,7 @@ const FOOD_DATA = [
       "cheese balls"
     ],
     "servingSize": 59,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Minced meat patties",
@@ -90057,7 +90057,7 @@ const FOOD_DATA = [
       "patties"
     ],
     "servingSize": 130,
-    "servingUnit": "g (1 patty)"
+    "servingUnit": "patty"
   },
   {
     "name": "Cheese patties",
@@ -90076,7 +90076,7 @@ const FOOD_DATA = [
       "patties"
     ],
     "servingSize": 104,
-    "servingUnit": "g (1 patty)"
+    "servingUnit": "patty"
   },
   {
     "name": "Hot cheese souffle",
@@ -90096,7 +90096,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 297,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Hot potato souffle",
@@ -90116,7 +90116,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 367,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Hot fish souffle",
@@ -90136,7 +90136,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 367,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Hot spinach souffle",
@@ -90156,7 +90156,7 @@ const FOOD_DATA = [
       "spinach"
     ],
     "servingSize": 397,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Plain cream cake",
@@ -90176,7 +90176,7 @@ const FOOD_DATA = [
       "plain cream cake"
     ],
     "servingSize": 53,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Apple cake (Seb ka cake)",
@@ -90198,7 +90198,7 @@ const FOOD_DATA = [
       "seb ka cake"
     ],
     "servingSize": 68,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Marble cake",
@@ -90217,7 +90217,7 @@ const FOOD_DATA = [
       "marble cake"
     ],
     "servingSize": 54,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Chocolate cake",
@@ -90236,7 +90236,7 @@ const FOOD_DATA = [
       "chocolate cake"
     ],
     "servingSize": 59,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Orange cake",
@@ -90255,7 +90255,7 @@ const FOOD_DATA = [
       "orange cake"
     ],
     "servingSize": 52,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Fruit Loaf",
@@ -90274,7 +90274,7 @@ const FOOD_DATA = [
       "loaf"
     ],
     "servingSize": 56,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Banana cake (Kele ka cake)",
@@ -90296,7 +90296,7 @@ const FOOD_DATA = [
       "kele ka cake"
     ],
     "servingSize": 66,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Chocolate chiffon cake",
@@ -90316,7 +90316,7 @@ const FOOD_DATA = [
       "chocolate chiffon cake"
     ],
     "servingSize": 73,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Christmas cake",
@@ -90335,7 +90335,7 @@ const FOOD_DATA = [
       "christmas cake"
     ],
     "servingSize": 104,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Strawberry and vanilla cake with butter icing",
@@ -90359,7 +90359,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 117,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Eggless cake",
@@ -90378,7 +90378,7 @@ const FOOD_DATA = [
       "eggless cake"
     ],
     "servingSize": 61,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Swiss roll",
@@ -90397,7 +90397,7 @@ const FOOD_DATA = [
       "swiss roll"
     ],
     "servingSize": 63,
-    "servingUnit": "g (1 swiss roll)"
+    "servingUnit": "swiss roll"
   },
   {
     "name": "Pineapple pastry",
@@ -90416,7 +90416,7 @@ const FOOD_DATA = [
       "pineapple pastry "
     ],
     "servingSize": 91,
-    "servingUnit": "g (1 pastry)"
+    "servingUnit": "pastry"
   },
   {
     "name": "Black forest pastry",
@@ -90436,7 +90436,7 @@ const FOOD_DATA = [
       "pastry"
     ],
     "servingSize": 93,
-    "servingUnit": "g (1 pastry)"
+    "servingUnit": "pastry"
   },
   {
     "name": "Coconut finger",
@@ -90455,7 +90455,7 @@ const FOOD_DATA = [
       "finger"
     ],
     "servingSize": 71,
-    "servingUnit": "g (1 finger)"
+    "servingUnit": "finger"
   },
   {
     "name": "Pineapple cake",
@@ -90474,7 +90474,7 @@ const FOOD_DATA = [
       "pineapple cake "
     ],
     "servingSize": 513,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Chocolate walnut cookies (Chocolate aur akhrot ke cookies)",
@@ -90498,7 +90498,7 @@ const FOOD_DATA = [
       "walnut"
     ],
     "servingSize": 26,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Chocolate chip cookies",
@@ -90518,7 +90518,7 @@ const FOOD_DATA = [
       "cookies"
     ],
     "servingSize": 22,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Sweet plain biscuit",
@@ -90538,7 +90538,7 @@ const FOOD_DATA = [
       "sweet plain biscuit"
     ],
     "servingSize": 14,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Chocolate biscuit",
@@ -90557,7 +90557,7 @@ const FOOD_DATA = [
       "chocolate biscuit"
     ],
     "servingSize": 15,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Coconut biscuit (Nariyal ke biscuit)",
@@ -90579,7 +90579,7 @@ const FOOD_DATA = [
       "nariyal ke biscuit"
     ],
     "servingSize": 19,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Sweet and salty biscuit (Meethay aur namkeen biscuit)",
@@ -90605,7 +90605,7 @@ const FOOD_DATA = [
       "sweet and salty biscuit (meethay aur namkeen biscuit)"
     ],
     "servingSize": 11,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Peanut biscuit",
@@ -90624,7 +90624,7 @@ const FOOD_DATA = [
       "peanut biscuit"
     ],
     "servingSize": 18,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Pin wheel biscuit",
@@ -90644,7 +90644,7 @@ const FOOD_DATA = [
       "wheel"
     ],
     "servingSize": 20,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Saffron biscuit (Kesar biscuit)",
@@ -90666,7 +90666,7 @@ const FOOD_DATA = [
       "saffron biscuit (kesar biscuit)"
     ],
     "servingSize": 11,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Masala biscuit",
@@ -90685,7 +90685,7 @@ const FOOD_DATA = [
       "masala biscuit"
     ],
     "servingSize": 16,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Ice box cookies",
@@ -90705,7 +90705,7 @@ const FOOD_DATA = [
       "ice box cookies"
     ],
     "servingSize": 14,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Ginger bread man",
@@ -90725,7 +90725,7 @@ const FOOD_DATA = [
       "man"
     ],
     "servingSize": 30,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Danish cookies",
@@ -90744,7 +90744,7 @@ const FOOD_DATA = [
       "danish cookies"
     ],
     "servingSize": 13,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Short bread cookies",
@@ -90764,7 +90764,7 @@ const FOOD_DATA = [
       "short bread cookies"
     ],
     "servingSize": 18,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Coffee biscuit",
@@ -90783,7 +90783,7 @@ const FOOD_DATA = [
       "coffee biscuit"
     ],
     "servingSize": 17,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Melting moments",
@@ -90802,7 +90802,7 @@ const FOOD_DATA = [
       "moments"
     ],
     "servingSize": 17,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Ginger biscuit (Adarak ke biscuit)",
@@ -90824,7 +90824,7 @@ const FOOD_DATA = [
       "ginger biscuit (adarak ke biscuit)"
     ],
     "servingSize": 13,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Soyabean muthias",
@@ -90843,7 +90843,7 @@ const FOOD_DATA = [
       "soyabean muthias"
     ],
     "servingSize": 134,
-    "servingUnit": "g (1 muthia)"
+    "servingUnit": "muthia"
   },
   {
     "name": "Soyabean tikki",
@@ -90862,7 +90862,7 @@ const FOOD_DATA = [
       "tikki"
     ],
     "servingSize": 166,
-    "servingUnit": "g (1 tikki)"
+    "servingUnit": "tikki"
   },
   {
     "name": "Soyabean namak paras",
@@ -90882,7 +90882,7 @@ const FOOD_DATA = [
       "soyabean namak paras"
     ],
     "servingSize": 274,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Peanut burfi (Moongfali ki burfi)",
@@ -90904,7 +90904,7 @@ const FOOD_DATA = [
       "peanut burfi (moongfali ki burfi)"
     ],
     "servingSize": 21,
-    "servingUnit": "g (1 burfi)"
+    "servingUnit": "burfi"
   },
   {
     "name": "Spinach peanut namak paras (Palak moongfali namak paras)",
@@ -90929,7 +90929,7 @@ const FOOD_DATA = [
       "spinach peanut namak paras (palak moongfali namak paras)"
     ],
     "servingSize": 316,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Gram flour and semolina chilla/cheela/savory pancake (Besan suji chilla/cheela)",
@@ -90957,7 +90957,7 @@ const FOOD_DATA = [
       "suji"
     ],
     "servingSize": 151,
-    "servingUnit": "g (1 cheela)"
+    "servingUnit": "cheela"
   },
   {
     "name": "Rice moong dal cheela (Chawal aur moong dal ka cheela)",
@@ -90982,7 +90982,7 @@ const FOOD_DATA = [
       "rice moong dal cheela (chawal aur moong dal ka cheela)"
     ],
     "servingSize": 146,
-    "servingUnit": "g (1 cheela)"
+    "servingUnit": "cheela"
   },
   {
     "name": "Split bengal gram sweet rice (Channa dal sweet rice)",
@@ -91008,7 +91008,7 @@ const FOOD_DATA = [
       "sweet"
     ],
     "servingSize": 220,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Sweet poori (Meethi poori)",
@@ -91030,7 +91030,7 @@ const FOOD_DATA = [
       "sweet poori (meethi poori)"
     ],
     "servingSize": 152,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Wheat flour and moong dal burfi (Atta aur moong dal ki burfi)",
@@ -91057,7 +91057,7 @@ const FOOD_DATA = [
       "wheat flour and moong dal burfi (atta aur moong dal ki burfi)"
     ],
     "servingSize": 26,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Spinach burfi (Palak burfi)",
@@ -91079,7 +91079,7 @@ const FOOD_DATA = [
       "spinach burfi (palak burfi)"
     ],
     "servingSize": 87,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Sweet split chickpea roti (Sweet channa dal roti/Puranpoli)",
@@ -91105,7 +91105,7 @@ const FOOD_DATA = [
       "sweet split chickpea roti (sweet channa dal roti/puranpoli)"
     ],
     "servingSize": 53,
-    "servingUnit": "g (1 roti)"
+    "servingUnit": "roti"
   },
   {
     "name": "Sprouted moong daliya",
@@ -91125,7 +91125,7 @@ const FOOD_DATA = [
       "sprouted moong daliya "
     ],
     "servingSize": 316,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Sprouted moong poha",
@@ -91145,7 +91145,7 @@ const FOOD_DATA = [
       "sprouted moong poha "
     ],
     "servingSize": 191,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Pearl millet ladoo (Bajra ladoo)",
@@ -91168,7 +91168,7 @@ const FOOD_DATA = [
       "pearl millet ladoo (bajra ladoo)"
     ],
     "servingSize": 48,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Paushtik ladoo",
@@ -91187,7 +91187,7 @@ const FOOD_DATA = [
       "paushtik ladoo"
     ],
     "servingSize": 35,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Paushtik roti",
@@ -91206,7 +91206,7 @@ const FOOD_DATA = [
       "roti"
     ],
     "servingSize": 43,
-    "servingUnit": "g (1 roti)"
+    "servingUnit": "roti"
   },
   {
     "name": "Semolina carrot vada (Suji gajar vada)",
@@ -91230,7 +91230,7 @@ const FOOD_DATA = [
       "vada"
     ],
     "servingSize": 163,
-    "servingUnit": "g (1 vada)"
+    "servingUnit": "vada"
   },
   {
     "name": "Dhokla",
@@ -91247,7 +91247,7 @@ const FOOD_DATA = [
       "dhokla"
     ],
     "servingSize": 40,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Kashmiri tea (Kehwa)",
@@ -91268,7 +91268,7 @@ const FOOD_DATA = [
       "tea"
     ],
     "servingSize": 257,
-    "servingUnit": "g (1 tea cup)"
+    "servingUnit": "tea cup"
   },
   {
     "name": "Steeped hot coffee",
@@ -91288,7 +91288,7 @@ const FOOD_DATA = [
       "steeped hot coffee"
     ],
     "servingSize": 202,
-    "servingUnit": "g (1 tea cup)"
+    "servingUnit": "tea cup"
   },
   {
     "name": "Hot chocolate",
@@ -91307,7 +91307,7 @@ const FOOD_DATA = [
       "hot chocolate"
     ],
     "servingSize": 190,
-    "servingUnit": "g (1 tea cup)"
+    "servingUnit": "tea cup"
   },
   {
     "name": "Cold coffee (with cream)",
@@ -91330,7 +91330,7 @@ const FOOD_DATA = [
       "with cream"
     ],
     "servingSize": 251,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Banana milkshake with ice cream (Kele ka milkshake ice cream ke saath)",
@@ -91356,7 +91356,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 340,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Flavoured milkshake",
@@ -91375,7 +91375,7 @@ const FOOD_DATA = [
       "milkshake"
     ],
     "servingSize": 285,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Jal jeera",
@@ -91394,7 +91394,7 @@ const FOOD_DATA = [
       "jeera"
     ],
     "servingSize": 140,
-    "servingUnit": "g (1 juice glass)"
+    "servingUnit": "juice glass"
   },
   {
     "name": "Gingo",
@@ -91411,7 +91411,7 @@ const FOOD_DATA = [
       "gingo"
     ],
     "servingSize": 291,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Mintade",
@@ -91428,7 +91428,7 @@ const FOOD_DATA = [
       "mintade"
     ],
     "servingSize": 570,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Canjee",
@@ -91445,7 +91445,7 @@ const FOOD_DATA = [
       "canjee"
     ],
     "servingSize": 170,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Cauliflower canjee (Phoolgobhi ki canjee)",
@@ -91467,7 +91467,7 @@ const FOOD_DATA = [
       "phoolgobhi ki canjee"
     ],
     "servingSize": 179,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Potato canjee (Aloo canjee)",
@@ -91489,7 +91489,7 @@ const FOOD_DATA = [
       "potato canjee (aloo canjee)"
     ],
     "servingSize": 195,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Vermicelli porridge (Semiya/Seviyan porridge)",
@@ -91511,7 +91511,7 @@ const FOOD_DATA = [
       "vermicelli porridge (semiya/seviyan porridge)"
     ],
     "servingSize": 396,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Semolina upma (Suji/Rava upma)",
@@ -91533,7 +91533,7 @@ const FOOD_DATA = [
       "upma"
     ],
     "servingSize": 106,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vermicelli upma (Semiya/Seviyan upma)",
@@ -91555,7 +91555,7 @@ const FOOD_DATA = [
       "vermicelli upma (semiya/seviyan upma)"
     ],
     "servingSize": 106,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Rice upma",
@@ -91574,7 +91574,7 @@ const FOOD_DATA = [
       "upma"
     ],
     "servingSize": 106,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Bread upma",
@@ -91593,7 +91593,7 @@ const FOOD_DATA = [
       "upma"
     ],
     "servingSize": 106,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetable upma",
@@ -91612,7 +91612,7 @@ const FOOD_DATA = [
       "vegetable upma"
     ],
     "servingSize": 236,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Poha",
@@ -91629,7 +91629,7 @@ const FOOD_DATA = [
       "poha"
     ],
     "servingSize": 55,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetable poha",
@@ -91648,7 +91648,7 @@ const FOOD_DATA = [
       "vegetable poha"
     ],
     "servingSize": 98,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Moong dal stuffed cheela/chilla (Moong dal ka cheela/chilla)",
@@ -91671,7 +91671,7 @@ const FOOD_DATA = [
       "stuffed"
     ],
     "servingSize": 227,
-    "servingUnit": "g (1 cheela)"
+    "servingUnit": "cheela"
   },
   {
     "name": "Paneer stuffed cheela/chilla",
@@ -91691,7 +91691,7 @@ const FOOD_DATA = [
       "stuffed"
     ],
     "servingSize": 212,
-    "servingUnit": "g (1 cheela)"
+    "servingUnit": "cheela"
   },
   {
     "name": "Indian style egg bhujia (Anda bhujia (Indian style))",
@@ -91715,7 +91715,7 @@ const FOOD_DATA = [
       "style"
     ],
     "servingSize": 126,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "French omelette/omlet",
@@ -91734,7 +91734,7 @@ const FOOD_DATA = [
       "omelette/omlet"
     ],
     "servingSize": 68,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Puffy omelette/omlet",
@@ -91753,7 +91753,7 @@ const FOOD_DATA = [
       "puffy omelette/omlet"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Orange omelette/omlet",
@@ -91772,7 +91772,7 @@ const FOOD_DATA = [
       "orange omelette/omlet"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Cheese and mushroom omelette/omlet",
@@ -91793,7 +91793,7 @@ const FOOD_DATA = [
       "omelette/omlet"
     ],
     "servingSize": 128,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Spanish omelette/omlet",
@@ -91812,7 +91812,7 @@ const FOOD_DATA = [
       "spanish omelette/omlet"
     ],
     "servingSize": 152,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Mixed stock",
@@ -91831,7 +91831,7 @@ const FOOD_DATA = [
       "stock"
     ],
     "servingSize": 910,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Meat stock",
@@ -91850,7 +91850,7 @@ const FOOD_DATA = [
       "stock"
     ],
     "servingSize": 870,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "White stock",
@@ -91869,7 +91869,7 @@ const FOOD_DATA = [
       "white stock"
     ],
     "servingSize": 765,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Meat consomme (with mutton)",
@@ -91892,7 +91892,7 @@ const FOOD_DATA = [
       "with mutton"
     ],
     "servingSize": 620,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Consomme au julienne",
@@ -91911,7 +91911,7 @@ const FOOD_DATA = [
       "julienne"
     ],
     "servingSize": 770,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Consomme au vermicelli",
@@ -91930,7 +91930,7 @@ const FOOD_DATA = [
       "vermicelli"
     ],
     "servingSize": 627,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Green pea soup (Matar ka soup)",
@@ -91953,7 +91953,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 556,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach soup (Palak ka soup)",
@@ -91975,7 +91975,7 @@ const FOOD_DATA = [
       "spinach soup (palak ka soup)"
     ],
     "servingSize": 503,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mixed vegetable soup",
@@ -91995,7 +91995,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 441,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cheese soup",
@@ -92014,7 +92014,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 445,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mulligatawny soup",
@@ -92033,7 +92033,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 349,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cream of carrot soup",
@@ -92053,7 +92053,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 466,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cream of broccoli soup",
@@ -92073,7 +92073,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 461,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cream of potato soup",
@@ -92093,7 +92093,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 476,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Almond soup (Badam ka soup)",
@@ -92115,7 +92115,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 477,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cold cucumber cream soup",
@@ -92136,7 +92136,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 382,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cold tomato soup",
@@ -92156,7 +92156,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 275,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Chicken stew",
@@ -92175,7 +92175,7 @@ const FOOD_DATA = [
       "stew"
     ],
     "servingSize": 297,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Veg paneer stew",
@@ -92195,7 +92195,7 @@ const FOOD_DATA = [
       "veg paneer stew"
     ],
     "servingSize": 237,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Onion-green chilli parantha/paratha (Pyaaz aur hari mirch ka parantha/paratha)",
@@ -92222,7 +92222,7 @@ const FOOD_DATA = [
       "pyaaz aur hari mirch ka parantha/paratha"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Methi parantha/paratha",
@@ -92241,7 +92241,7 @@ const FOOD_DATA = [
       "parantha/paratha"
     ],
     "servingSize": 91,
-    "servingUnit": "g (1 parantha)"
+    "servingUnit": "parantha"
   },
   {
     "name": "Bathua poori",
@@ -92260,7 +92260,7 @@ const FOOD_DATA = [
       "poori"
     ],
     "servingSize": 91,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Gram flour poori (Besan poori)",
@@ -92283,7 +92283,7 @@ const FOOD_DATA = [
       "poori"
     ],
     "servingSize": 75,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Beetroot poori (Chukandar ki poori)",
@@ -92305,7 +92305,7 @@ const FOOD_DATA = [
       "poori"
     ],
     "servingSize": 103,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Peas poori (Matar ki poori)",
@@ -92327,7 +92327,7 @@ const FOOD_DATA = [
       "poori"
     ],
     "servingSize": 84,
-    "servingUnit": "g (1 poori)"
+    "servingUnit": "poori"
   },
   {
     "name": "Peas kachori (Matar kachori)",
@@ -92349,7 +92349,7 @@ const FOOD_DATA = [
       "peas kachori (matar kachori)"
     ],
     "servingSize": 108,
-    "servingUnit": "g (1 kachori)"
+    "servingUnit": "kachori"
   },
   {
     "name": "Pizza",
@@ -92366,7 +92366,7 @@ const FOOD_DATA = [
       "pizza"
     ],
     "servingSize": 297,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Bacon and mushroom pancake",
@@ -92387,7 +92387,7 @@ const FOOD_DATA = [
       "pancake"
     ],
     "servingSize": 122,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Cheese and tomato pancake",
@@ -92408,7 +92408,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 110,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Minced meat pancake (with chicken)",
@@ -92432,7 +92432,7 @@ const FOOD_DATA = [
       "with chicken"
     ],
     "servingSize": 134,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Eggplant/Brinjal rice (Vangi bhat)",
@@ -92455,7 +92455,7 @@ const FOOD_DATA = [
       "vangi bhat"
     ],
     "servingSize": 291,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Kashmiri 'tahar'",
@@ -92474,7 +92474,7 @@ const FOOD_DATA = [
       "kashmiri 'tahar'"
     ],
     "servingSize": 326,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Cumin pulao (Jeera/Zeera pulao)",
@@ -92496,7 +92496,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 271,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Peas pulao (Matar pulao)",
@@ -92518,7 +92518,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 472,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Split bengal gram dal and vegetable pulao (Channa dal and vegetable pulao)",
@@ -92545,7 +92545,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 442,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Black channa pulao/ Bengal gram pulao (Kale chane ka pulao)",
@@ -92572,7 +92572,7 @@ const FOOD_DATA = [
       "pulao/"
     ],
     "servingSize": 397,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Mutton pulao",
@@ -92591,7 +92591,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 663,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Chicken pulao",
@@ -92610,7 +92610,7 @@ const FOOD_DATA = [
       "pulao"
     ],
     "servingSize": 668,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Mexican rice",
@@ -92629,7 +92629,7 @@ const FOOD_DATA = [
       "rice"
     ],
     "servingSize": 518,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Plain khitchdi (Plain khichri/khichdi)",
@@ -92651,7 +92651,7 @@ const FOOD_DATA = [
       "plain khitchdi (plain khichri/khichdi)"
     ],
     "servingSize": 574,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Instant idli (with semolina)",
@@ -92674,7 +92674,7 @@ const FOOD_DATA = [
       "with semolina"
     ],
     "servingSize": 35,
-    "servingUnit": "g (1 idli)"
+    "servingUnit": "idli"
   },
   {
     "name": "Plain dosa",
@@ -92693,7 +92693,7 @@ const FOOD_DATA = [
       "plain dosa"
     ],
     "servingSize": 36,
-    "servingUnit": "g (1 dosa)"
+    "servingUnit": "dosa"
   },
   {
     "name": "Masala dosa mixed vegetable fillings",
@@ -92715,7 +92715,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 277,
-    "servingUnit": "g (1 dosa)"
+    "servingUnit": "dosa"
   },
   {
     "name": "Masala dosa paneer fillings",
@@ -92736,7 +92736,7 @@ const FOOD_DATA = [
       "paneer"
     ],
     "servingSize": 197,
-    "servingUnit": "g (1 dosa)"
+    "servingUnit": "dosa"
   },
   {
     "name": "Uttapam",
@@ -92753,7 +92753,7 @@ const FOOD_DATA = [
       "uttapam"
     ],
     "servingSize": 68,
-    "servingUnit": "g (1 uttapam)"
+    "servingUnit": "uttapam"
   },
   {
     "name": "Appam",
@@ -92770,7 +92770,7 @@ const FOOD_DATA = [
       "appam"
     ],
     "servingSize": 153,
-    "servingUnit": "g (1 appam)"
+    "servingUnit": "appam"
   },
   {
     "name": "Beans and macaroni",
@@ -92790,7 +92790,7 @@ const FOOD_DATA = [
       "macaroni"
     ],
     "servingSize": 254,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Spaghetti bolognese",
@@ -92809,7 +92809,7 @@ const FOOD_DATA = [
       "spaghetti bolognese"
     ],
     "servingSize": 374,
-    "servingUnit": "g (1 shallow dish)"
+    "servingUnit": "shallow dish"
   },
   {
     "name": "Meat and macaroni casserole",
@@ -92830,7 +92830,7 @@ const FOOD_DATA = [
       "meat and macaroni casserole"
     ],
     "servingSize": 401,
-    "servingUnit": "g (1 small casserole dish)"
+    "servingUnit": "small casserole dish"
   },
   {
     "name": "Spaghetti with meat balls and tomato sauce",
@@ -92854,7 +92854,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 556,
-    "servingUnit": "g (1 shallow dish)"
+    "servingUnit": "shallow dish"
   },
   {
     "name": "Spaghetti with paneer balls and tomato sauce",
@@ -92878,7 +92878,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 496,
-    "servingUnit": "g (1 shallow dish)"
+    "servingUnit": "shallow dish"
   },
   {
     "name": "Lasagne with meat sauce",
@@ -92899,7 +92899,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 1774,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Lasagne with vegetables",
@@ -92919,7 +92919,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 1757,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Home made egg noodles",
@@ -92940,7 +92940,7 @@ const FOOD_DATA = [
       "noodles"
     ],
     "servingSize": 225,
-    "servingUnit": "g (1 curry bowl)"
+    "servingUnit": "curry bowl"
   },
   {
     "name": "Sour lentils (Khatti dal)",
@@ -92963,7 +92963,7 @@ const FOOD_DATA = [
       "sour lentils (khatti dal)"
     ],
     "servingSize": 363,
-    "servingUnit": "g (1 curry bowl)"
+    "servingUnit": "curry bowl"
   },
   {
     "name": "Urad special dehusked",
@@ -92983,7 +92983,7 @@ const FOOD_DATA = [
       "urad special dehusked"
     ],
     "servingSize": 266,
-    "servingUnit": "g (1 curry bowl)"
+    "servingUnit": "curry bowl"
   },
   {
     "name": "Arhar with spinach (Arhar dal aur palak)",
@@ -93008,7 +93008,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 403,
-    "servingUnit": "g (1 curry bowl)"
+    "servingUnit": "curry bowl"
   },
   {
     "name": "Moong dal with vadi",
@@ -93029,7 +93029,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 362,
-    "servingUnit": "g (1 curry bowl)"
+    "servingUnit": "curry bowl"
   },
   {
     "name": "Rasam with tamarind (Puli rasam/ Chintapandu rasam/ Charu/Saaru)",
@@ -93055,7 +93055,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 390,
-    "servingUnit": "g (1 curry bowl)"
+    "servingUnit": "curry bowl"
   },
   {
     "name": "Rasam with lemon (Nimmakaya rasam/Nimmakaya charu/Elumichai rasam/Nimbe hannina saaru)",
@@ -93083,7 +93083,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 394,
-    "servingUnit": "g (1 curry bowl)"
+    "servingUnit": "curry bowl"
   },
   {
     "name": "Green gram whole with baghar (Sabut moong dal with tadka)",
@@ -93111,7 +93111,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 226,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Urad sabut special",
@@ -93131,7 +93131,7 @@ const FOOD_DATA = [
       "urad sabut special"
     ],
     "servingSize": 442,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Kabuli channa curry",
@@ -93151,7 +93151,7 @@ const FOOD_DATA = [
       "kabuli channa curry"
     ],
     "servingSize": 356,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Besan gatte curry",
@@ -93171,7 +93171,7 @@ const FOOD_DATA = [
       "gatte"
     ],
     "servingSize": 256,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dry masala chops",
@@ -93191,7 +93191,7 @@ const FOOD_DATA = [
       "masala"
     ],
     "servingSize": 148,
-    "servingUnit": "g (1 chops)"
+    "servingUnit": "chops"
   },
   {
     "name": "Mutton korma",
@@ -93210,7 +93210,7 @@ const FOOD_DATA = [
       "mutton korma"
     ],
     "servingSize": 366,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Shahi keema kofta curry",
@@ -93231,7 +93231,7 @@ const FOOD_DATA = [
       "shahi keema kofta curry"
     ],
     "servingSize": 617,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Minced meat ball curry",
@@ -93252,7 +93252,7 @@ const FOOD_DATA = [
       "minced meat ball curry"
     ],
     "servingSize": 373,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Boti kebab",
@@ -93271,7 +93271,7 @@ const FOOD_DATA = [
       "kebab"
     ],
     "servingSize": 55,
-    "servingUnit": "g (1 kebab)"
+    "servingUnit": "kebab"
   },
   {
     "name": "Mutton seekh kebab",
@@ -93291,7 +93291,7 @@ const FOOD_DATA = [
       "seekh"
     ],
     "servingSize": 45,
-    "servingUnit": "g (1 kebab)"
+    "servingUnit": "kebab"
   },
   {
     "name": "Indian lamb and egg curry (Nargisi kofta)",
@@ -93317,7 +93317,7 @@ const FOOD_DATA = [
       "nargisi kofta"
     ],
     "servingSize": 391,
-    "servingUnit": "g (1 kofta)"
+    "servingUnit": "kofta"
   },
   {
     "name": "Soya chunks sweet and sour (Nutrinugget sweet and sour)",
@@ -93342,7 +93342,7 @@ const FOOD_DATA = [
       "sweet"
     ],
     "servingSize": 462,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Soya chunks korma (Nutrinugget korma)",
@@ -93365,7 +93365,7 @@ const FOOD_DATA = [
       "soya chunks korma (nutrinugget korma)"
     ],
     "servingSize": 249,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mushroom matar",
@@ -93384,7 +93384,7 @@ const FOOD_DATA = [
       "mushroom matar"
     ],
     "servingSize": 263,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Soya chunks and peas (Nutrinugget matar)",
@@ -93409,7 +93409,7 @@ const FOOD_DATA = [
       "soya chunks and peas (nutrinugget matar)"
     ],
     "servingSize": 223,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetable yakhni",
@@ -93428,7 +93428,7 @@ const FOOD_DATA = [
       "yakhni"
     ],
     "servingSize": 574,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach mushroom (Palak mushroom)",
@@ -93450,7 +93450,7 @@ const FOOD_DATA = [
       "spinach mushroom (palak mushroom)"
     ],
     "servingSize": 295,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetarian nargisi kofta curry",
@@ -93471,7 +93471,7 @@ const FOOD_DATA = [
       "vegetarian nargisi kofta curry"
     ],
     "servingSize": 399,
-    "servingUnit": "g (1 kofta)"
+    "servingUnit": "kofta"
   },
   {
     "name": "Roast chicken",
@@ -93490,7 +93490,7 @@ const FOOD_DATA = [
       "roast chicken"
     ],
     "servingSize": 133,
-    "servingUnit": "g (1 joint)"
+    "servingUnit": "joint"
   },
   {
     "name": "Shahi chicken masala",
@@ -93510,7 +93510,7 @@ const FOOD_DATA = [
       "shahi chicken masala"
     ],
     "servingSize": 349,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Tomato chicken",
@@ -93529,7 +93529,7 @@ const FOOD_DATA = [
       "tomato chicken"
     ],
     "servingSize": 176,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Creamy chicken",
@@ -93548,7 +93548,7 @@ const FOOD_DATA = [
       "creamy chicken"
     ],
     "servingSize": 217,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Broccoli chicken ala king",
@@ -93569,7 +93569,7 @@ const FOOD_DATA = [
       "king"
     ],
     "servingSize": 236,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Ginger chicken",
@@ -93588,7 +93588,7 @@ const FOOD_DATA = [
       "ginger chicken"
     ],
     "servingSize": 384,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Chicken sweet and sour",
@@ -93609,7 +93609,7 @@ const FOOD_DATA = [
       "sweet"
     ],
     "servingSize": 562,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Chicken korma",
@@ -93628,7 +93628,7 @@ const FOOD_DATA = [
       "korma"
     ],
     "servingSize": 347,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Bengal fish curry (Bengali machli curry)",
@@ -93652,7 +93652,7 @@ const FOOD_DATA = [
       "machli"
     ],
     "servingSize": 310,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Fish finger",
@@ -93671,7 +93671,7 @@ const FOOD_DATA = [
       "fish finger"
     ],
     "servingSize": 444,
-    "servingUnit": "g (1 fillet)"
+    "servingUnit": "fillet"
   },
   {
     "name": "Fish in coconut milk (Nariyal ke doodh ke saath machli)",
@@ -93697,7 +93697,7 @@ const FOOD_DATA = [
       "saath"
     ],
     "servingSize": 326,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Prawn curry (with coconut) (Jhinga curry)",
@@ -93721,7 +93721,7 @@ const FOOD_DATA = [
       "with coconut"
     ],
     "servingSize": 286,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked stuffed fish",
@@ -93741,7 +93741,7 @@ const FOOD_DATA = [
       "stuffed"
     ],
     "servingSize": 608,
-    "servingUnit": "g (1 fish)"
+    "servingUnit": "fish"
   },
   {
     "name": "Fish pie",
@@ -93760,7 +93760,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 306,
-    "servingUnit": "g (1 pie)"
+    "servingUnit": "pie"
   },
   {
     "name": "Crispy baked fish",
@@ -93780,7 +93780,7 @@ const FOOD_DATA = [
       "fish"
     ],
     "servingSize": 283,
-    "servingUnit": "g (1 casserole dish)"
+    "servingUnit": "casserole dish"
   },
   {
     "name": "Fish souffle",
@@ -93799,7 +93799,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 295,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Potato curry (Aloo ki sabzi)",
@@ -93822,7 +93822,7 @@ const FOOD_DATA = [
       "sabzi"
     ],
     "servingSize": 202,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Egg curry (Anda curry)",
@@ -93844,7 +93844,7 @@ const FOOD_DATA = [
       "egg curry (anda curry)"
     ],
     "servingSize": 152,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetable curry with coconut",
@@ -93865,7 +93865,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 372,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Curd with potatoes (Dahi aloo)",
@@ -93889,7 +93889,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 379,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Potato kofta curry (Aloo kofta curry)",
@@ -93912,7 +93912,7 @@ const FOOD_DATA = [
       "potato kofta curry (aloo kofta curry)"
     ],
     "servingSize": 1020,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Yam kofta curry (Zimikand/Suran kofta curry)",
@@ -93935,7 +93935,7 @@ const FOOD_DATA = [
       "zimikand/suran kofta curry"
     ],
     "servingSize": 750,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Jackfruit kofta curry (Kathal ka kofta curry)",
@@ -93958,7 +93958,7 @@ const FOOD_DATA = [
       "kofta"
     ],
     "servingSize": 750,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach and potato (Palak aloo)",
@@ -93982,7 +93982,7 @@ const FOOD_DATA = [
       "spinach and potato (palak aloo)"
     ],
     "servingSize": 335,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mooli bhujia",
@@ -94001,7 +94001,7 @@ const FOOD_DATA = [
       "mooli bhujia"
     ],
     "servingSize": 198,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Bathua bhujia",
@@ -94020,7 +94020,7 @@ const FOOD_DATA = [
       "bhujia"
     ],
     "servingSize": 198,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cabbage rolls (dry) ((Pattagobhi rolls) (dry))",
@@ -94042,7 +94042,7 @@ const FOOD_DATA = [
       "rolls"
     ],
     "servingSize": 83,
-    "servingUnit": "g (1 roll)"
+    "servingUnit": "roll"
   },
   {
     "name": "Cabbage rolls (curry) ((Pattagobhi rolls)(curry))",
@@ -94064,7 +94064,7 @@ const FOOD_DATA = [
       "rolls"
     ],
     "servingSize": 146,
-    "servingUnit": "g (1 roll)"
+    "servingUnit": "roll"
   },
   {
     "name": "Dry arbi (Sookhi arbi)",
@@ -94086,7 +94086,7 @@ const FOOD_DATA = [
       "sookhi arbi"
     ],
     "servingSize": 201,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Masala arbi",
@@ -94105,7 +94105,7 @@ const FOOD_DATA = [
       "masala arbi"
     ],
     "servingSize": 116,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Peas brinjal bhartha (Matar baingan bhartha)",
@@ -94129,7 +94129,7 @@ const FOOD_DATA = [
       "peas brinjal bhartha (matar baingan bhartha)"
     ],
     "servingSize": 262,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Okra/Lady's fingers fry (Bhindi sabzi/sabji/subji)",
@@ -94153,7 +94153,7 @@ const FOOD_DATA = [
       "sabzi/sabji/subji"
     ],
     "servingSize": 166,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Crispy okra/Crispy lady's fingers (Karare bhindi)",
@@ -94178,7 +94178,7 @@ const FOOD_DATA = [
       "okra/crispy"
     ],
     "servingSize": 343,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Beans foogath",
@@ -94197,7 +94197,7 @@ const FOOD_DATA = [
       "foogath"
     ],
     "servingSize": 181,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Stuffed bittergourd (wet) (Bharwa karele)",
@@ -94220,7 +94220,7 @@ const FOOD_DATA = [
       "wet"
     ],
     "servingSize": 156,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Jackfruit/Kathal (dry)",
@@ -94239,7 +94239,7 @@ const FOOD_DATA = [
       "jackfruit/kathal (dry)"
     ],
     "servingSize": 483,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Yam fried (Zimikand/Suran fried)",
@@ -94261,7 +94261,7 @@ const FOOD_DATA = [
       "zimikand/suran fried"
     ],
     "servingSize": 483,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cauliflower, pea and potato bhujia (Phoolgobhi, matar aur aloo bhujia)",
@@ -94289,7 +94289,7 @@ const FOOD_DATA = [
       "potato"
     ],
     "servingSize": 191,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetable jalfrezi",
@@ -94308,7 +94308,7 @@ const FOOD_DATA = [
       "vegetable jalfrezi"
     ],
     "servingSize": 101,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetables stir fry",
@@ -94328,7 +94328,7 @@ const FOOD_DATA = [
       "vegetables stir fry "
     ],
     "servingSize": 389,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Broccoli delight",
@@ -94347,7 +94347,7 @@ const FOOD_DATA = [
       "delight"
     ],
     "servingSize": 199,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dhansak (vegetarian)",
@@ -94366,7 +94366,7 @@ const FOOD_DATA = [
       "vegetarian"
     ],
     "servingSize": 241,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cauliflower basket",
@@ -94385,7 +94385,7 @@ const FOOD_DATA = [
       "cauliflower basket"
     ],
     "servingSize": 241,
-    "servingUnit": "g (1 portion)"
+    "servingUnit": "portion"
   },
   {
     "name": "Stuffed bottle gourd (Stuffed ghiya/lauki)",
@@ -94408,7 +94408,7 @@ const FOOD_DATA = [
       "stuffed ghiya/lauki"
     ],
     "servingSize": 355,
-    "servingUnit": "g (1 portion)"
+    "servingUnit": "portion"
   },
   {
     "name": "Ducheese potato",
@@ -94427,7 +94427,7 @@ const FOOD_DATA = [
       "potato"
     ],
     "servingSize": 43,
-    "servingUnit": "g (1 potato)"
+    "servingUnit": "potato"
   },
   {
     "name": "Roast potatoes",
@@ -94446,7 +94446,7 @@ const FOOD_DATA = [
       "roast potatoes "
     ],
     "servingSize": 77,
-    "servingUnit": "g (1 potato)"
+    "servingUnit": "potato"
   },
   {
     "name": "Stuffed baked potatoes",
@@ -94466,7 +94466,7 @@ const FOOD_DATA = [
       "stuffed baked potatoes "
     ],
     "servingSize": 104,
-    "servingUnit": "g (1 potato)"
+    "servingUnit": "potato"
   },
   {
     "name": "Potato nests",
@@ -94485,7 +94485,7 @@ const FOOD_DATA = [
       "potato nests"
     ],
     "servingSize": 191,
-    "servingUnit": "g (1 nest)"
+    "servingUnit": "nest"
   },
   {
     "name": "Parsley potato",
@@ -94504,7 +94504,7 @@ const FOOD_DATA = [
       "potato"
     ],
     "servingSize": 109,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Creamed spinach and mushroom",
@@ -94525,7 +94525,7 @@ const FOOD_DATA = [
       "spinach"
     ],
     "servingSize": 595,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Fricassee of Mushroom",
@@ -94544,7 +94544,7 @@ const FOOD_DATA = [
       "mushroom"
     ],
     "servingSize": 281,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Cauliflower au gratin",
@@ -94563,7 +94563,7 @@ const FOOD_DATA = [
       "gratin"
     ],
     "servingSize": 336,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Vegetable and cheese pie",
@@ -94584,7 +94584,7 @@ const FOOD_DATA = [
       "vegetable and cheese pie"
     ],
     "servingSize": 485,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Spinach souffle",
@@ -94603,7 +94603,7 @@ const FOOD_DATA = [
       "spinach souffle "
     ],
     "servingSize": 200,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Beetroot and egg salad (Chukandar aur ande ka salad)",
@@ -94629,7 +94629,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 222,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Sour cream potato salad",
@@ -94650,7 +94650,7 @@ const FOOD_DATA = [
       "sour cream potato salad"
     ],
     "servingSize": 227,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Tossed green salad",
@@ -94670,7 +94670,7 @@ const FOOD_DATA = [
       "tossed green salad"
     ],
     "servingSize": 218,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Spring basket salad",
@@ -94690,7 +94690,7 @@ const FOOD_DATA = [
       "spring basket salad"
     ],
     "servingSize": 210,
-    "servingUnit": "g (1 basket)"
+    "servingUnit": "basket"
   },
   {
     "name": "Cucumber and yogurt salad (Kheere aur dahi ka salad)",
@@ -94716,7 +94716,7 @@ const FOOD_DATA = [
       "yogurt"
     ],
     "servingSize": 115,
-    "servingUnit": "g (1 small plate)"
+    "servingUnit": "small plate"
   },
   {
     "name": "Chicken and tomato towers",
@@ -94737,7 +94737,7 @@ const FOOD_DATA = [
       "towers"
     ],
     "servingSize": 264,
-    "servingUnit": "g (1 stuffed tomato)"
+    "servingUnit": "stuffed tomato"
   },
   {
     "name": "Jellied sunshine fruit salad",
@@ -94758,7 +94758,7 @@ const FOOD_DATA = [
       "sunshine"
     ],
     "servingSize": 249,
-    "servingUnit": "g (1 small mould)"
+    "servingUnit": "small mould"
   },
   {
     "name": "Tomato aspic",
@@ -94777,7 +94777,7 @@ const FOOD_DATA = [
       "tomato aspic"
     ],
     "servingSize": 213,
-    "servingUnit": "g (1 small mould)"
+    "servingUnit": "small mould"
   },
   {
     "name": "Frozen frosty fruit salad (Phalon ka salaad)",
@@ -94802,7 +94802,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 233,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "French dressing",
@@ -94821,7 +94821,7 @@ const FOOD_DATA = [
       "french dressing"
     ],
     "servingSize": 201,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Mayonnaise without eggs",
@@ -94841,7 +94841,7 @@ const FOOD_DATA = [
       "without"
     ],
     "servingSize": 387,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Curd dressing",
@@ -94860,7 +94860,7 @@ const FOOD_DATA = [
       "dressing"
     ],
     "servingSize": 209,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Carrot raita (Gajar ka raita)",
@@ -94882,7 +94882,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 158,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pumpkin raita (Kaddu ka raita)",
@@ -94904,7 +94904,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 170,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mint and peanut raita (Pudinay aur moongfali ka raita)",
@@ -94930,7 +94930,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 133,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach raita (Palak ka raita)",
@@ -94952,7 +94952,7 @@ const FOOD_DATA = [
       "spinach raita (palak ka raita)"
     ],
     "servingSize": 203,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Bathua raita",
@@ -94971,7 +94971,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 203,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pineapple raita (Ananas ka raita)",
@@ -94993,7 +94993,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 159,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Banana raita (Kele ka raita)",
@@ -95015,7 +95015,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 159,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mango raita (Aam ka raita)",
@@ -95037,7 +95037,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 159,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Guava raita (Amarood ka raita)",
@@ -95059,7 +95059,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 159,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Grapes raita (Angoor ka raita)",
@@ -95081,7 +95081,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 159,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Bottle gourd kheer (Ghiya/Lauki kheer)",
@@ -95104,7 +95104,7 @@ const FOOD_DATA = [
       "kheer"
     ],
     "servingSize": 268,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pumpkin kheer (Kaddu ki kheer)",
@@ -95126,7 +95126,7 @@ const FOOD_DATA = [
       "pumpkin kheer (kaddu ki kheer)"
     ],
     "servingSize": 268,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Apple kheer (Seb ki kheer)",
@@ -95148,7 +95148,7 @@ const FOOD_DATA = [
       "seb ki kheer"
     ],
     "servingSize": 333,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Caramel custard (baked)",
@@ -95169,7 +95169,7 @@ const FOOD_DATA = [
       "custard"
     ],
     "servingSize": 225,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Vanilla ice cream without egg",
@@ -95191,7 +95191,7 @@ const FOOD_DATA = [
       "without"
     ],
     "servingSize": 157,
-    "servingUnit": "g (1 ice cream cup)"
+    "servingUnit": "ice cream cup"
   },
   {
     "name": "Vanilla ice cream with egg",
@@ -95213,7 +95213,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 181,
-    "servingUnit": "g (1 ice cream cup)"
+    "servingUnit": "ice cream cup"
   },
   {
     "name": "Strawberry ice cream",
@@ -95233,7 +95233,7 @@ const FOOD_DATA = [
       "strawberry ice cream"
     ],
     "servingSize": 182,
-    "servingUnit": "g (1 ice cream cup)"
+    "servingUnit": "ice cream cup"
   },
   {
     "name": "Chocochip ice cream",
@@ -95253,7 +95253,7 @@ const FOOD_DATA = [
       "ice"
     ],
     "servingSize": 199,
-    "servingUnit": "g (1 ice cream cup)"
+    "servingUnit": "ice cream cup"
   },
   {
     "name": "Choconut ice cream",
@@ -95273,7 +95273,7 @@ const FOOD_DATA = [
       "ice"
     ],
     "servingSize": 240,
-    "servingUnit": "g (1 sundae glass)"
+    "servingUnit": "sundae glass"
   },
   {
     "name": "Pear chocholate sunday",
@@ -95293,7 +95293,7 @@ const FOOD_DATA = [
       "sunday"
     ],
     "servingSize": 244,
-    "servingUnit": "g (1 sundae glass)"
+    "servingUnit": "sundae glass"
   },
   {
     "name": "Chocolate sauce",
@@ -95312,7 +95312,7 @@ const FOOD_DATA = [
       "sauce"
     ],
     "servingSize": 17,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Coffee ice cream",
@@ -95332,7 +95332,7 @@ const FOOD_DATA = [
       "ice"
     ],
     "servingSize": 166,
-    "servingUnit": "g (1 ice cream cup)"
+    "servingUnit": "ice cream cup"
   },
   {
     "name": "Coffee pear alaska",
@@ -95352,7 +95352,7 @@ const FOOD_DATA = [
       "pear"
     ],
     "servingSize": 250,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Crunchy butterscotch",
@@ -95371,7 +95371,7 @@ const FOOD_DATA = [
       "crunchy butterscotch"
     ],
     "servingSize": 187,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Peach melba ice cream",
@@ -95392,7 +95392,7 @@ const FOOD_DATA = [
       "peach melba ice cream"
     ],
     "servingSize": 229,
-    "servingUnit": "g (1 sundae glass)"
+    "servingUnit": "sundae glass"
   },
   {
     "name": "Vanilla ice cream with apples in hot cherry sauce",
@@ -95417,7 +95417,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 251,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Grape and orange whip",
@@ -95438,7 +95438,7 @@ const FOOD_DATA = [
       "whip"
     ],
     "servingSize": 121,
-    "servingUnit": "g (1 orange case)"
+    "servingUnit": "orange case"
   },
   {
     "name": "Honey banana cream",
@@ -95458,7 +95458,7 @@ const FOOD_DATA = [
       "honey banana cream"
     ],
     "servingSize": 331,
-    "servingUnit": "g (1 tall stemmed glass)"
+    "servingUnit": "tall stemmed glass"
   },
   {
     "name": "Raspberry bavarian cream",
@@ -95478,7 +95478,7 @@ const FOOD_DATA = [
       "raspberry bavarian cream"
     ],
     "servingSize": 237,
-    "servingUnit": "g (1 small mould)"
+    "servingUnit": "small mould"
   },
   {
     "name": "Fruit delight",
@@ -95497,7 +95497,7 @@ const FOOD_DATA = [
       "fruit delight"
     ],
     "servingSize": 342,
-    "servingUnit": "g (1 small mould)"
+    "servingUnit": "small mould"
   },
   {
     "name": "Creamy chocolate mousse",
@@ -95517,7 +95517,7 @@ const FOOD_DATA = [
       "mousse"
     ],
     "servingSize": 203,
-    "servingUnit": "g (1 dish)"
+    "servingUnit": "dish"
   },
   {
     "name": "Cold lemon souffle",
@@ -95537,7 +95537,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 242,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Cold orange souffle",
@@ -95557,7 +95557,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 241,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Cold pineapple souffle",
@@ -95577,7 +95577,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 228,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Cold vanilla souffle",
@@ -95597,7 +95597,7 @@ const FOOD_DATA = [
       "vanilla"
     ],
     "servingSize": 236,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Cold chocolate souffle",
@@ -95617,7 +95617,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 243,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Stewed fruit (with pear)",
@@ -95640,7 +95640,7 @@ const FOOD_DATA = [
       "with pear"
     ],
     "servingSize": 121,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Apricot fool",
@@ -95659,7 +95659,7 @@ const FOOD_DATA = [
       "fool"
     ],
     "servingSize": 228,
-    "servingUnit": "g (1 tall stemmed glass)"
+    "servingUnit": "tall stemmed glass"
   },
   {
     "name": "Pavlova",
@@ -95676,7 +95676,7 @@ const FOOD_DATA = [
       "pavlova"
     ],
     "servingSize": 362,
-    "servingUnit": "g (1 meringue)"
+    "servingUnit": "meringue"
   },
   {
     "name": "Apple crumb pudding",
@@ -95696,7 +95696,7 @@ const FOOD_DATA = [
       "pudding"
     ],
     "servingSize": 98,
-    "servingUnit": "g (1 small plate)"
+    "servingUnit": "small plate"
   },
   {
     "name": "Steamed cake with chocolate sauce",
@@ -95718,7 +95718,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 238,
-    "servingUnit": "g (1 small mould)"
+    "servingUnit": "small mould"
   },
   {
     "name": "Hot lemon souffle",
@@ -95738,7 +95738,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 122,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Gulab jamun with milk powder",
@@ -95760,7 +95760,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 302,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Chum chum",
@@ -95778,7 +95778,7 @@ const FOOD_DATA = [
       "chum chum"
     ],
     "servingSize": 312,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Dil bahar",
@@ -95797,7 +95797,7 @@ const FOOD_DATA = [
       "dil bahar"
     ],
     "servingSize": 312,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Rasbhari",
@@ -95814,7 +95814,7 @@ const FOOD_DATA = [
       "rasbhari"
     ],
     "servingSize": 312,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Rajbogh",
@@ -95831,7 +95831,7 @@ const FOOD_DATA = [
       "rajbogh"
     ],
     "servingSize": 315,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Rasgulla",
@@ -95848,7 +95848,7 @@ const FOOD_DATA = [
       "rasgulla"
     ],
     "servingSize": 342,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Rasmalai",
@@ -95865,7 +95865,7 @@ const FOOD_DATA = [
       "rasmalai"
     ],
     "servingSize": 317,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Khoa coconut burfi",
@@ -95885,7 +95885,7 @@ const FOOD_DATA = [
       "khoa coconut burfi"
     ],
     "servingSize": 50,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Danedar burfi",
@@ -95904,7 +95904,7 @@ const FOOD_DATA = [
       "danedar burfi"
     ],
     "servingSize": 140,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Semolina burfi (Suji/Rava burfi)",
@@ -95926,7 +95926,7 @@ const FOOD_DATA = [
       "suji/rava burfi"
     ],
     "servingSize": 47,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Pumpkin coconut burfi (Kaddu aur nariyal ki burfi)",
@@ -95951,7 +95951,7 @@ const FOOD_DATA = [
       "pumpkin coconut burfi (kaddu aur nariyal ki burfi)"
     ],
     "servingSize": 60,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Khoa ladoo",
@@ -95970,7 +95970,7 @@ const FOOD_DATA = [
       "ladoo"
     ],
     "servingSize": 45,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Wheat and gram flour ladoo (Atta besan ladoo)",
@@ -95996,7 +95996,7 @@ const FOOD_DATA = [
       "wheat and gram flour ladoo (atta besan ladoo)"
     ],
     "servingSize": 30,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Semolina ladoo with nuts (Suji/Rava ladoo with nuts)",
@@ -96020,7 +96020,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 31,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Sesame chickpeas brittle (Til aur channe ki chikki)",
@@ -96046,7 +96046,7 @@ const FOOD_DATA = [
       "til aur channe ki chikki"
     ],
     "servingSize": 35,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Murmura chikki",
@@ -96065,7 +96065,7 @@ const FOOD_DATA = [
       "murmura chikki"
     ],
     "servingSize": 26,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Masala onion pakora/pakoda (Pyaaz ke pakode)",
@@ -96089,7 +96089,7 @@ const FOOD_DATA = [
       "pyaaz ke pakode"
     ],
     "servingSize": 71,
-    "servingUnit": "g (1 pakora)"
+    "servingUnit": "pakora"
   },
   {
     "name": "Masala green chilli pakora/pakoda (Hari mirch kay pakode)",
@@ -96116,7 +96116,7 @@ const FOOD_DATA = [
       "pakora/pakoda"
     ],
     "servingSize": 69,
-    "servingUnit": "g (1 pakora)"
+    "servingUnit": "pakora"
   },
   {
     "name": "Chicken pakora/pakoda",
@@ -96135,7 +96135,7 @@ const FOOD_DATA = [
       "pakora/pakoda"
     ],
     "servingSize": 69,
-    "servingUnit": "g (1 pakora)"
+    "servingUnit": "pakora"
   },
   {
     "name": "Fish pakora/pakoda",
@@ -96154,7 +96154,7 @@ const FOOD_DATA = [
       "pakora/pakoda"
     ],
     "servingSize": 69,
-    "servingUnit": "g (1 pakora)"
+    "servingUnit": "pakora"
   },
   {
     "name": "Paneer cutlet",
@@ -96173,7 +96173,7 @@ const FOOD_DATA = [
       "paneer cutlet"
     ],
     "servingSize": 181,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Sago cutlet/vadas (Sabudana cutlet/vadas)",
@@ -96195,7 +96195,7 @@ const FOOD_DATA = [
       "sago cutlet/vadas (sabudana cutlet/vadas)"
     ],
     "servingSize": 211,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Poshtik cutlet",
@@ -96214,7 +96214,7 @@ const FOOD_DATA = [
       "poshtik cutlet"
     ],
     "servingSize": 241,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Egg cutlet (Anda cutlet)",
@@ -96236,7 +96236,7 @@ const FOOD_DATA = [
       "egg cutlet (anda cutlet)"
     ],
     "servingSize": 203,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Minced meat cutlet",
@@ -96256,7 +96256,7 @@ const FOOD_DATA = [
       "minced meat cutlet"
     ],
     "servingSize": 233,
-    "servingUnit": "g (1 cutlet)"
+    "servingUnit": "cutlet"
   },
   {
     "name": "Vegetable samosa",
@@ -96275,7 +96275,7 @@ const FOOD_DATA = [
       "vegetable samosa"
     ],
     "servingSize": 101,
-    "servingUnit": "g (1 samosa)"
+    "servingUnit": "samosa"
   },
   {
     "name": "Plain urad dal vada (Uzunne vada/Minapa garelu/Ulundu vadai/Medu vada)",
@@ -96302,7 +96302,7 @@ const FOOD_DATA = [
       "vadai/medu"
     ],
     "servingSize": 79,
-    "servingUnit": "g (1 vada)"
+    "servingUnit": "vada"
   },
   {
     "name": "Masala urad dal vada",
@@ -96323,7 +96323,7 @@ const FOOD_DATA = [
       "vada"
     ],
     "servingSize": 86,
-    "servingUnit": "g (1 vada)"
+    "servingUnit": "vada"
   },
   {
     "name": "Khaman (dhokla)",
@@ -96342,7 +96342,7 @@ const FOOD_DATA = [
       "khaman (dhokla)"
     ],
     "servingSize": 119,
-    "servingUnit": "g (1 dhokla)"
+    "servingUnit": "dhokla"
   },
   {
     "name": "Instant dhokla",
@@ -96361,7 +96361,7 @@ const FOOD_DATA = [
       "instant dhokla"
     ],
     "servingSize": 42,
-    "servingUnit": "g (1 dhokla)"
+    "servingUnit": "dhokla"
   },
   {
     "name": "Tomato ginger chutney (Tamatar adarak ki chutney)",
@@ -96385,7 +96385,7 @@ const FOOD_DATA = [
       "tomato ginger chutney (tamatar adarak ki chutney)"
     ],
     "servingSize": 16,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Mint tomato chutney (Pudinay aur tamatar ki chutney)",
@@ -96410,7 +96410,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 19,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Coriander chutney (Hare dhaniye ki chutney)",
@@ -96433,7 +96433,7 @@ const FOOD_DATA = [
       "hare dhaniye ki chutney"
     ],
     "servingSize": 19,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Gooseberry chutney (Amla chutney)",
@@ -96455,7 +96455,7 @@ const FOOD_DATA = [
       "gooseberry chutney (amla chutney)"
     ],
     "servingSize": 16,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Walnut chutney (Akhrot ki chutney)",
@@ -96477,7 +96477,7 @@ const FOOD_DATA = [
       "walnut chutney (akhrot ki chutney)"
     ],
     "servingSize": 12,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Saunth/Sonth chutney with ginger",
@@ -96498,7 +96498,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 33,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Gun powder chutney",
@@ -96518,7 +96518,7 @@ const FOOD_DATA = [
       "powder"
     ],
     "servingSize": 14,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Dessicated coconut chutney (Sookhe kase nariyal ki chutney)",
@@ -96543,7 +96543,7 @@ const FOOD_DATA = [
       "sookhe kase nariyal ki chutney"
     ],
     "servingSize": 11,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Curd mint dip",
@@ -96563,7 +96563,7 @@ const FOOD_DATA = [
       "mint"
     ],
     "servingSize": 33,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Curd vegetable dip",
@@ -96583,7 +96583,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 28,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Mayonnaise vegetable dip",
@@ -96603,7 +96603,7 @@ const FOOD_DATA = [
       "vegetable"
     ],
     "servingSize": 43,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Tomato and cucumber sandwich (Tamatar aur kheere ka sandwich)",
@@ -96629,7 +96629,7 @@ const FOOD_DATA = [
       "tomato and cucumber sandwich (tamatar aur kheere ka sandwich)"
     ],
     "servingSize": 79,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Tomato sandwich (grilled)",
@@ -96650,7 +96650,7 @@ const FOOD_DATA = [
       "tomato sandwich (grilled)"
     ],
     "servingSize": 77,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "French sandwich (toasted)",
@@ -96671,7 +96671,7 @@ const FOOD_DATA = [
       "toasted"
     ],
     "servingSize": 112,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Peanut butter cucumber sandwich",
@@ -96692,7 +96692,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 55,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Mint and peanut sandwich",
@@ -96713,7 +96713,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 49,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Spicy chutney sandwich",
@@ -96733,7 +96733,7 @@ const FOOD_DATA = [
       "spicy chutney sandwich"
     ],
     "servingSize": 58,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Chicken walnut sandwich (Chicken aur akhrot ke sandwich)",
@@ -96757,7 +96757,7 @@ const FOOD_DATA = [
       "walnut"
     ],
     "servingSize": 67,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Rolled sandwich",
@@ -96776,7 +96776,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 22,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Ribbon sandwich",
@@ -96795,7 +96795,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 43,
-    "servingUnit": "g (1 ribbon)"
+    "servingUnit": "ribbon"
   },
   {
     "name": "Checker board sandwich",
@@ -96815,7 +96815,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 37,
-    "servingUnit": "g (1 square)"
+    "servingUnit": "square"
   },
   {
     "name": "Submarine sandwich",
@@ -96834,7 +96834,7 @@ const FOOD_DATA = [
       "submarine sandwich"
     ],
     "servingSize": 194,
-    "servingUnit": "g (1 hot dog bun)"
+    "servingUnit": "hot dog bun"
   },
   {
     "name": "Cheese open sandwich",
@@ -96854,7 +96854,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 55,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Sunset and sunrise open sandwich",
@@ -96876,7 +96876,7 @@ const FOOD_DATA = [
       "sunset and sunrise open sandwich"
     ],
     "servingSize": 83,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Danish luncheon sandwich",
@@ -96896,7 +96896,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 86,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Chicken and corn open sandwich",
@@ -96918,7 +96918,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 108,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Chocolate sponge cake",
@@ -96938,7 +96938,7 @@ const FOOD_DATA = [
       "sponge"
     ],
     "servingSize": 70,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Chocolate swiss roll",
@@ -96958,7 +96958,7 @@ const FOOD_DATA = [
       "swiss"
     ],
     "servingSize": 47,
-    "servingUnit": "g (1 swiss roll)"
+    "servingUnit": "swiss roll"
   },
   {
     "name": "Lemon curd filling",
@@ -96978,7 +96978,7 @@ const FOOD_DATA = [
       "lemon curd filling"
     ],
     "servingSize": 25,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Jam filling",
@@ -96997,7 +96997,7 @@ const FOOD_DATA = [
       "jam filling"
     ],
     "servingSize": 16,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Chocolate pastry",
@@ -97016,7 +97016,7 @@ const FOOD_DATA = [
       "pastry"
     ],
     "servingSize": 87,
-    "servingUnit": "g (1 pastry)"
+    "servingUnit": "pastry"
   },
   {
     "name": "Assorted pastry",
@@ -97035,7 +97035,7 @@ const FOOD_DATA = [
       "pastry"
     ],
     "servingSize": 80,
-    "servingUnit": "g (1 pastry)"
+    "servingUnit": "pastry"
   },
   {
     "name": "Orange gateau",
@@ -97054,7 +97054,7 @@ const FOOD_DATA = [
       "orange gateau"
     ],
     "servingSize": 80,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Black forest gateau",
@@ -97074,7 +97074,7 @@ const FOOD_DATA = [
       "gateau"
     ],
     "servingSize": 66,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Lemon cake",
@@ -97093,7 +97093,7 @@ const FOOD_DATA = [
       "lemon cake"
     ],
     "servingSize": 61,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Dundee cake",
@@ -97112,7 +97112,7 @@ const FOOD_DATA = [
       "dundee cake"
     ],
     "servingSize": 60,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Victorian sandwich cake",
@@ -97132,7 +97132,7 @@ const FOOD_DATA = [
       "victorian sandwich cake"
     ],
     "servingSize": 64,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Chocolate eggless cake",
@@ -97152,7 +97152,7 @@ const FOOD_DATA = [
       "eggless"
     ],
     "servingSize": 114,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Orange eggless cake",
@@ -97172,7 +97172,7 @@ const FOOD_DATA = [
       "orange eggless cake"
     ],
     "servingSize": 99,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Chocolate glace icing",
@@ -97192,7 +97192,7 @@ const FOOD_DATA = [
       "icing"
     ],
     "servingSize": 24,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Butter icing",
@@ -97211,7 +97211,7 @@ const FOOD_DATA = [
       "icing"
     ],
     "servingSize": 16,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Chocolate butter icing",
@@ -97231,7 +97231,7 @@ const FOOD_DATA = [
       "icing"
     ],
     "servingSize": 19,
-    "servingUnit": "g (1 tablespoon)"
+    "servingUnit": "tablespoon"
   },
   {
     "name": "Almond biscuit (Badam ke biscuit)",
@@ -97253,7 +97253,7 @@ const FOOD_DATA = [
       "biscuit"
     ],
     "servingSize": 19,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Orange biscuit",
@@ -97272,7 +97272,7 @@ const FOOD_DATA = [
       "orange biscuit"
     ],
     "servingSize": 60,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Gingerman biscuit",
@@ -97291,7 +97291,7 @@ const FOOD_DATA = [
       "gingerman biscuit"
     ],
     "servingSize": 36,
-    "servingUnit": "g (1 gingerman)"
+    "servingUnit": "gingerman"
   },
   {
     "name": "Coffee drops",
@@ -97310,7 +97310,7 @@ const FOOD_DATA = [
       "drops"
     ],
     "servingSize": 12,
-    "servingUnit": "g (1 small)"
+    "servingUnit": "small"
   },
   {
     "name": "Christmas biscuit",
@@ -97329,7 +97329,7 @@ const FOOD_DATA = [
       "christmas biscuit"
     ],
     "servingSize": 21,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Christmas wreath biscuit",
@@ -97349,7 +97349,7 @@ const FOOD_DATA = [
       "wreath"
     ],
     "servingSize": 22,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Christmas bell biscuit",
@@ -97369,7 +97369,7 @@ const FOOD_DATA = [
       "christmas bell biscuit"
     ],
     "servingSize": 21,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Christmas star biscuit",
@@ -97389,7 +97389,7 @@ const FOOD_DATA = [
       "star"
     ],
     "servingSize": 37,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Christmas tree biscuit",
@@ -97409,7 +97409,7 @@ const FOOD_DATA = [
       "tree"
     ],
     "servingSize": 22,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Chocolate cream shells",
@@ -97429,7 +97429,7 @@ const FOOD_DATA = [
       "shells"
     ],
     "servingSize": 23,
-    "servingUnit": "g (1 shell)"
+    "servingUnit": "shell"
   },
   {
     "name": "Jelly biscuit",
@@ -97448,7 +97448,7 @@ const FOOD_DATA = [
       "jelly biscuit"
     ],
     "servingSize": 18,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Cherry and walnut cookies",
@@ -97469,7 +97469,7 @@ const FOOD_DATA = [
       "walnut"
     ],
     "servingSize": 18,
-    "servingUnit": "g (1 cookies)"
+    "servingUnit": "cookies"
   },
   {
     "name": "Cheese straws",
@@ -97488,7 +97488,7 @@ const FOOD_DATA = [
       "straws"
     ],
     "servingSize": 10,
-    "servingUnit": "g (1 straw)"
+    "servingUnit": "straw"
   },
   {
     "name": "Butterfly biscuit",
@@ -97507,7 +97507,7 @@ const FOOD_DATA = [
       "butterfly biscuit"
     ],
     "servingSize": 12,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Flan pastry",
@@ -97526,7 +97526,7 @@ const FOOD_DATA = [
       "pastry"
     ],
     "servingSize": 52,
-    "servingUnit": "g (1 pastry)"
+    "servingUnit": "pastry"
   },
   {
     "name": "Fruit flan",
@@ -97545,7 +97545,7 @@ const FOOD_DATA = [
       "fruit flan"
     ],
     "servingSize": 465,
-    "servingUnit": "g (1 flan)"
+    "servingUnit": "flan"
   },
   {
     "name": "Orange cream flan",
@@ -97565,7 +97565,7 @@ const FOOD_DATA = [
       "orange cream flan"
     ],
     "servingSize": 404,
-    "servingUnit": "g (1 flan)"
+    "servingUnit": "flan"
   },
   {
     "name": "Fruit puree tart",
@@ -97585,7 +97585,7 @@ const FOOD_DATA = [
       "tart"
     ],
     "servingSize": 56,
-    "servingUnit": "g (1 tart)"
+    "servingUnit": "tart"
   },
   {
     "name": "Apple banana pie",
@@ -97605,7 +97605,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 389,
-    "servingUnit": "g (1 pie)"
+    "servingUnit": "pie"
   },
   {
     "name": "Lemon chiffon pie",
@@ -97625,7 +97625,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 536,
-    "servingUnit": "g (1 pie)"
+    "servingUnit": "pie"
   },
   {
     "name": "Orange chiffon pie",
@@ -97645,7 +97645,7 @@ const FOOD_DATA = [
       "pie"
     ],
     "servingSize": 698,
-    "servingUnit": "g (1 pie)"
+    "servingUnit": "pie"
   },
   {
     "name": "Cream buns",
@@ -97664,7 +97664,7 @@ const FOOD_DATA = [
       "cream buns"
     ],
     "servingSize": 83,
-    "servingUnit": "g (1 bun)"
+    "servingUnit": "bun"
   },
   {
     "name": "Savoury puffs",
@@ -97683,7 +97683,7 @@ const FOOD_DATA = [
       "savoury puffs"
     ],
     "servingSize": 138,
-    "servingUnit": "g (1 puff)"
+    "servingUnit": "puff"
   },
   {
     "name": "Choux swans",
@@ -97702,7 +97702,7 @@ const FOOD_DATA = [
       "swans"
     ],
     "servingSize": 171,
-    "servingUnit": "g (1 swan)"
+    "servingUnit": "swan"
   },
   {
     "name": "Potato aigrettes",
@@ -97721,7 +97721,7 @@ const FOOD_DATA = [
       "potato aigrettes"
     ],
     "servingSize": 41,
-    "servingUnit": "g (1 aigrette)"
+    "servingUnit": "aigrette"
   },
   {
     "name": "Cream horns",
@@ -97740,7 +97740,7 @@ const FOOD_DATA = [
       "horns"
     ],
     "servingSize": 115,
-    "servingUnit": "g (1 horn)"
+    "servingUnit": "horn"
   },
   {
     "name": "Savoury cheese horns",
@@ -97760,7 +97760,7 @@ const FOOD_DATA = [
       "savoury cheese horns"
     ],
     "servingSize": 74,
-    "servingUnit": "g (1 horn)"
+    "servingUnit": "horn"
   },
   {
     "name": "Paneer patties",
@@ -97779,7 +97779,7 @@ const FOOD_DATA = [
       "patties"
     ],
     "servingSize": 101,
-    "servingUnit": "g (1 patty)"
+    "servingUnit": "patty"
   },
   {
     "name": "Vegetable patties",
@@ -97798,7 +97798,7 @@ const FOOD_DATA = [
       "vegetable patties "
     ],
     "servingSize": 116,
-    "servingUnit": "g (1 patty)"
+    "servingUnit": "patty"
   },
   {
     "name": "Pearl millet infant food (Bajra shishu aahaar)",
@@ -98101,7 +98101,7 @@ const FOOD_DATA = [
       "split bengal gram burfi/fudge (channa dal burfi)"
     ],
     "servingSize": 61,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Chickpea flour cookies (Sweet besan rounds/cookies)",
@@ -98126,7 +98126,7 @@ const FOOD_DATA = [
       "sweet besan rounds/cookies"
     ],
     "servingSize": 25,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Pearl millet mathri (Bajra mathri)",
@@ -98149,7 +98149,7 @@ const FOOD_DATA = [
       "pearl millet mathri (bajra mathri)"
     ],
     "servingSize": 150,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Sesame biscuit (Til ke biscuit)",
@@ -98171,7 +98171,7 @@ const FOOD_DATA = [
       "til ke biscuit"
     ],
     "servingSize": 15,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Fermented bengal gram vada (Khameerikrit/Ufna hua channa dal ka vada)",
@@ -98198,7 +98198,7 @@ const FOOD_DATA = [
       "vada"
     ],
     "servingSize": 90,
-    "servingUnit": "g (1 vada)"
+    "servingUnit": "vada"
   },
   {
     "name": "Poshtik namak paras",
@@ -98218,7 +98218,7 @@ const FOOD_DATA = [
       "poshtik namak paras"
     ],
     "servingSize": 13,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Soya chikki",
@@ -98237,7 +98237,7 @@ const FOOD_DATA = [
       "soya chikki"
     ],
     "servingSize": 75,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Besan bathua chilla/cheela",
@@ -98257,7 +98257,7 @@ const FOOD_DATA = [
       "chilla/cheela"
     ],
     "servingSize": 30,
-    "servingUnit": "g (1 cheela)"
+    "servingUnit": "cheela"
   },
   {
     "name": "Wheat flour and nuts ladoos (Atta nuts ladoos)",
@@ -98282,7 +98282,7 @@ const FOOD_DATA = [
       "wheat flour and nuts ladoos (atta nuts ladoos)"
     ],
     "servingSize": 36,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Gram flour and semolina dhokla (Besan suji dhokla)",
@@ -98308,7 +98308,7 @@ const FOOD_DATA = [
       "suji"
     ],
     "servingSize": 99,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Atta dal burfi",
@@ -98328,7 +98328,7 @@ const FOOD_DATA = [
       "dal"
     ],
     "servingSize": 39,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Soya roti",
@@ -98347,7 +98347,7 @@ const FOOD_DATA = [
       "soya roti"
     ],
     "servingSize": 50,
-    "servingUnit": "g (1 roti)"
+    "servingUnit": "roti"
   },
   {
     "name": "Poshtik khichdi/khichri",
@@ -98366,7 +98366,7 @@ const FOOD_DATA = [
       "poshtik khichdi/khichri"
     ],
     "servingSize": 360,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Namkeen daliya",
@@ -98385,7 +98385,7 @@ const FOOD_DATA = [
       "namkeen daliya"
     ],
     "servingSize": 117,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Sprouts upma",
@@ -98404,7 +98404,7 @@ const FOOD_DATA = [
       "upma"
     ],
     "servingSize": 95,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Semolina idli (Suji/Rava idli)",
@@ -98426,7 +98426,7 @@ const FOOD_DATA = [
       "suji/rava idli"
     ],
     "servingSize": 30,
-    "servingUnit": "g (1 idli)"
+    "servingUnit": "idli"
   },
   {
     "name": "Poshtik chilla/cheela",
@@ -98445,7 +98445,7 @@ const FOOD_DATA = [
       "poshtik chilla/cheela"
     ],
     "servingSize": 72,
-    "servingUnit": "g (1 cheela)"
+    "servingUnit": "cheela"
   },
   {
     "name": "Stuffed bittergourd (dry) (Bharwa karela)",
@@ -98468,7 +98468,7 @@ const FOOD_DATA = [
       "stuffed bittergourd (dry) (bharwa karela)"
     ],
     "servingSize": 106,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cauliflower potato canjee",
@@ -98488,7 +98488,7 @@ const FOOD_DATA = [
       "potato"
     ],
     "servingSize": 212,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Creamed spinach",
@@ -98507,7 +98507,7 @@ const FOOD_DATA = [
       "spinach"
     ],
     "servingSize": 386,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Mango milkshake with ice cream (Aam milkshake ice cream\u00a0ke\u00a0saath)",
@@ -98533,7 +98533,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 340,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Pineapple milkshake with ice cream (Ananas milkshake ice cream\u00a0ke\u00a0saath)",
@@ -98559,7 +98559,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 340,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Orange milkshake with ice cream (Narangi milkshake ice cream\u00a0ke\u00a0saath)",
@@ -98585,7 +98585,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 340,
-    "servingUnit": "g (1 tall glass)"
+    "servingUnit": "tall glass"
   },
   {
     "name": "Woodapple juice (Bel ka sharbat)",
@@ -98608,7 +98608,7 @@ const FOOD_DATA = [
       "woodapple juice (bel ka sharbat)"
     ],
     "servingSize": 351,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Sattu drink",
@@ -98627,7 +98627,7 @@ const FOOD_DATA = [
       "sattu drink"
     ],
     "servingSize": 534,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Apple and honey sorbet (Seb aur shehad ka sharbat)",
@@ -98654,7 +98654,7 @@ const FOOD_DATA = [
       "sorbet"
     ],
     "servingSize": 162,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Thandai",
@@ -98671,7 +98671,7 @@ const FOOD_DATA = [
       "thandai"
     ],
     "servingSize": 253,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Cucumber sharbat (Kheere ka sharbat)",
@@ -98693,7 +98693,7 @@ const FOOD_DATA = [
       "sharbat"
     ],
     "servingSize": 411,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Apple oats chia seed smoothie",
@@ -98715,7 +98715,7 @@ const FOOD_DATA = [
       "smoothie"
     ],
     "servingSize": 629,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Nannari sharbat",
@@ -98734,7 +98734,7 @@ const FOOD_DATA = [
       "sharbat"
     ],
     "servingSize": 1115,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Semolina milk drink (Thari kanji)",
@@ -98758,7 +98758,7 @@ const FOOD_DATA = [
       "thari kanji"
     ],
     "servingSize": 263,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Saffron milk (Kesariya doodh)",
@@ -98781,7 +98781,7 @@ const FOOD_DATA = [
       "saffron milk (kesariya doodh)"
     ],
     "servingSize": 263,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Black rice kheer (Chak-hao kheer)",
@@ -98805,7 +98805,7 @@ const FOOD_DATA = [
       "rice"
     ],
     "servingSize": 208,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Coconut kheer (Nariyal ki kheer)",
@@ -98827,7 +98827,7 @@ const FOOD_DATA = [
       "nariyal ki kheer"
     ],
     "servingSize": 650,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Apple sago payasam (Seb aur sabudana ki kheer)",
@@ -98853,7 +98853,7 @@ const FOOD_DATA = [
       "seb aur sabudana ki kheer"
     ],
     "servingSize": 331,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Kesari bath",
@@ -98872,7 +98872,7 @@ const FOOD_DATA = [
       "kesari bath"
     ],
     "servingSize": 177,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Putharekulu",
@@ -98889,7 +98889,7 @@ const FOOD_DATA = [
       "putharekulu"
     ],
     "servingSize": 53,
-    "servingUnit": "g (1 roll)"
+    "servingUnit": "roll"
   },
   {
     "name": "Mango malpua",
@@ -98908,7 +98908,7 @@ const FOOD_DATA = [
       "mango malpua"
     ],
     "servingSize": 393,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Mango vanilla custard",
@@ -98928,7 +98928,7 @@ const FOOD_DATA = [
       "vanilla"
     ],
     "servingSize": 203,
-    "servingUnit": "g (1 glass)"
+    "servingUnit": "glass"
   },
   {
     "name": "Kiwi granola pudding",
@@ -98948,7 +98948,7 @@ const FOOD_DATA = [
       "pudding"
     ],
     "servingSize": 524,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Oats burfi",
@@ -98967,7 +98967,7 @@ const FOOD_DATA = [
       "oats burfi"
     ],
     "servingSize": 60,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Lotus seed halwa (Kamal gattay ka halwa)",
@@ -98991,7 +98991,7 @@ const FOOD_DATA = [
       "seed"
     ],
     "servingSize": 362,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Amaranth ladoo (Rajgira ladoo)",
@@ -99013,7 +99013,7 @@ const FOOD_DATA = [
       "rajgira ladoo"
     ],
     "servingSize": 44,
-    "servingUnit": "g (1 ladoo)"
+    "servingUnit": "ladoo"
   },
   {
     "name": "Chhena poda",
@@ -99032,7 +99032,7 @@ const FOOD_DATA = [
       "poda"
     ],
     "servingSize": 74,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Sweet couscous dessert",
@@ -99052,7 +99052,7 @@ const FOOD_DATA = [
       "sweet couscous dessert"
     ],
     "servingSize": 230,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sweetened yogurt (Shrikhand)",
@@ -99073,7 +99073,7 @@ const FOOD_DATA = [
       "yogurt"
     ],
     "servingSize": 305,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Thickened sweetened milk (Rabri)",
@@ -99095,7 +99095,7 @@ const FOOD_DATA = [
       "thickened sweetened milk (rabri)"
     ],
     "servingSize": 220,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Gram flour halwa (Besan halwa)",
@@ -99118,7 +99118,7 @@ const FOOD_DATA = [
       "halwa"
     ],
     "servingSize": 149,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Prawn sandwich",
@@ -99137,7 +99137,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 228,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Watercress sandwich",
@@ -99156,7 +99156,7 @@ const FOOD_DATA = [
       "watercress sandwich"
     ],
     "servingSize": 54,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Fish sandwich",
@@ -99175,7 +99175,7 @@ const FOOD_DATA = [
       "sandwich"
     ],
     "servingSize": 261,
-    "servingUnit": "g (1 sandwich)"
+    "servingUnit": "sandwich"
   },
   {
     "name": "Kidney bean sandwich with cottage cheese",
@@ -99198,7 +99198,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 240,
-    "servingUnit": "g (1 triangle)"
+    "servingUnit": "triangle"
   },
   {
     "name": "Finger millet biscuit (Ragi biscuit)",
@@ -99221,7 +99221,7 @@ const FOOD_DATA = [
       "ragi biscuit"
     ],
     "servingSize": 75,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Buttermilk biscuit",
@@ -99240,7 +99240,7 @@ const FOOD_DATA = [
       "buttermilk biscuit"
     ],
     "servingSize": 128,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Lemon cookies",
@@ -99259,7 +99259,7 @@ const FOOD_DATA = [
       "lemon cookies"
     ],
     "servingSize": 156,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Sweet potato biscuit (Shakarkand ke biscuit)",
@@ -99282,7 +99282,7 @@ const FOOD_DATA = [
       "sweet potato biscuit (shakarkand ke biscuit)"
     ],
     "servingSize": 151,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Raspberry shortbread cookies",
@@ -99302,7 +99302,7 @@ const FOOD_DATA = [
       "shortbread"
     ],
     "servingSize": 37,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Pumpkin cookies",
@@ -99321,7 +99321,7 @@ const FOOD_DATA = [
       "pumpkin cookies "
     ],
     "servingSize": 85,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Greenpea cookies",
@@ -99340,7 +99340,7 @@ const FOOD_DATA = [
       "greenpea cookies"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Sunflower cookies",
@@ -99359,7 +99359,7 @@ const FOOD_DATA = [
       "sunflower cookies"
     ],
     "servingSize": 183,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Cardamom cookies (Elaichi cookies)",
@@ -99381,7 +99381,7 @@ const FOOD_DATA = [
       "elaichi cookies"
     ],
     "servingSize": 219,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Hazelnut cookies",
@@ -99400,7 +99400,7 @@ const FOOD_DATA = [
       "hazelnut cookies"
     ],
     "servingSize": 86,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Milk cookies",
@@ -99419,7 +99419,7 @@ const FOOD_DATA = [
       "milk cookies"
     ],
     "servingSize": 125,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Cranberry cookies",
@@ -99438,7 +99438,7 @@ const FOOD_DATA = [
       "cranberry cookies"
     ],
     "servingSize": 186,
-    "servingUnit": "g (1 cookie)"
+    "servingUnit": "cookie"
   },
   {
     "name": "Olive biscuit",
@@ -99457,7 +99457,7 @@ const FOOD_DATA = [
       "olive biscuit"
     ],
     "servingSize": 47,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Tutti fruitti biscuit",
@@ -99477,7 +99477,7 @@ const FOOD_DATA = [
       "tutti fruitti biscuit"
     ],
     "servingSize": 109,
-    "servingUnit": "g (1 biscuit)"
+    "servingUnit": "biscuit"
   },
   {
     "name": "Peach blueberry preserves",
@@ -99497,7 +99497,7 @@ const FOOD_DATA = [
       "preserves"
     ],
     "servingSize": 387,
-    "servingUnit": "g (1 half-pints)"
+    "servingUnit": "half-pints"
   },
   {
     "name": "Pear preserves (Naashpati ka murabba)",
@@ -99520,7 +99520,7 @@ const FOOD_DATA = [
       "preserves"
     ],
     "servingSize": 596,
-    "servingUnit": "g (1 half-pints)"
+    "servingUnit": "half-pints"
   },
   {
     "name": "Starfruit preserves",
@@ -99539,7 +99539,7 @@ const FOOD_DATA = [
       "starfruit preserves "
     ],
     "servingSize": 162,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Gooseberry pickle (Amla ka achaar)",
@@ -99562,7 +99562,7 @@ const FOOD_DATA = [
       "pickle"
     ],
     "servingSize": 23,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Lotus stem pickle (Kamal kakdi ka achar)",
@@ -99587,7 +99587,7 @@ const FOOD_DATA = [
       "stem"
     ],
     "servingSize": 393,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Date pickle (Khajoor ka achaar)",
@@ -99610,7 +99610,7 @@ const FOOD_DATA = [
       "pickle"
     ],
     "servingSize": 138,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Garlic pickle (Lahasun ka achar)",
@@ -99633,7 +99633,7 @@ const FOOD_DATA = [
       "pickle"
     ],
     "servingSize": 51,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Fermented bamboo shoot pickle (Mesu pickle)",
@@ -99657,7 +99657,7 @@ const FOOD_DATA = [
       "shoot"
     ],
     "servingSize": 136,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Sweet peach pickle (Aadoo ka achaar)",
@@ -99681,7 +99681,7 @@ const FOOD_DATA = [
       "sweet peach pickle (aadoo ka achaar)"
     ],
     "servingSize": 241,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Pickled mustard greens",
@@ -99701,7 +99701,7 @@ const FOOD_DATA = [
       "pickled mustard greens "
     ],
     "servingSize": 1175,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Small onion pickle",
@@ -99721,7 +99721,7 @@ const FOOD_DATA = [
       "small onion pickle "
     ],
     "servingSize": 112,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Green tomato pickle (Haray tamatar ka achaar)",
@@ -99746,7 +99746,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 64,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Pickled cabbage",
@@ -99765,7 +99765,7 @@ const FOOD_DATA = [
       "pickled cabbage "
     ],
     "servingSize": 259,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Coconut pickle (Nariyal ka aachar)",
@@ -99788,7 +99788,7 @@ const FOOD_DATA = [
       "pickle"
     ],
     "servingSize": 28,
-    "servingUnit": "g (1 jar)"
+    "servingUnit": "jar"
   },
   {
     "name": "Potato pickle (Aloo ka achaar)",
@@ -99811,7 +99811,7 @@ const FOOD_DATA = [
       "potato pickle (aloo ka achaar)"
     ],
     "servingSize": 47,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Mango murabba candy",
@@ -99831,7 +99831,7 @@ const FOOD_DATA = [
       "murabba"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 candy)"
+    "servingUnit": "candy"
   },
   {
     "name": "Afghani chicken",
@@ -99850,7 +99850,7 @@ const FOOD_DATA = [
       "chicken"
     ],
     "servingSize": 190,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Fish orly",
@@ -99869,7 +99869,7 @@ const FOOD_DATA = [
       "orly"
     ],
     "servingSize": 294,
-    "servingUnit": "g (1 fillet)"
+    "servingUnit": "fillet"
   },
   {
     "name": "Hariyali Fish Tikka",
@@ -99889,7 +99889,7 @@ const FOOD_DATA = [
       "tikka"
     ],
     "servingSize": 179,
-    "servingUnit": "g (1 kebab)"
+    "servingUnit": "kebab"
   },
   {
     "name": "Chicken manchurian",
@@ -99908,7 +99908,7 @@ const FOOD_DATA = [
       "manchurian"
     ],
     "servingSize": 445,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Handi chicken",
@@ -99927,7 +99927,7 @@ const FOOD_DATA = [
       "handi chicken"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Lemon chicken",
@@ -99946,7 +99946,7 @@ const FOOD_DATA = [
       "lemon chicken"
     ],
     "servingSize": 287,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Lemon butter fish",
@@ -99966,7 +99966,7 @@ const FOOD_DATA = [
       "lemon butter fish"
     ],
     "servingSize": 200,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Baked eggs in tomato sauce",
@@ -99987,7 +99987,7 @@ const FOOD_DATA = [
       "tomato"
     ],
     "servingSize": 498,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Egg in a pepper",
@@ -100006,7 +100006,7 @@ const FOOD_DATA = [
       "pepper"
     ],
     "servingSize": 582,
-    "servingUnit": "g (1 egg)"
+    "servingUnit": "egg"
   },
   {
     "name": "Spinach mushroom scrambled egg (Palak mushroom bhurji)",
@@ -100031,7 +100031,7 @@ const FOOD_DATA = [
       "spinach mushroom scrambled egg (palak mushroom bhurji)"
     ],
     "servingSize": 116,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Corn omelette/omlet",
@@ -100050,7 +100050,7 @@ const FOOD_DATA = [
       "omelette/omlet"
     ],
     "servingSize": 194,
-    "servingUnit": "g (1 omelette)"
+    "servingUnit": "omelette"
   },
   {
     "name": "Cajun chicken",
@@ -100069,7 +100069,7 @@ const FOOD_DATA = [
       "chicken"
     ],
     "servingSize": 168,
-    "servingUnit": "g (1 chicken breast)"
+    "servingUnit": "chicken breast"
   },
   {
     "name": "Paaner do pyaza",
@@ -100088,7 +100088,7 @@ const FOOD_DATA = [
       "pyaza"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Cabbage manchurian (Pattagobhi manchurian)",
@@ -100110,7 +100110,7 @@ const FOOD_DATA = [
       "pattagobhi manchurian"
     ],
     "servingSize": 740,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Gobi 65",
@@ -100128,7 +100128,7 @@ const FOOD_DATA = [
       "gobi 65"
     ],
     "servingSize": 858,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Paneer lababdar",
@@ -100147,7 +100147,7 @@ const FOOD_DATA = [
       "paneer lababdar"
     ],
     "servingSize": 382,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Roasted cauliflower steak",
@@ -100167,7 +100167,7 @@ const FOOD_DATA = [
       "steak"
     ],
     "servingSize": 107,
-    "servingUnit": "g (1 cauliflower steak)"
+    "servingUnit": "cauliflower steak"
   },
   {
     "name": "Sauteed radishes with green beans",
@@ -100189,7 +100189,7 @@ const FOOD_DATA = [
       "with"
     ],
     "servingSize": 97,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Garlic chutney/Poondu chutney (Lahasun ki chutney)",
@@ -100212,7 +100212,7 @@ const FOOD_DATA = [
       "lahasun ki chutney"
     ],
     "servingSize": 79,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Schezwan chutney",
@@ -100231,7 +100231,7 @@ const FOOD_DATA = [
       "schezwan chutney"
     ],
     "servingSize": 757,
-    "servingUnit": "g (1 box)"
+    "servingUnit": "box"
   },
   {
     "name": "Onion chutney (Pyaaz ki chutney/Vengaya chutney)",
@@ -100254,7 +100254,7 @@ const FOOD_DATA = [
       "pyaaz ki chutney/vengaya chutney"
     ],
     "servingSize": 52,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Dates chutney (Khajoor ki chutney)",
@@ -100276,7 +100276,7 @@ const FOOD_DATA = [
       "khajoor ki chutney"
     ],
     "servingSize": 264,
-    "servingUnit": "g (1 small bowl)"
+    "servingUnit": "small bowl"
   },
   {
     "name": "Chicken salad",
@@ -100295,7 +100295,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 247,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Macaroni salad",
@@ -100314,7 +100314,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 161,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Cabbage raita (Pattagobhi raita)",
@@ -100336,7 +100336,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pomegranate raita (Anaar ka raita)",
@@ -100358,7 +100358,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 144,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Onion raita (Pyaaz ka raita)",
@@ -100380,7 +100380,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 156,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Green chilli raita (Hari mirch ka raita)",
@@ -100404,7 +100404,7 @@ const FOOD_DATA = [
       "raita"
     ],
     "servingSize": 103,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Kale salad",
@@ -100423,7 +100423,7 @@ const FOOD_DATA = [
       "salad"
     ],
     "servingSize": 54,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Spinach and paneer souffle",
@@ -100444,7 +100444,7 @@ const FOOD_DATA = [
       "spinach and paneer souffle "
     ],
     "servingSize": 451,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Masala souffle",
@@ -100463,7 +100463,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 1485,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Chicken and cheese souffle",
@@ -100484,7 +100484,7 @@ const FOOD_DATA = [
       "souffle"
     ],
     "servingSize": 196,
-    "servingUnit": "g (1 souffle dish)"
+    "servingUnit": "souffle dish"
   },
   {
     "name": "Tamarind chutney (Chintapandu pachadi/Puli chutney)",
@@ -100507,7 +100507,7 @@ const FOOD_DATA = [
       "tamarind chutney (chintapandu pachadi/puli chutney)"
     ],
     "servingSize": 4,
-    "servingUnit": "g (1 ml)"
+    "servingUnit": "ml"
   },
   {
     "name": "Pav bhaji masala",
@@ -100527,7 +100527,7 @@ const FOOD_DATA = [
       "pav bhaji masala"
     ],
     "servingSize": 1,
-    "servingUnit": "g (1 gm)"
+    "servingUnit": "gm"
   },
   {
     "name": "Green chutney",
@@ -100546,7 +100546,7 @@ const FOOD_DATA = [
       "green chutney"
     ],
     "servingSize": 24,
-    "servingUnit": "g (1 glass jar)"
+    "servingUnit": "glass jar"
   },
   {
     "name": "Sago khitchdi/khichri (Sabudana khitchdi/khichri)",
@@ -100568,7 +100568,7 @@ const FOOD_DATA = [
       "sago khitchdi/khichri (sabudana khitchdi/khichri)"
     ],
     "servingSize": 271,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Gram flour chilla/cheela (Besan chilla/cheela)",
@@ -100591,7 +100591,7 @@ const FOOD_DATA = [
       "gram flour chilla/cheela (besan chilla/cheela)"
     ],
     "servingSize": 52,
-    "servingUnit": "g (1 cheela)"
+    "servingUnit": "cheela"
   },
   {
     "name": "Vegetable namkeen jave",
@@ -100611,7 +100611,7 @@ const FOOD_DATA = [
       "vegetable namkeen jave"
     ],
     "servingSize": 365,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Khakhra",
@@ -100628,7 +100628,7 @@ const FOOD_DATA = [
       "khakhra"
     ],
     "servingSize": 76,
-    "servingUnit": "g (1 khakhra)"
+    "servingUnit": "khakhra"
   },
   {
     "name": "Moong bean dosa (Pesarattu)",
@@ -100650,7 +100650,7 @@ const FOOD_DATA = [
       "pesarattu"
     ],
     "servingSize": 27,
-    "servingUnit": "g (1 pesarattu)"
+    "servingUnit": "pesarattu"
   },
   {
     "name": "Methi thepla",
@@ -100669,7 +100669,7 @@ const FOOD_DATA = [
       "thepla"
     ],
     "servingSize": 36,
-    "servingUnit": "g (1 thepla)"
+    "servingUnit": "thepla"
   },
   {
     "name": "Rice puttu (Ari puttu)",
@@ -100691,7 +100691,7 @@ const FOOD_DATA = [
       "rice puttu (ari puttu)"
     ],
     "servingSize": 420,
-    "servingUnit": "g (1 puttu)"
+    "servingUnit": "puttu"
   },
   {
     "name": "Buckwheat pancake (Khura)",
@@ -100712,7 +100712,7 @@ const FOOD_DATA = [
       "pancake"
     ],
     "servingSize": 104,
-    "servingUnit": "g (1 pancake)"
+    "servingUnit": "pancake"
   },
   {
     "name": "Quinoa khichdi/khichri",
@@ -100731,7 +100731,7 @@ const FOOD_DATA = [
       "quinoa khichdi/khichri"
     ],
     "servingSize": 318,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Khakhra chaat",
@@ -100750,7 +100750,7 @@ const FOOD_DATA = [
       "khakhra chaat"
     ],
     "servingSize": 835,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Banana appam",
@@ -100769,7 +100769,7 @@ const FOOD_DATA = [
       "banana appam"
     ],
     "servingSize": 290,
-    "servingUnit": "g (1 appam)"
+    "servingUnit": "appam"
   },
   {
     "name": "Veg manchurian",
@@ -100788,7 +100788,7 @@ const FOOD_DATA = [
       "veg manchurian"
     ],
     "servingSize": 195,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Pav bhaji",
@@ -100824,7 +100824,7 @@ const FOOD_DATA = [
       "rice murukku"
     ],
     "servingSize": 31,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Bhel puri",
@@ -100843,7 +100843,7 @@ const FOOD_DATA = [
       "puri"
     ],
     "servingSize": 701,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Semolina dhokla (Suji/Rava dhokla)",
@@ -100865,7 +100865,7 @@ const FOOD_DATA = [
       "suji/rava dhokla"
     ],
     "servingSize": 100,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Spicy corn chaat",
@@ -100885,7 +100885,7 @@ const FOOD_DATA = [
       "spicy corn chaat "
     ],
     "servingSize": 554,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Jackfruit fritters (Ponsa mulik/Kathal ka pakora)",
@@ -100909,7 +100909,7 @@ const FOOD_DATA = [
       "ponsa mulik/kathal ka pakora"
     ],
     "servingSize": 27,
-    "servingUnit": "g (1 mulik/fritter)"
+    "servingUnit": "mulik/fritter"
   },
   {
     "name": "Banana chips (Kele ke chips)",
@@ -100931,7 +100931,7 @@ const FOOD_DATA = [
       "kele ke chips"
     ],
     "servingSize": 170,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Wheat cake",
@@ -100950,7 +100950,7 @@ const FOOD_DATA = [
       "wheat cake"
     ],
     "servingSize": 67,
-    "servingUnit": "g (1 piece)"
+    "servingUnit": "piece"
   },
   {
     "name": "Mango cheesecake",
@@ -100969,7 +100969,7 @@ const FOOD_DATA = [
       "mango cheesecake"
     ],
     "servingSize": 174,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Carrot cake (Gajar ka cake)",
@@ -100991,7 +100991,7 @@ const FOOD_DATA = [
       "gajar ka cake"
     ],
     "servingSize": 100,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Semolina cake (Suji/Rava cake)",
@@ -101013,7 +101013,7 @@ const FOOD_DATA = [
       "suji/rava cake"
     ],
     "servingSize": 59,
-    "servingUnit": "g (1 square)"
+    "servingUnit": "square"
   },
   {
     "name": "Finger millet cake (Ragi cake)",
@@ -101036,7 +101036,7 @@ const FOOD_DATA = [
       "ragi cake"
     ],
     "servingSize": 99,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Honey cake",
@@ -101055,7 +101055,7 @@ const FOOD_DATA = [
       "honey cake"
     ],
     "servingSize": 164,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Almond cardamom cake (Badam elaichi cake)",
@@ -101079,7 +101079,7 @@ const FOOD_DATA = [
       "elaichi"
     ],
     "servingSize": 68,
-    "servingUnit": "g (1 slice)"
+    "servingUnit": "slice"
   },
   {
     "name": "Tutti frutti cake",
@@ -101099,7 +101099,7 @@ const FOOD_DATA = [
       "tutti frutti cake"
     ],
     "servingSize": 848,
-    "servingUnit": "g (1 cake)"
+    "servingUnit": "cake"
   },
   {
     "name": "Ham and Bean soup",
@@ -101120,7 +101120,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 151,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Whey soup",
@@ -101139,7 +101139,7 @@ const FOOD_DATA = [
       "whey soup"
     ],
     "servingSize": 223,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Bottle gourd soup (Ghiya/Lauki soup)",
@@ -101162,7 +101162,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 295,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Baked potato soup",
@@ -101182,7 +101182,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 524,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Pumpkin soup",
@@ -101201,7 +101201,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 318,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Sweet corn soup",
@@ -101221,7 +101221,7 @@ const FOOD_DATA = [
       "sweet corn soup"
     ],
     "servingSize": 392,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Paneer soup",
@@ -101240,7 +101240,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 611,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Curried Cauliflower soup",
@@ -101260,7 +101260,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 348,
-    "servingUnit": "g (1 cup)"
+    "servingUnit": "cup"
   },
   {
     "name": "Millet soup",
@@ -101279,7 +101279,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 232,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Lemon coriander soup",
@@ -101299,7 +101299,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 49,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Garlic soup",
@@ -101318,7 +101318,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 144,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dal makhani",
@@ -101337,7 +101337,7 @@ const FOOD_DATA = [
       "makhani"
     ],
     "servingSize": 353,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dalma",
@@ -101354,7 +101354,7 @@ const FOOD_DATA = [
       "dalma"
     ],
     "servingSize": 264,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Split bengal gram dal (Channa dal)",
@@ -101378,7 +101378,7 @@ const FOOD_DATA = [
       "split bengal gram dal (channa dal)"
     ],
     "servingSize": 292,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Horsegram dal (Kulthi dal)",
@@ -101400,7 +101400,7 @@ const FOOD_DATA = [
       "kulthi dal"
     ],
     "servingSize": 361,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Panchmel dal",
@@ -101419,7 +101419,7 @@ const FOOD_DATA = [
       "panchmel dal"
     ],
     "servingSize": 301,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Dal dhokli",
@@ -101438,7 +101438,7 @@ const FOOD_DATA = [
       "dhokli"
     ],
     "servingSize": 337,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Gujarati handvo",
@@ -101457,7 +101457,7 @@ const FOOD_DATA = [
       "handvo"
     ],
     "servingSize": 697,
-    "servingUnit": "g (1 cake)"
+    "servingUnit": "cake"
   },
   {
     "name": "Sev (Omapodi/Karapusa)",
@@ -101476,7 +101476,7 @@ const FOOD_DATA = [
       "sev (omapodi/karapusa)"
     ],
     "servingSize": 137,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Papdi",
@@ -101493,7 +101493,7 @@ const FOOD_DATA = [
       "papdi"
     ],
     "servingSize": 174,
-    "servingUnit": "g (1 plate)"
+    "servingUnit": "plate"
   },
   {
     "name": "Jowar dosa",
@@ -101512,7 +101512,7 @@ const FOOD_DATA = [
       "jowar dosa"
     ],
     "servingSize": 33,
-    "servingUnit": "g (1 dosa)"
+    "servingUnit": "dosa"
   },
   {
     "name": "Bread roll",
@@ -101531,7 +101531,7 @@ const FOOD_DATA = [
       "roll"
     ],
     "servingSize": 121,
-    "servingUnit": "g (1 bread roll)"
+    "servingUnit": "bread roll"
   },
   {
     "name": "Soya seekh kebab",
@@ -101551,7 +101551,7 @@ const FOOD_DATA = [
       "soya seekh kebab"
     ],
     "servingSize": 57,
-    "servingUnit": "g (1 kabab)"
+    "servingUnit": "kabab"
   },
   {
     "name": "Classic seasoned black beans",
@@ -101572,7 +101572,7 @@ const FOOD_DATA = [
       "seasoned"
     ],
     "servingSize": 176,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Maa chaane ki dal",
@@ -101592,7 +101592,7 @@ const FOOD_DATA = [
       "maa chaane ki dal"
     ],
     "servingSize": 81,
-    "servingUnit": "g (1 bowl)"
+    "servingUnit": "bowl"
   },
   {
     "name": "Garlic chickpea soup (Lahasun aur chane ka shoraba)",
@@ -101618,7 +101618,7 @@ const FOOD_DATA = [
       "soup"
     ],
     "servingSize": 318,
-    "servingUnit": "g (1 soup bowl)"
+    "servingUnit": "soup bowl"
   },
   {
     "name": "White sauce (thin)",

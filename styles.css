@@ -322,6 +322,32 @@ select:focus {
     padding-right: 32px;
 }
 
+.portion-inputs-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.unit-select {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    border-radius: var(--radius);
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    height: 38px;
+    line-height: 20px;
+    transition: border-color 0.2s;
+}
+
+.unit-select:focus {
+    border-color: var(--color-primary);
+}
+
 .input-unit-label {
     position: absolute;
     right: 12px;

@@ -222,17 +222,37 @@ function setupFoodSearch() {
         dropdown.style.display = "none";
     }
 
+    // Update preview when quantity or unit changes
+    qtyInput.addEventListener("input", updatePreview);
+    document.getElementById("food-unit-select").addEventListener("change", updatePreview);
+
     // Add Log button handler
     addBtn.addEventListener("click", () => {
         if (!appState.selectedFood) return;
         
-        const qty = parseFloat(qtyInput.value) || 100;
-        addFoodToLedger(appState.selectedFood, qty);
+        const qtyVal = parseFloat(qtyInput.value) || 0;
+        const unitVal = document.getElementById("food-unit-select").value;
+        const food = appState.selectedFood;
+        
+        let weight = 0;
+        let displayQty = "";
+        
+        if (unitVal === "serving" && food.servingSize !== undefined) {
+            weight = qtyVal * food.servingSize;
+            displayQty = `${qtyVal} ${food.servingUnit}`;
+        } else {
+            weight = qtyVal;
+            displayQty = `${qtyVal} g`;
+        }
+        
+        if (weight <= 0) return;
+        
+        addFoodToLedger(food, weight, displayQty);
 
         // Reset search states
         searchInput.value = "";
         clearBtn.style.display = "none";
-        qtyInput.value = 100;
+        qtyInput.value = 1;
         appState.selectedFood = null;
         document.getElementById("selected-food-details").style.display = "none";
         addBtn.disabled = true;
@@ -247,38 +267,82 @@ function selectFoodItem(name) {
     document.getElementById("food-search").value = food.name;
     document.getElementById("autocomplete-list").style.display = "none";
     
-    // Set default serving quantity if available
-    const servingSize = food.servingSize !== undefined ? food.servingSize : 100;
-    const servingUnit = food.servingUnit || "g";
+    const qtyInput = document.getElementById("food-quantity");
+    const unitSelect = document.getElementById("food-unit-select");
     
-    document.getElementById("food-quantity").value = servingSize;
-    document.getElementById("food-unit").textContent = servingUnit.includes("g") ? "g" : "g"; // default unit label
-
-    // Render Preview Box
-    document.getElementById("det-food-name").textContent = food.name;
-    document.getElementById("det-energy").textContent = Math.round(food.energy);
-    document.getElementById("det-protein").textContent = food.protein.toFixed(1);
-    document.getElementById("det-carbs").textContent = food.carb.toFixed(1);
-    document.getElementById("det-fat").textContent = food.fat.toFixed(1);
+    // Clear and populate unit options
+    unitSelect.innerHTML = "";
+    if (food.servingSize !== undefined && food.servingUnit !== undefined && food.servingUnit !== "g") {
+        const optionServing = document.createElement("option");
+        optionServing.value = "serving";
+        // Capitalize unit
+        const formattedUnit = food.servingUnit.charAt(0).toUpperCase() + food.servingUnit.slice(1);
+        optionServing.textContent = `${formattedUnit} (${food.servingSize}g)`;
+        unitSelect.appendChild(optionServing);
+        
+        const optionG = document.createElement("option");
+        optionG.value = "g";
+        optionG.textContent = "g (grams)";
+        unitSelect.appendChild(optionG);
+        
+        qtyInput.value = 1;
+    } else {
+        const optionG = document.createElement("option");
+        optionG.value = "g";
+        optionG.textContent = "g (grams)";
+        unitSelect.appendChild(optionG);
+        
+        qtyInput.value = 100;
+    }
+    
+    updatePreview();
     
     document.getElementById("selected-food-details").style.display = "block";
     document.getElementById("btn-add-food").disabled = false;
 }
 
+// Update the preview box metrics dynamically
+function updatePreview() {
+    const food = appState.selectedFood;
+    if (!food) return;
+    
+    const qtyInput = document.getElementById("food-quantity");
+    const unitSelect = document.getElementById("food-unit-select");
+    
+    const qtyVal = parseFloat(qtyInput.value) || 0;
+    const unitVal = unitSelect.value;
+    
+    let weight = 0;
+    if (unitVal === "serving" && food.servingSize !== undefined) {
+        weight = qtyVal * food.servingSize;
+    } else {
+        weight = qtyVal;
+    }
+    
+    const scale = weight / 100;
+    
+    document.getElementById("det-food-name").textContent = `${food.name} (${Math.round(weight)}g)`;
+    document.getElementById("det-energy").textContent = Math.round(food.energy * scale);
+    document.getElementById("det-protein").textContent = (food.protein * scale).toFixed(1);
+    document.getElementById("det-carbs").textContent = (food.carb * scale).toFixed(1);
+    document.getElementById("det-fat").textContent = (food.fat * scale).toFixed(1);
+}
+
 // Add Item to Log State
-function addFoodToLedger(food, qty) {
+function addFoodToLedger(food, weight, displayQty) {
     const logItem = {
         id: Date.now().toString(36) + Math.random().toString(36).substr(2, 5),
         name: food.name,
-        qty: qty,
-        energy: (qty / 100) * food.energy,
-        protein: (qty / 100) * food.protein,
-        carb: (qty / 100) * food.carb,
-        fat: (qty / 100) * food.fat,
-        fiber: (qty / 100) * food.fiber,
-        calcium: (qty / 100) * food.calcium,
-        iron: (qty / 100) * food.iron,
-        vitc: (qty / 100) * food.vitc
+        qty: weight,
+        displayQty: displayQty || `${weight} g`,
+        energy: (weight / 100) * food.energy,
+        protein: (weight / 100) * food.protein,
+        carb: (weight / 100) * food.carb,
+        fat: (weight / 100) * food.fat,
+        fiber: (weight / 100) * food.fiber,
+        calcium: (weight / 100) * food.calcium,
+        iron: (weight / 100) * food.iron,
+        vitc: (weight / 100) * food.vitc
     };
 
     appState.loggedFoods.push(logItem);
@@ -319,7 +383,7 @@ function renderLedger() {
     tbody.innerHTML = appState.loggedFoods.map(item => `
         <tr>
             <td><strong>${escapeHtml(item.name)}</strong></td>
-            <td class="text-right">${item.qty}g</td>
+            <td class="text-right">${escapeHtml(item.displayQty || (item.qty + " g"))}</td>
             <td class="text-right">${Math.round(item.energy)} kcal</td>
             <td class="text-right">${item.protein.toFixed(1)}g</td>
             <td class="text-right hide-mobile">${item.carb.toFixed(1)}g</td>
@@ -692,7 +756,7 @@ function downloadPDF() {
                 ${appState.loggedFoods.map(item => `
                     <tr>
                         <td><strong>${escapeHtml(item.name)}</strong></td>
-                        <td class="num">${item.qty}g</td>
+                        <td class="num">${escapeHtml(item.displayQty || (item.qty + " g"))}</td>
                         <td class="num">${Math.round(item.energy)} kcal</td>
                         <td class="num">${item.protein.toFixed(1)}g</td>
                         <td class="num">${item.carb.toFixed(1)}g</td>

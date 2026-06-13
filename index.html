@@ -154,10 +154,12 @@
 
                         <div class="log-inputs-row">
                             <div class="form-group flex-1">
-                                <label for="food-quantity">Edible Portion Size</label>
-                                <div class="quantity-input-wrapper">
-                                    <input type="number" id="food-quantity" min="1" value="100">
-                                    <span class="input-unit-label" id="food-unit">g</span>
+                                <label for="food-quantity">Portion Size</label>
+                                <div class="portion-inputs-wrapper">
+                                    <input type="number" id="food-quantity" min="0.1" step="0.1" value="1" style="width: 90px; text-align: center;">
+                                    <select id="food-unit-select" class="unit-select">
+                                        <option value="g">g (grams)</option>
+                                    </select>
                                 </div>
                             </div>
                             <button id="btn-add-food" class="btn btn-primary btn-add" disabled>
