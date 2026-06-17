@@ -22,7 +22,7 @@ const RDA_DATA = {
 
         const gender = profile.gender; // 'male' | 'female'
         const activity = profile.activity; // 'sedentary' | 'moderate' | 'heavy'
-        const status = profile.status; // 'none' | 'pregnant' | 'lactation_0_6' | 'lactation_6_12'
+        const status = profile.status; // 'none' | 'pregnant_t1' | 'pregnant_t2' | 'pregnant_t3' | 'lactation_0_6' | 'lactation_6_12'
         
         let weight = parseFloat(profile.weight);
         if (isNaN(weight) || weight <= 0) {
@@ -130,8 +130,8 @@ const RDA_DATA = {
             rda.fat = (rda.energy * 0.25) / 9;
             rda.visibleFatLimit = gender === 'male' ? 35 : 25;
         }
-        // 3. Adults (19+ years)
-        else {
+        // 3a. Adults (19–59 years)
+        else if (age >= 19 && age < 60) {
             // Energy calculations based on activity level
             if (gender === 'male') {
                 if (activity === 'sedentary') {
@@ -147,10 +147,10 @@ const RDA_DATA = {
                 rda.iron = 19;
                 rda.calcium = 1000;
                 rda.vitc = 80;
-                
-                // Protein: 0.83 g/kg body weight
+
+                // Protein: 0.83 g/kg body weight (ICMR-NIN 2020)
                 rda.protein = Math.round(weight * 0.83);
-                rda.notes.push(`Adult Male RDA calculated using reference weight or entered weight (${weight} kg).`);
+                rda.notes.push(`Adult Male RDA (19–59 yrs) calculated using entered weight (${weight} kg). Source: ICMR-NIN 2020.`);
             } else { // female
                 if (activity === 'sedentary') {
                     rda.energy = 1660;
@@ -162,33 +162,50 @@ const RDA_DATA = {
                     rda.energy = 2720;
                     rda.visibleFatLimit = 30;
                 }
-                
-                // Reproductive age iron is 29mg (standard for adult females <= 50 yrs in India)
+
+                // Pre-menopausal iron: 29 mg; post-menopausal (>50): 15 mg
                 rda.iron = age <= 50 ? 29 : 15;
                 rda.calcium = 1000;
                 rda.vitc = 80;
-                
-                // Protein: 0.83 g/kg body weight
-                rda.protein = Math.round(weight * 0.83);
-                rda.notes.push(`Adult Female RDA calculated using reference weight or entered weight (${weight} kg).`);
 
-                // Adjustments for pregnancy/lactation
-                if (status === 'pregnant') {
-                    rda.energy += 350; // average increase
-                    rda.protein += 15; // average increase
-                    rda.iron = 40; // high iron requirements
-                    rda.calcium = 1000;
+                // Protein: 0.83 g/kg body weight (ICMR-NIN 2020)
+                rda.protein = Math.round(weight * 0.83);
+                rda.notes.push(`Adult Female RDA (19–59 yrs) calculated using entered weight (${weight} kg). Source: ICMR-NIN 2020.`);
+
+                // ── Pregnancy adjustments (trimester-specific) ─────────────────
+                // Source: ICMR-NIN 2020 Recommended Dietary Allowances, Table 3
+                if (status === 'pregnant_t1') {
+                    rda.energy += 150;  // T1: +150 kcal/day
+                    // No protein increment in T1 per ICMR-NIN 2020
+                    rda.iron = 40;      // Elevated throughout pregnancy
+                    rda.calcium = 1200; // Additional foetal bone mineralisation
                     rda.vitc = 85;
                     rda.visibleFatLimit = 30;
-                    rda.notes.push("Pregnancy adjustment: Elevated calorie (+350 kcal), protein (+15g), and iron (40mg) requirements.");
+                    rda.notes.push("1st Trimester (+150 kcal): Energy needs are minimal early in pregnancy. Iron and calcium substantially elevated. Source: ICMR-NIN 2020, Table 3.");
+                } else if (status === 'pregnant_t2') {
+                    rda.energy += 250;  // T2: +250 kcal/day
+                    rda.protein += 8;   // +8 g/day for foetal growth
+                    rda.iron = 40;
+                    rda.calcium = 1200;
+                    rda.vitc = 85;
+                    rda.visibleFatLimit = 30;
+                    rda.notes.push("2nd Trimester (+250 kcal, +8g protein): Active foetal growth phase. Source: ICMR-NIN 2020, Table 3.");
+                } else if (status === 'pregnant_t3') {
+                    rda.energy += 350;  // T3: +350 kcal/day
+                    rda.protein += 15;  // +15 g/day — peak foetal accretion
+                    rda.iron = 40;
+                    rda.calcium = 1200;
+                    rda.vitc = 85;
+                    rda.visibleFatLimit = 30;
+                    rda.notes.push("3rd Trimester (+350 kcal, +15g protein): Highest energy and protein demand. Source: ICMR-NIN 2020, Table 3.");
                 } else if (status === 'lactation_0_6') {
                     rda.energy += 600;
                     rda.protein += 17;
                     rda.iron = 23;
                     rda.calcium = 1000;
-                    rda.vitc = 120; // High vitamin C for milk production
+                    rda.vitc = 120;
                     rda.visibleFatLimit = 30;
-                    rda.notes.push("Lactation (0-6 months) adjustment: Very high energy (+600 kcal), protein (+17g), and Vitamin C (120mg) requirements.");
+                    rda.notes.push("Lactation (0–6 months): Very high energy (+600 kcal), protein (+17g) and Vitamin C (120mg). Source: ICMR-NIN 2020.");
                 } else if (status === 'lactation_6_12') {
                     rda.energy += 520;
                     rda.protein += 13;
@@ -196,12 +213,53 @@ const RDA_DATA = {
                     rda.calcium = 1000;
                     rda.vitc = 120;
                     rda.visibleFatLimit = 30;
-                    rda.notes.push("Lactation (6-12 months) adjustment: Elevated energy (+520 kcal), protein (+13g), and Vitamin C (120mg) requirements.");
+                    rda.notes.push("Lactation (6–12 months): Elevated energy (+520 kcal), protein (+13g) and Vitamin C (120mg). Source: ICMR-NIN 2020.");
                 }
             }
 
             // Total fat budget is 25% of energy
             rda.fat = Math.round((rda.energy * 0.25) / 9);
+        }
+
+        // 3b. Elderly (60+ years) — ICMR-NIN 2020 distinct bracket
+        else {
+            // Energy: lower than working-age adults due to reduced basal metabolic rate
+            if (gender === 'male') {
+                if (activity === 'sedentary') {
+                    rda.energy = 1900;
+                    rda.visibleFatLimit = 25;
+                } else if (activity === 'moderate') {
+                    rda.energy = 2300;
+                    rda.visibleFatLimit = 30;
+                } else { // heavy — unlikely at 60+ but included for completeness
+                    rda.energy = 2800;
+                    rda.visibleFatLimit = 35;
+                }
+                rda.iron = 17; // reduced demand; no growth or menstruation
+            } else { // female
+                if (activity === 'sedentary') {
+                    rda.energy = 1600;
+                    rda.visibleFatLimit = 20;
+                } else if (activity === 'moderate') {
+                    rda.energy = 1900;
+                    rda.visibleFatLimit = 25;
+                } else {
+                    rda.energy = 2200;
+                    rda.visibleFatLimit = 30;
+                }
+                rda.iron = 15; // post-menopausal
+            }
+
+            // Protein: elevated to 1.0 g/kg to counter sarcopenia (ICMR-NIN 2020)
+            rda.protein = Math.round(weight * 1.0);
+
+            // Calcium: 1,200 mg (higher than working-age 1,000 mg)
+            // Rationale: bone turnover accelerates post-60; fracture prevention
+            rda.calcium = 1200;
+
+            rda.vitc = 80;
+            rda.fat = Math.round((rda.energy * 0.25) / 9);
+            rda.notes.push(`Elderly RDA (≥60 yrs): Calcium raised to 1,200 mg and protein to 1.0 g/kg to counter bone loss and sarcopenia. Source: ICMR-NIN 2020.`);
         }
 
         // Fiber target: 30g per 2000 kcal scale, or flat 30g minimum for adults

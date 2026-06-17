@@ -117,9 +117,11 @@
                                 <label for="profile-status">Physiological Status</label>
                                 <select id="profile-status">
                                     <option value="none">Standard (None)</option>
-                                    <option value="pregnant">Pregnant</option>
-                                    <option value="lactation_0_6">Lactating (0-6 months)</option>
-                                    <option value="lactation_6_12">Lactating (6-12 months)</option>
+                                    <option value="pregnant_t1">Pregnant – 1st Trimester (0–13 wks)</option>
+                                    <option value="pregnant_t2">Pregnant – 2nd Trimester (14–27 wks)</option>
+                                    <option value="pregnant_t3">Pregnant – 3rd Trimester (28–40 wks)</option>
+                                    <option value="lactation_0_6">Lactating (0–6 months)</option>
+                                    <option value="lactation_6_12">Lactating (6–12 months)</option>
                                 </select>
                             </div>
                         </form>
@@ -518,7 +520,7 @@
                         <strong>Dual Database Synthesis:</strong> Bridges the gap between raw programmatic libraries (like <em>ifct2017</em>) and cooked-recipe datasets (like <em>INDB 2024</em>), mapping them into a unified search index.
                     </div>
                     <div style="background: rgba(2, 132, 199, 0.05); padding: 12px; border-radius: 6px; border-left: 3px solid var(--color-primary);">
-                        <strong>Clinical Target Customization:</strong> Rather than generic 2,000 kcal targets, Nutri Nexus calculates physical-activity and physiological-status RDA requirements (pregnancy, lactation) and uses the official Asian Indian BMI limits.
+                        <strong>Clinical Target Customization:</strong> Rather than generic 2,000 kcal targets, Nutri Nexus calculates physical-activity and physiological-status RDA requirements (pregnancy T1/T2/T3, lactation) and uses the official Asian Indian BMI limits.
                     </div>
                     <div style="background: rgba(2, 132, 199, 0.05); padding: 12px; border-radius: 6px; border-left: 3px solid var(--color-primary);">
                         <strong>Linguistic &amp; Portion-Size Resolution:</strong> Supports searches in 17 regional Indian languages and translates qualitative servings (Piece, Bowl, Katori, Cup) into gram weights via energy-density formulas.
@@ -526,11 +528,18 @@
                 </div>
 
                 <h3>4. Scientific Formulas Used</h3>
-                <p><strong>Qualitative Portion-Size to Gram Conversion:</strong></p>
-                <pre style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 10px; border-radius: 4px; font-family: monospace; font-size: 12px; margin-bottom: 12px; overflow-x: auto; color: var(--text-main);">
-servingSize (g) = round( ( unit_serving_energy_kcal / energy_kcal ) * 100 )</pre>
+
+                <p><strong>Serving-Size Pre-computation (Offline, Data-Generation Step):</strong></p>
+                <p style="font-size:13px; color: var(--text-muted); margin-bottom: 6px;">The formula below was applied <em>once offline</em> during database construction to convert IFCT energy-density ratios into absolute gram weights stored as the <code>servingSize</code> field in <code>foodData.js</code>. It does <strong>not</strong> run at query time.</p>
+                <pre style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 10px; border-radius: 4px; font-family: monospace; font-size: 12px; margin-bottom: 12px; overflow-x: auto; color: var(--text-main);">servingSize_g = round( (unit_serving_energy_kcal / energy_per_100g_kcal) × 100 )</pre>
+
+                <p><strong>Runtime Portion Calculation (Live, at Query Time):</strong></p>
+                <p style="font-size:13px; color: var(--text-muted); margin-bottom: 6px;">When a user enters a quantity with a qualitative unit (e.g. &ldquo;2 Katori&rdquo;), the app performs a simple lookup multiplication using the pre-stored value:</p>
+                <pre style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 10px; border-radius: 4px; font-family: monospace; font-size: 12px; margin-bottom: 12px; overflow-x: auto; color: var(--text-main);">weight_g = quantity × food.servingSize
+nutrient = (weight_g / 100) × food.nutrient_per_100g</pre>
+
                 <p><strong>RDA Target Dynamic Computation:</strong></p>
-                <p>Nutrients are scaled according to user profile inputs (age, gender, physical activity level, weight) with trimester-specific and lactation adjustments (e.g. +350 kcal and +15g protein for pregnancy adjustments) as outlined by ICMR-NIN 2024.</p>
+                <p>Nutrient targets are computed live from user profile inputs (age, gender, physical activity, body weight). Pregnancy increments follow ICMR-NIN 2020 Table 3 trimester-specific values: +150 kcal (T1), +250 kcal / +8g protein (T2), +350 kcal / +15g protein (T3). Elderly users (≥60 yrs) receive calcium raised to 1,200&nbsp;mg and protein scaled at 1.0&nbsp;g/kg to counteract sarcopenia and bone loss.</p>
             </div>
         </div>
     </div>
