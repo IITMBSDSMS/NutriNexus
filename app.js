@@ -25,7 +25,23 @@ function init() {
     // Bind print report button
     document.getElementById("btn-download-pdf").addEventListener("click", downloadPDF);
     
+    // Bind refresh button
+    document.getElementById("btn-refresh-ledger").addEventListener("click", refreshCalculations);
+    
     // Initial calculation and UI updates
+    updateRDAAndDashboard();
+    renderLedger();
+}
+
+// Refresh calculations and UI with spinning visual feedback
+function refreshCalculations() {
+    const icon = document.getElementById("svg-refresh-icon");
+    if (icon) {
+        icon.classList.remove("spinning");
+        // Force reflow to allow restarting the animation
+        void icon.offsetWidth;
+        icon.classList.add("spinning");
+    }
     updateRDAAndDashboard();
     renderLedger();
 }
