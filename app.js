@@ -1,5 +1,5 @@
-// Nutri Nexus Core Application Logic
-// References: FOOD_DATA (foodData.js), RDA_DATA (rdaData.js)
+// Map global foodData array to FOOD_DATA constant
+const FOOD_DATA = typeof foodData !== 'undefined' ? foodData : [];
 
 // Application State
 let appState = {
