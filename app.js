@@ -151,15 +151,54 @@ function setupFoodSearch() {
 
         clearBtn.style.display = "block";
         
-        // Filter food data (primary matches starting with text, secondary matches substring, tertiary matches aliases)
+        // Tokenize search input for multi-word query support
+        const queryTokens = value.split(/\s+/).filter(Boolean);
+        
+        // Helper to check if a token is in the food item
+        const matchesToken = (food, token) => {
+            if (food.name.toLowerCase().includes(token)) return true;
+            if (food.aliases && food.aliases.some(alias => alias.toLowerCase().includes(token))) return true;
+            return false;
+        };
+
+        // 1. Starts with exact query
         const startsWithMatches = FOOD_DATA.filter(f => f.name.toLowerCase().startsWith(value));
+        
+        // 2. Contains exact query (but doesn't start with it)
         const containsMatches = FOOD_DATA.filter(f => !f.name.toLowerCase().startsWith(value) && f.name.toLowerCase().includes(value));
+        
+        // 3. Aliases contain exact query
         const aliasMatches = FOOD_DATA.filter(f => 
             !f.name.toLowerCase().includes(value) && 
             f.aliases && 
             f.aliases.some(alias => alias.toLowerCase().includes(value))
         );
-        const filtered = [...startsWithMatches, ...containsMatches, ...aliasMatches].slice(0, 8); // Max 8 suggestions
+
+        // Pre-combine exact matches to easily avoid duplicates
+        const exactMatches = [...startsWithMatches, ...containsMatches, ...aliasMatches];
+        const exactSet = new Set(exactMatches);
+
+        // 4. Multi-token AND matches: every query token matches the food
+        const andMatches = FOOD_DATA.filter(f => {
+            if (exactSet.has(f)) return false;
+            return queryTokens.every(token => matchesToken(f, token));
+        });
+
+        // 5. Multi-token OR matches (fallback sorted by score)
+        let orMatches = [];
+        if (exactMatches.length + andMatches.length < 8) {
+            const combinedSet = new Set([...exactMatches, ...andMatches]);
+            orMatches = FOOD_DATA.map(f => {
+                if (combinedSet.has(f)) return null;
+                const score = queryTokens.filter(token => matchesToken(f, token)).length;
+                return score > 0 ? { food: f, score } : null;
+            })
+            .filter(Boolean)
+            .sort((a, b) => b.score - a.score)
+            .map(item => item.food);
+        }
+
+        const filtered = [...exactMatches, ...andMatches, ...orMatches].slice(0, 8);
 
         if (filtered.length === 0) {
             dropdown.innerHTML = `<div class="autocomplete-item text-muted">No matching Indian food items found</div>`;
