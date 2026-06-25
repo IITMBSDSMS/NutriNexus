@@ -163,10 +163,10 @@ const RDA_DATA = {
                     rda.visibleFatLimit = 30;
                 }
 
-                // Pre-menopausal iron: 29 mg; post-menopausal (>50): 15 mg
+                // Pre-menopausal iron: 29 mg (ICMR-NIN 2020); post-menopausal (>50): 15 mg
                 rda.iron = age <= 50 ? 29 : 15;
                 rda.calcium = 1000;
-                rda.vitc = 80;
+                rda.vitc = 65; // ICMR-NIN 2020: Adult Female Vitamin C = 65 mg/day
 
                 // Protein: 0.83 g/kg body weight (ICMR-NIN 2020)
                 rda.protein = Math.round(weight * 0.83);
@@ -177,27 +177,27 @@ const RDA_DATA = {
                 if (status === 'pregnant_t1') {
                     rda.energy += 150;  // T1: +150 kcal/day
                     // No protein increment in T1 per ICMR-NIN 2020
-                    rda.iron = 40;      // Elevated throughout pregnancy
+                    rda.iron = 27;      // ICMR-NIN 2020 RDA for pregnant women: 27 mg/day
                     rda.calcium = 1200; // Additional foetal bone mineralisation
                     rda.vitc = 85;
                     rda.visibleFatLimit = 30;
-                    rda.notes.push("1st Trimester (+150 kcal): Energy needs are minimal early in pregnancy. Iron and calcium substantially elevated. Source: ICMR-NIN 2020, Table 3.");
+                    rda.notes.push("1st Trimester (+150 kcal): Iron RDA 27 mg/day (ICMR-NIN 2020); calcium elevated for foetal mineralisation. Source: ICMR-NIN 2020, Table 3.");
                 } else if (status === 'pregnant_t2') {
                     rda.energy += 250;  // T2: +250 kcal/day
                     rda.protein += 8;   // +8 g/day for foetal growth
-                    rda.iron = 40;
+                    rda.iron = 27;      // ICMR-NIN 2020 RDA for pregnant women: 27 mg/day
                     rda.calcium = 1200;
                     rda.vitc = 85;
                     rda.visibleFatLimit = 30;
-                    rda.notes.push("2nd Trimester (+250 kcal, +8g protein): Active foetal growth phase. Source: ICMR-NIN 2020, Table 3.");
+                    rda.notes.push("2nd Trimester (+250 kcal, +8g protein): Active foetal growth; iron RDA 27 mg/day. Source: ICMR-NIN 2020, Table 3.");
                 } else if (status === 'pregnant_t3') {
                     rda.energy += 350;  // T3: +350 kcal/day
                     rda.protein += 15;  // +15 g/day — peak foetal accretion
-                    rda.iron = 40;
+                    rda.iron = 27;      // ICMR-NIN 2020 RDA for pregnant women: 27 mg/day
                     rda.calcium = 1200;
                     rda.vitc = 85;
                     rda.visibleFatLimit = 30;
-                    rda.notes.push("3rd Trimester (+350 kcal, +15g protein): Highest energy and protein demand. Source: ICMR-NIN 2020, Table 3.");
+                    rda.notes.push("3rd Trimester (+350 kcal, +15g protein): Highest energy and protein demand; iron RDA 27 mg/day. Source: ICMR-NIN 2020, Table 3.");
                 } else if (status === 'lactation_0_6') {
                     rda.energy += 600;
                     rda.protein += 17;

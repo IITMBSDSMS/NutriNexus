@@ -605,7 +605,10 @@ function renderTelemetryAlerts(totals, rda) {
             alerts.push(`<strong style="color:var(--color-warning)">Low Fiber Intake:</strong> Add whole grains (Whole wheat roti/brown rice), green leafy vegetables, or fresh fruits to increase fiber.`);
         }
         if (totals.iron < rda.iron * 0.75) {
-            alerts.push(`<strong style="color:var(--color-warning)">Iron Deficiency Risk:</strong> Especially vital for women. Incorporate spinach, amaranth, raisins, or dates.`);
+            const ironMsg = appState.profile.gender === 'female'
+                ? `<strong style="color:var(--color-warning)">Iron Deficiency Risk:</strong> Especially critical for women due to menstrual losses (RDA: 29 mg/day). Incorporate spinach, amaranth, raisins, dates, and legumes. Pair with Vitamin C sources to enhance absorption.`
+                : `<strong style="color:var(--color-warning)">Iron Deficiency Risk:</strong> Iron intake is below 75% of the recommended 19 mg/day. Include green leafy vegetables, legumes, and lean meat. Avoid tea/coffee around mealtimes as tannins inhibit absorption.`;
+            alerts.push(ironMsg);
         }
     }
 
