@@ -19,6 +19,7 @@ let appState = {
 function init() {
     loadSavedState();
     setupProfileForm();
+    setupActivityPicker();   // Custom animated activity picker
     setupFoodSearch();
     setupTheme();
     
@@ -76,7 +77,11 @@ function restoreProfileFormValues() {
     document.getElementById("profile-gender").value = appState.profile.gender;
     document.getElementById("profile-weight").value = appState.profile.weight || "";
     document.getElementById("profile-height").value = appState.profile.height || "";
+
+    // Sync hidden activity input
     document.getElementById("profile-activity").value = appState.profile.activity;
+    // Reflect saved selection in the custom picker UI
+    setActivityPickerValue(appState.profile.activity);
     
     // Toggle gender-based pregnancy option
     toggleStatusGroup(appState.profile.gender);
@@ -108,6 +113,64 @@ function setupProfileForm() {
         toggleStatusGroup(e.target.value);
     });
 }
+
+// ─── Custom Activity Picker ─────────────────────────────────────────────────
+
+/** Sets the visual state of the activity picker without triggering updateProfileState */
+function setActivityPickerValue(value) {
+    document.querySelectorAll(".activity-card").forEach(card => {
+        const isSelected = card.dataset.value === value;
+        card.classList.toggle("active", isSelected);
+        card.setAttribute("aria-checked", isSelected ? "true" : "false");
+    });
+}
+
+function setupActivityPicker() {
+    const cards = document.querySelectorAll(".activity-card");
+
+    cards.forEach(card => {
+        // Click / tap: select this activity
+        card.addEventListener("click", (e) => {
+            const value = card.dataset.value;
+
+            // Update selection state on all cards
+            cards.forEach(c => {
+                c.classList.remove("active");
+                c.setAttribute("aria-checked", "false");
+            });
+            card.classList.add("active");
+            card.setAttribute("aria-checked", "true");
+
+            // Toggle the examples panel for THIS card
+            const isAlreadyOpen = card.classList.contains("examples-open");
+
+            // Close all examples panels first
+            cards.forEach(c => c.classList.remove("examples-open"));
+
+            // Re-open this card's panel only if it wasn't already open
+            if (!isAlreadyOpen) {
+                card.classList.add("examples-open");
+            }
+
+            // Update hidden input + appState
+            document.getElementById("profile-activity").value = value;
+            updateProfileState();
+        });
+
+        // Keyboard accessibility: Space / Enter
+        card.addEventListener("keydown", (e) => {
+            if (e.key === " " || e.key === "Enter") {
+                e.preventDefault();
+                card.click();
+            }
+        });
+    });
+
+    // Open the currently active card's examples on load
+    const activeCard = document.querySelector(".activity-card.active");
+    if (activeCard) activeCard.classList.add("examples-open");
+}
+// ───────────────────────────────────────────────────────────────────────────
 
 function toggleStatusGroup(gender) {
     const statusGroup = document.getElementById("status-group");

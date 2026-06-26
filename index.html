@@ -97,12 +97,85 @@
                             
                             <div class="form-group span-2">
                                 <label for="profile-activity">Physical Activity</label>
-                                <select id="profile-activity">
-                                    <option value="sedentary">Sedentary (Desk job / light)</option>
-                                    <option value="moderate">Moderate (Active / standing)</option>
-                                    <option value="heavy">Heavy (Manual labor / athletic)</option>
-                                </select>
+                                <!-- Custom animated activity picker -->
+                                <input type="hidden" id="profile-activity" value="sedentary">
+                                <div class="activity-picker" id="activity-picker">
+
+                                    <!-- Sedentary -->
+                                    <div class="activity-card active" id="act-sedentary" data-value="sedentary" role="radio" aria-checked="true" tabindex="0">
+                                        <div class="activity-card-header">
+                                            <span class="activity-icon">🪑</span>
+                                            <div class="activity-title-block">
+                                                <span class="activity-title">Sedentary</span>
+                                                <span class="activity-subtitle">Desk job / light activity</span>
+                                            </div>
+                                            <span class="activity-check">✓</span>
+                                            <span class="activity-chevron">›</span>
+                                        </div>
+                                        <div class="activity-examples" id="examples-sedentary">
+                                            <div class="examples-grid">
+                                                <span class="ex-chip">💻 Software developer</span>
+                                                <span class="ex-chip">📞 Call centre agent</span>
+                                                <span class="ex-chip">📚 Student (seated)</span>
+                                                <span class="ex-chip">🏦 Bank / office clerk</span>
+                                                <span class="ex-chip">📝 Data entry operator</span>
+                                                <span class="ex-chip">🎨 Graphic designer</span>
+                                            </div>
+                                            <p class="examples-note">PAL ≈ 1.55 · Mostly sitting; &lt;30 min brisk walking/day · ICMR-NIN 2020</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Moderate -->
+                                    <div class="activity-card" id="act-moderate" data-value="moderate" role="radio" aria-checked="false" tabindex="0">
+                                        <div class="activity-card-header">
+                                            <span class="activity-icon">🚶</span>
+                                            <div class="activity-title-block">
+                                                <span class="activity-title">Moderate</span>
+                                                <span class="activity-subtitle">Active / standing work</span>
+                                            </div>
+                                            <span class="activity-check">✓</span>
+                                            <span class="activity-chevron">›</span>
+                                        </div>
+                                        <div class="activity-examples" id="examples-moderate">
+                                            <div class="examples-grid">
+                                                <span class="ex-chip">👩‍🏫 School teacher</span>
+                                                <span class="ex-chip">🏪 Retail shopkeeper</span>
+                                                <span class="ex-chip">🚗 Driver / delivery</span>
+                                                <span class="ex-chip">🧹 Homemaker (active)</span>
+                                                <span class="ex-chip">🏥 Ward nurse</span>
+                                                <span class="ex-chip">🏃 Regular gym-goer</span>
+                                            </div>
+                                            <p class="examples-note">PAL ≈ 1.80 · Mix of sitting & walking; 30–60 min of moderate exercise/day · ICMR-NIN 2020</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Heavy -->
+                                    <div class="activity-card" id="act-heavy" data-value="heavy" role="radio" aria-checked="false" tabindex="0">
+                                        <div class="activity-card-header">
+                                            <span class="activity-icon">⛏️</span>
+                                            <div class="activity-title-block">
+                                                <span class="activity-title">Heavy</span>
+                                                <span class="activity-subtitle">Manual labour / athletic</span>
+                                            </div>
+                                            <span class="activity-check">✓</span>
+                                            <span class="activity-chevron">›</span>
+                                        </div>
+                                        <div class="activity-examples" id="examples-heavy">
+                                            <div class="examples-grid">
+                                                <span class="ex-chip">👷 Construction worker</span>
+                                                <span class="ex-chip">🌾 Farm labourer</span>
+                                                <span class="ex-chip">🏋️ Competitive athlete</span>
+                                                <span class="ex-chip">⚓ Factory floor worker</span>
+                                                <span class="ex-chip">🚧 Road / mine worker</span>
+                                                <span class="ex-chip">🥊 Martial arts / boxer</span>
+                                            </div>
+                                            <p class="examples-note">PAL ≈ 2.10 · Sustained physical exertion &gt;60 min/day; strenuous occupation · ICMR-NIN 2020</p>
+                                        </div>
+                                    </div>
+
+                                </div><!-- /activity-picker -->
                             </div>
+
 
                             <div class="form-group span-2" id="status-group" style="display: none;">
                                 <label for="profile-status">Physiological Status</label>
