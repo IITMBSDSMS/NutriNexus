@@ -648,8 +648,7 @@ function renderTelemetryAlerts(totals, rda) {
             noteText = "High cardiometabolic risk. Target calorie deficit (-500 kcal/day) and consult with a medical professional.";
         }
         
-        const idealWeight = (22 * heightM * heightM).toFixed(1);
-        alerts.push(`<strong>Anthropometrics:</strong> BMI: <span style="color:${bmiColor}; font-weight:700;">${bmi.toFixed(1)}</span> (${classification}). Ideal Body Weight (Target BMI 22): <strong>${idealWeight} kg</strong>. <em>Guideline: ${noteText}</em>`);
+        alerts.push(`<strong>Anthropometrics:</strong> BMI: <span style="color:${bmiColor}; font-weight:700;">${bmi.toFixed(1)}</span> (${classification}). <em>Guideline: ${noteText}</em>`);
     }
 
     // Demographic baseline warnings
