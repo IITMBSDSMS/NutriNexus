@@ -629,23 +629,27 @@ function renderTelemetryAlerts(totals, rda) {
         if (bmi < 18.5) {
             classification = "Underweight";
             bmiColor = "var(--color-warning)";
-            noteText = "Increase calorie intake (+300 kcal/day) with nutrient-dense foods for weight gain.";
+            noteText = "Risk of malnutrition and weakened immunity. Increase calorie intake (+300 kcal/day) with nutrient-dense foods.";
         } else if (bmi >= 18.5 && bmi < 23.0) {
-            classification = "Normal";
+            classification = "Normal Weight";
             bmiColor = "var(--color-success)";
-            noteText = "Healthy range. Maintain baseline RDA requirements.";
+            noteText = "Healthy range, lowest risk of lifestyle diseases. Maintain baseline RDA requirements.";
         } else if (bmi >= 23.0 && bmi < 25.0) {
-            classification = "Overweight (Asian Indian standards)";
+            classification = "Overweight";
             bmiColor = "var(--color-warning)";
-            noteText = "Consider moderate calorie deficit (-300 kcal/day) and physical activity.";
-        } else {
-            classification = "Obese (Asian Indian standards)";
+            noteText = "Early intervention recommended. Consider moderate calorie deficit (-300 kcal/day) and physical activity.";
+        } else if (bmi >= 25.0 && bmi < 30.0) {
+            classification = "Obese Class I";
             bmiColor = "var(--color-danger)";
-            noteText = "Target calorie deficit (-500 kcal/day) and consult with a medical professional.";
+            noteText = "Increased risk for diabetes and heart disease. Target calorie deficit (-500 kcal/day) and consult with a medical professional.";
+        } else {
+            classification = "Obese Class II";
+            bmiColor = "var(--color-danger)";
+            noteText = "High cardiometabolic risk. Target calorie deficit (-500 kcal/day) and consult with a medical professional.";
         }
         
-        const idealWeight = (21 * heightM * heightM).toFixed(1);
-        alerts.push(`<strong>Anthropometrics:</strong> BMI: <span style="color:${bmiColor}; font-weight:700;">${bmi.toFixed(1)}</span> (${classification}). Ideal Body Weight (Target BMI 21): <strong>${idealWeight} kg</strong>. <em>Guideline: ${noteText}</em>`);
+        const idealWeight = (22 * heightM * heightM).toFixed(1);
+        alerts.push(`<strong>Anthropometrics:</strong> BMI: <span style="color:${bmiColor}; font-weight:700;">${bmi.toFixed(1)}</span> (${classification}). Ideal Body Weight (Target BMI 22): <strong>${idealWeight} kg</strong>. <em>Guideline: ${noteText}</em>`);
     }
 
     // Demographic baseline warnings
